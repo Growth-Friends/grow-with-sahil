@@ -1,1 +1,57 @@
-{ "home": {} }
+{
+  "util": {
+    "emailForm": {
+      "inputList": [
+        {
+          "placeholder": "Your Email ID",
+          "trueType": "email",
+          "name": "email",
+          "type": "text"
+        }
+      ],
+      "button": { "para": "Get it Now!" }
+    },
+    "popupForm": {
+      "inputList": [
+        {
+          "placeholder": "Your Name",
+          "trueType": "text",
+          "name": "name",
+          "type": "text"
+        },
+        {
+          "placeholder": "Your Phone Number",
+          "trueType": "number",
+          "name": "phone",
+          "type": "text"
+        }
+      ],
+      "button": { "para": "Get it Now!" }
+    }
+  },
+  "home": {
+    "heading": [
+      [{ "para": "YOU DON’T NEED FEATURES, " }],
+      [{ "para": "YOU NEED " }, { "para": "MARKETING.", "styleBg": true }]
+    ],
+    "subHeading": [
+      { "para": "Get a " },
+      { "link": "40-page action plan", "href": "/" },
+      {
+        "para": "with all you need to build a crazily good growth marketing funnel."
+      }
+    ],
+    "benefitsList": [
+      {
+        "para": "100% tailor made for your brand.",
+        "imageUrl": "/svg/star.svg",
+        "alt": "tailor made icon"
+      },
+      {
+        "para": "Free for Cost. No Strings attached.",
+        "imageUrl": "/svg/addUser.svg",
+        "alt": "free cost icon"
+      }
+    ]
+  }
+}
