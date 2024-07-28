@@ -1,5 +1,16 @@
 {
   "util": {
+    "navbar": {
+      "brandName": "GWS",
+      "navList": [
+        { "para": "About Me", "link": "about" },
+        { "para": "Services", "link": "services" },
+        { "para": "Tools", "link": "tools" },
+        { "para": "Marketing Tools", "link": "marketingTools" },
+        { "para": "Resources", "link": "resources" },
+        { "para": "Growth Resources", "link": "growthResources" }
+      ]
+    },
     "emailForm": {
       "inputList": [
         {
@@ -38,7 +49,7 @@
       { "para": "Get a " },
       { "link": "40-page action plan", "href": "/" },
       {
-        "para": "with all you need to build a crazily good growth marketing funnel."
+        "para": " with all you need to build a crazily good growth marketing funnel."
       }
     ],
     "benefitsList": [

@@ -7,7 +7,7 @@ function HeroSection() {
   const content = getComponentText("home");
   return (
     <MainLayout
-      outerClass="bg-black text-white"
+      outerClass="bg-black text-white "
       innerClass="py-72 relative ">
       <div className="relative z-10">
         <h1 className="flex flex-col font-bold text-[54px] leading-[1.35] ">
@@ -30,7 +30,7 @@ function HeroSection() {
             );
           })}
         </h1>
-        <p className="text-bgBlackPara text-xl w-[500px] mt-3 ">
+        <p className="text-bgBlackPara text-xl w-[580px] mt-3 tracking-wide leading-normal ">
           {content.subHeading.map((item, index) => {
             return (
               <React.Fragment key={index}>
@@ -63,7 +63,7 @@ function HeroSection() {
             );
           })}
         </div>
-        <div className="mt-6">
+        <div className="mt-7">
           <EmailForm />
         </div>
       </div>
