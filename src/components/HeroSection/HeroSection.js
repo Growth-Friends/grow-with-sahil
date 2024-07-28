@@ -1,12 +1,17 @@
-import React from "react";
+"use client";
+import React, { useRef } from "react";
 import MainLayout from "../Layout/MainLayout";
 import { getComponentText } from "@/utils/functions/functions";
 import EmailForm from "../UtilComponents/EmailForm/EmailForm";
 
+export let heroSectionRef;
+
 function HeroSection() {
-  const content = getComponentText("home");
+  const content = getComponentText("home.heroSection");
+  heroSectionRef = useRef();
   return (
     <MainLayout
+      ref={heroSectionRef}
       outerClass="bg-black text-white "
       innerClass="py-72 relative ">
       <div className="relative z-10">
