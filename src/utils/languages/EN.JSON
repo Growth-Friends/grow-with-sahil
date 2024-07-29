@@ -109,6 +109,112 @@
         {
           "para": " with all you need to build a crazily good growth marketing funnel."
         }
+      ],
+      "button": "Check out",
+      "link": "marketingTools",
+      "marketingToolList": [
+        { "name": "Google Index Checker", "link": "/google-index-checker" },
+        { "name": "Domain Age Checker", "link": "/domain-age-checker" },
+        {
+          "name": "Domain Authority Checker",
+          "link": "/domain-authority-checker"
+        },
+        { "name": "Whois Domain Lookup", "link": "/whois-domain-lookup" },
+        { "name": "Robots.txt Generator", "link": "/robots-txt-generator" },
+        {
+          "name": "Keywords Suggestion Tool",
+          "link": "/keywords Suggestion Tools"
+        },
+        { "name": "Meta Tag Generator", "link": "/Meta Tag Generator" },
+        { "name": "Hosting Checker", "link": "/hosting-checker" },
+        { "name": "Adsense Calculator", "link": "/adsense-calculator" },
+        { "name": "Hosting Calculator", "link": "/hosting-calculator" },
+        {
+          "name": "Instagram Retention Analyser",
+          "link": "/instagram-retention-analyser"
+        },
+        { "name": "Influencer Finder", "link": "/influencer-finder" },
+        { "name": "Youtube Tags Finder", "link": "/youtube-tags-finder" },
+        { "name": "Twitter Trend Analyser", "link": "/twitter-trend-analyser" },
+        {
+          "name": "Twitter Boolen search Helper",
+          "link": "/twitter-boolen-search-helper"
+        },
+        { "name": "Instagram Trend Finder", "link": "/instagram-trend-finder" },
+        {
+          "name": "YouTube Thumbnail Download",
+          "link": "/youtube-thumbnail-download"
+        },
+        {
+          "name": "Instagram Reel Download",
+          "link": "/instagram-reel-download"
+        },
+        { "name": "Facebook Ads Library", "link": "/facebook-ads-library" },
+        {
+          "name": "Google Ads Transparency",
+          "link": "/google-ads-transparency"
+        },
+        { "name": "Ads Saver Extension", "link": "/ads-savers-extension" }
+      ]
+    },
+    "growthResourcesSection": {
+      "heading": "Growth Resources",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "growthResourcesList": [
+        {
+          "imageUrl": "/image/blogDemoImage.png",
+          "heading": "Ultimate SEO Audit Checklist",
+          "link": "",
+          "para": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ]
+        },
+        {
+          "imageUrl": "/image/blogDemoImage.png",
+          "heading": "Top 5 Discount Broker",
+          "category": "Personal FInance",
+          "smallDescription": "Check brokerage of Intraday, F&O, Delivery or commodity on the website."
+        },
+        {
+          "imageUrl": "/image/blogDemoImage.png",
+          "heading": "Top 5 Discount Broker",
+          "category": "Personal FInance",
+          "smallDescription": "Check brokerage of Intraday, F&O, Delivery or commodity on the website."
+        },
+        {
+          "imageUrl": "/image/blogDemoImage.png",
+          "heading": "Top 5 Discount Broker",
+          "category": "Personal FInance",
+          "smallDescription": "Check brokerage of Intraday, F&O, Delivery or commodity on the website."
+        },
+        {
+          "imageUrl": "/image/blogDemoImage.png",
+          "heading": "Top 5 Discount Broker",
+          "category": "Personal FInance",
+          "smallDescription": "Check brokerage of Intraday, F&O, Delivery or commodity on the website."
+        },
+        {
+          "imageUrl": "/image/blogDemoImage.png",
+          "heading": "Top 5 Discount Broker",
+          "category": "Personal FInance",
+          "smallDescription": "Check brokerage of Intraday, F&O, Delivery or commodity on the website."
+        },
+        {
+          "imageUrl": "/image/blogDemoImage.png",
+          "heading": "Top 5 Discount Broker",
+          "category": "Personal FInance",
+          "smallDescription": "Check brokerage of Intraday, F&O, Delivery or commodity on the website."
+        }
       ]
     }
   }

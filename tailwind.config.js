@@ -8,6 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: { primaryColor: "#AFCAF2", bgBlackPara: "#ACACAC" },
+      backgroundImage: {
+        blackSideLeft:
+          "linear-gradient(90deg, #060011 0%, rgba(6, 0, 17, 0) 100%)",
+        blackSideRight:
+          "linear-gradient(90deg, rgba(6, 0, 17, 0) 0%, #060011 100%)",
+      },
     },
   },
   plugins: [],

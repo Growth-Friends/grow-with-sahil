@@ -5,6 +5,7 @@ import { getComponentText } from "@/utils/functions/functions";
 import Link from "next/link";
 import staticRoutes from "@/utils/routes/staticRoutes";
 import { heroSectionRef } from "../HeroSection/HeroSection";
+import { marketingToolRef } from "../MarketingToolSection/MarketingToolSection";
 
 function Navbar() {
   const content = getComponentText("util.navbar");
@@ -15,7 +16,11 @@ function Navbar() {
   function scrollFunction() {
     setScrollPosition(window.scrollY);
     const heroSectionRect = heroSectionRef.current.getBoundingClientRect();
-    if (heroSectionRect.top < 1 && heroSectionRect.bottom > 0) {
+    const marketingToolRect = marketingToolRef.current.getBoundingClientRect();
+    if (
+      (heroSectionRect.top < 1 && heroSectionRect.bottom > 0) ||
+      (marketingToolRect.top < 1 && marketingToolRect.bottom > 0)
+    ) {
       setBgBlack(true);
     } else {
       setBgBlack(false);
@@ -35,7 +40,7 @@ function Navbar() {
     <MainLayout
       outerClass={`fixed top-0 left-0 w-full ${
         bgBlack ? "text-white" : "text-black"
-      } z-20 transition-all duration-300 border-white/30 backdrop-blur-lg  ${
+      } z-20 transition-all duration-300 ease-in-out border-white/30 backdrop-blur-lg  ${
         scrollPosition > 0 ? " border-b-[1px] py-6 " : " border-b-0 py-8 "
       } `}>
       <nav className="flex justify-between items-center">

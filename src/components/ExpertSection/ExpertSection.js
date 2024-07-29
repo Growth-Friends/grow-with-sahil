@@ -5,7 +5,7 @@ import { getComponentText } from "@/utils/functions/functions";
 function ExpertSection() {
   const content = getComponentText("home.expertSection");
   return (
-    <MainLayout outerClass={"py-20"}>
+    <MainLayout innerClass={"py-20"}>
       <div className="flex items-center justify-between ">
         <h2 className="font-semibold text-6xl flex flex-col leading-snug ">
           {content.heading.map((item, index) => {
@@ -18,7 +18,7 @@ function ExpertSection() {
           className="aspect-auto w-48"
         />
       </div>
-      <div className="grid grid-cols-3 gap-20 pt-20 ">
+      <div className="grid grid-cols-3 gap-20 py-20 ">
         {content.expertList.map((item, index) => {
           return (
             <div
