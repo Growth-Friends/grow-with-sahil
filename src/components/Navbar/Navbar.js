@@ -39,9 +39,9 @@ function Navbar() {
   return (
     <MainLayout
       outerClass={`fixed top-0 left-0 w-full ${
-        bgBlack ? "text-white border-white/30" : "text-black border-black/30"
+        bgBlack ? "text-white border-white/30" : "text-black border-black/20"
       } z-20 transition-all duration-300 ease-in-out backdrop-blur-lg  ${
-        scrollPosition > 0 ? " border-b-[1px] py-5 " : " border-b-0 py-8 "
+        scrollPosition > 0 ? " border-b-[1px] py-4 " : " border-b-0 py-8 "
       } `}>
       <nav className="flex justify-between items-center">
         <Link

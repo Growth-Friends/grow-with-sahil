@@ -47,7 +47,7 @@ function EmailForm() {
         <button
           type="button"
           onClick={openDialog}
-          className="bg-primaryColor text-black px-4 rounded-lg font-semibold ">
+          className="bg-primaryColor text-black  px-4 rounded-lg font-semibold ">
           {content.button.para}
         </button>
       </div>
