@@ -168,9 +168,10 @@
       ],
       "growthResourcesList": [
         {
-          "imageUrl": "/image/blogDemoImage.png",
+          "imageUrl": "",
           "heading": "Ultimate SEO Audit Checklist",
-          "link": "",
+          "link": "/",
+          "button": "Get Now",
           "para": [
             { "para": "Get a " },
             { "link": "40-page action plan", "href": "/" },
@@ -180,40 +181,56 @@
           ]
         },
         {
-          "imageUrl": "/image/blogDemoImage.png",
-          "heading": "Top 5 Discount Broker",
-          "category": "Personal FInance",
-          "smallDescription": "Check brokerage of Intraday, F&O, Delivery or commodity on the website."
+          "imageUrl": "",
+          "heading": "Ultimate SEO Audit Checklist",
+          "link": "/",
+          "button": "Get Now",
+          "para": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ]
         },
         {
-          "imageUrl": "/image/blogDemoImage.png",
-          "heading": "Top 5 Discount Broker",
-          "category": "Personal FInance",
-          "smallDescription": "Check brokerage of Intraday, F&O, Delivery or commodity on the website."
+          "imageUrl": "",
+          "heading": "Ultimate SEO Audit Checklist",
+          "link": "/",
+          "button": "Get Now",
+          "para": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ]
         },
         {
-          "imageUrl": "/image/blogDemoImage.png",
-          "heading": "Top 5 Discount Broker",
-          "category": "Personal FInance",
-          "smallDescription": "Check brokerage of Intraday, F&O, Delivery or commodity on the website."
+          "imageUrl": "",
+          "heading": "Ultimate SEO Audit Checklist",
+          "link": "/",
+          "button": "Get Now",
+          "para": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ]
         },
         {
-          "imageUrl": "/image/blogDemoImage.png",
-          "heading": "Top 5 Discount Broker",
-          "category": "Personal FInance",
-          "smallDescription": "Check brokerage of Intraday, F&O, Delivery or commodity on the website."
-        },
-        {
-          "imageUrl": "/image/blogDemoImage.png",
-          "heading": "Top 5 Discount Broker",
-          "category": "Personal FInance",
-          "smallDescription": "Check brokerage of Intraday, F&O, Delivery or commodity on the website."
-        },
-        {
-          "imageUrl": "/image/blogDemoImage.png",
-          "heading": "Top 5 Discount Broker",
-          "category": "Personal FInance",
-          "smallDescription": "Check brokerage of Intraday, F&O, Delivery or commodity on the website."
+          "imageUrl": "",
+          "heading": "Ultimate SEO Audit Checklist",
+          "link": "/",
+          "button": "Get Now",
+          "para": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ]
         }
       ]
     }
