@@ -14,9 +14,16 @@ function GrowthResourcesSection() {
   //increase index
   function increaseIndex() {
     setCurrentIndex((previousIndex) => {
-      return previousIndex + 1 < scrollRefs.current.length - 2
-        ? previousIndex + 1
-        : previousIndex;
+      const maxScrollWidth =
+        scrollContainer.current.scrollWidth -
+        scrollContainer.current.clientWidth;
+      const currentScrollLeft =
+        scrollRefs.current[previousIndex + 1].offsetLeft;
+      if (currentScrollLeft <= maxScrollWidth) {
+        return previousIndex + 1;
+      } else {
+        return previousIndex;
+      }
     });
   }
 
