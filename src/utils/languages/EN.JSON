@@ -56,12 +56,12 @@
       "benefitsList": [
         {
           "para": "100% tailor made for your brand.",
-          "imageUrl": "/svg/star.svg",
+          "imageUrl": "/star.svg",
           "alt": "tailor made icon"
         },
         {
           "para": "Free for Cost. No Strings attached.",
-          "imageUrl": "/svg/addUser.svg",
+          "imageUrl": "/addUser.svg",
           "alt": "free cost icon"
         }
       ]
@@ -72,32 +72,32 @@
         {
           "head": "Social Media Marketing",
           "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
-          "imageUrl": "/svg/socialMedia.svg"
+          "imageUrl": "/socialMedia.svg"
         },
         {
           "head": "Performance Marketing",
           "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
-          "imageUrl": "/svg/performance.svg"
+          "imageUrl": "/performance.svg"
         },
         {
           "head": "Retention Marketing",
           "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
-          "imageUrl": "/svg/retention.svg"
+          "imageUrl": "/retention.svg"
         },
         {
           "head": "Search Engine Optimization",
           "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
-          "imageUrl": "/svg/seo.svg"
+          "imageUrl": "/seo.svg"
         },
         {
           "head": "Go-To Market Strategy",
           "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
-          "imageUrl": "/svg/marketStrategy.svg"
+          "imageUrl": "/marketStrategy.svg"
         },
         {
           "head": "Influencer Marketing",
           "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
-          "imageUrl": "/svg/influencer.svg"
+          "imageUrl": "/influencer.svg"
         }
       ]
     },
@@ -231,6 +231,81 @@
               "para": " with all you need to build a crazily good growth marketing funnel."
             }
           ]
+        }
+      ]
+    },
+    "blogSection": {
+      "heading": "Blogs",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "blogList": [
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
+        },
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
+        },
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
+        },
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
+        },
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
+        },
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
+        },
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
         }
       ]
     }

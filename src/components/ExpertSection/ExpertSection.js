@@ -1,6 +1,6 @@
 import React from "react";
 import MainLayout from "../Layout/MainLayout";
-import { getComponentText } from "@/utils/functions/functions";
+import { getComponentText, svgFilePrefix } from "@/utils/functions/functions";
 
 function ExpertSection() {
   const content = getComponentText("home.expertSection");
@@ -26,7 +26,7 @@ function ExpertSection() {
               className="text-center ">
               <div className="bg-black p-5 rounded-full aspect-square w-[86px] inline-flex items-center ">
                 <img
-                  src={item.imageUrl}
+                  src={svgFilePrefix(item.imageUrl)}
                   alt={item.head}
                   className="aspect-auto w-full"
                 />

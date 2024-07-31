@@ -45,7 +45,7 @@ function GrowthResourcesSection() {
   }, [currentIndex]);
 
   return (
-    <MainLayout innerClass={"py-20 text-center"}>
+    <MainLayout innerClass={"pt-20 pb-4 text-center"}>
       <h2 className="font-bold text-5xl ">{content.heading}</h2>
       <p className="text-bgBlackPara text-xl w-[580px] mt-3 tracking-wide leading-normal inline-block ">
         {content.subHeading.map((item, index) => {

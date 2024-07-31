@@ -9,3 +9,13 @@ export function getComponentText(path) {
   }
   return answer;
 }
+
+//image file prefix
+export function imageFilePrefix(imageUrl) {
+  return `/images/${imageUrl}`;
+}
+
+//svg file prefix
+export function svgFilePrefix(imageUrl) {
+  return `/svg/${imageUrl}`;
+}

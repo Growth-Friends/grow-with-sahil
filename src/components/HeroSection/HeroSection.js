@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 import MainLayout from "../Layout/MainLayout";
-import { getComponentText } from "@/utils/functions/functions";
+import { getComponentText, svgFilePrefix } from "@/utils/functions/functions";
 import EmailForm from "../UtilComponents/EmailForm/EmailForm";
 
 export let heroSectionRef;
@@ -12,8 +12,8 @@ function HeroSection() {
   return (
     <MainLayout
       ref={heroSectionRef}
-      outerClass="bg-black text-white "
-      innerClass="py-72 relative ">
+      outerClass="bg-black text-white h-screen "
+      innerClass="h-full flex flex-col justify-center relative ">
       <div className="relative z-10">
         <h1 className="flex flex-col font-bold text-[54px] leading-[1.35] ">
           {content.heading.map((item, index) => {
@@ -59,7 +59,7 @@ function HeroSection() {
                 key={index}
                 className="flex items-center gap-x-2">
                 <img
-                  src={item.imageUrl}
+                  src={svgFilePrefix(item.imageUrl)}
                   alt={item.alt}
                   className="aspect-auto w-4"
                 />
