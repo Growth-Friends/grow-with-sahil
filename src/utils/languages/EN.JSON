@@ -20,7 +20,10 @@
           "type": "text"
         }
       ],
-      "button": { "para": "Get it Now!" }
+      "button": {
+        "home": { "para": "Get it Now!" },
+        "about": { "para": "Let's Chat" }
+      }
     },
     "popupForm": {
       "inputList": [
@@ -64,7 +67,8 @@
           "imageUrl": "/addUser.svg",
           "alt": "free cost icon"
         }
-      ]
+      ],
+      "mainImageUrl": "/profilePicture.png"
     },
     "expertSection": {
       "heading": ["Expertise on ", "All Channels."],
@@ -306,6 +310,51 @@
           "button": "Read More",
           "link": "/",
           "imageUrl": "/blogImage.png"
+        }
+      ]
+    }
+  },
+  "about": {
+    "heroSection": {
+      "heading": [
+        [{ "para": "A GROWTH MARKETER " }],
+        [{ "para": "WITH " }, { "para": "6 YEARS OF EXP.", "styleBg": true }]
+      ],
+      "subHeading": [{ "para": "Have a Project in mind?" }],
+      "mainImageUrl": "/aboutPicture.png"
+    },
+    "expertSection": {
+      "heading": ["Expertise on ", "All Channels."],
+      "expertList": [
+        {
+          "head": "Social Media Marketing",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/socialMedia.svg"
+        },
+        {
+          "head": "Performance Marketing",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/performance.svg"
+        },
+        {
+          "head": "Retention Marketing",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/retention.svg"
+        },
+        {
+          "head": "Search Engine Optimization",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/seo.svg"
+        },
+        {
+          "head": "Go-To Market Strategy",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/marketStrategy.svg"
+        },
+        {
+          "head": "Influencer Marketing",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/influencer.svg"
         }
       ]
     }

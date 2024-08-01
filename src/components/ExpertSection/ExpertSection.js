@@ -2,8 +2,10 @@ import React from "react";
 import MainLayout from "../Layout/MainLayout";
 import { getComponentText, svgFilePrefix } from "@/utils/functions/functions";
 
-function ExpertSection() {
-  const content = getComponentText("home.expertSection");
+function ExpertSection({ home, about }) {
+  const content = getComponentText(
+    `${home ? "home" : about && "about"}.expertSection`
+  );
   return (
     <MainLayout innerClass={"py-20"}>
       <div className="flex items-center justify-between ">
@@ -21,9 +23,7 @@ function ExpertSection() {
       <div className="grid grid-cols-3 gap-20 py-20 ">
         {content.expertList.map((item, index) => {
           return (
-            <div
-              key={index}
-              className="text-center ">
+            <div key={index} className="text-center ">
               <div className="bg-black p-5 rounded-full aspect-square w-[86px] inline-flex items-center ">
                 <img
                   src={svgFilePrefix(item.imageUrl)}

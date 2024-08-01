@@ -15,11 +15,12 @@ function Navbar() {
   //scroll function
   function scrollFunction() {
     setScrollPosition(window.scrollY);
-    const heroSectionRect = heroSectionRef.current.getBoundingClientRect();
-    const marketingToolRect = marketingToolRef.current.getBoundingClientRect();
+    const heroSectionRect = heroSectionRef?.current?.getBoundingClientRect();
+    const marketingToolRect =
+      marketingToolRef?.current?.getBoundingClientRect();
     if (
-      (heroSectionRect.top < 1 && heroSectionRect.bottom > 0) ||
-      (marketingToolRect.top < 1 && marketingToolRect.bottom > 0)
+      (heroSectionRect?.top < 1 && heroSectionRect?.bottom > 0) ||
+      (marketingToolRect?.top < 1 && marketingToolRect?.bottom > 0)
     ) {
       setBgBlack(true);
     } else {
@@ -42,11 +43,10 @@ function Navbar() {
         bgBlack ? "text-white border-white/30" : "text-black border-black/20"
       } z-20 transition-all duration-300 ease-in-out backdrop-blur-lg  ${
         scrollPosition > 0 ? " border-b-[1px] py-4 " : " border-b-0 py-8 "
-      } `}>
+      } `}
+    >
       <nav className="flex justify-between items-center">
-        <Link
-          href={staticRoutes["home"]}
-          className="font-semibold text-3xl ">
+        <Link href={staticRoutes["home"]} className="font-semibold text-3xl ">
           {content.brandName}
         </Link>
         <ul className="flex gap-x-8 text-lg ">

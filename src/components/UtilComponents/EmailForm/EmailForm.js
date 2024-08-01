@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import PopupForm from "../PopupForm/PopupForm";
 import Input from "../Input/Input";
 
-function EmailForm() {
+function EmailForm({ home, about }) {
   const content = getComponentText("util.emailForm");
   const [isDialogOpen, setDialogOpen] = useState(false);
   const [email, setEmail] = useState("");
@@ -25,10 +25,7 @@ function EmailForm() {
   }
   return (
     <>
-      <PopupForm
-        open={isDialogOpen}
-        onClose={closeDialog}
-      />
+      <PopupForm open={isDialogOpen} onClose={closeDialog} />
       <div className="flex gap-x-3 text-lg">
         {content.inputList.map((item, index) => {
           return (
@@ -47,8 +44,9 @@ function EmailForm() {
         <button
           type="button"
           onClick={openDialog}
-          className="bg-primaryColor text-black  px-4 rounded-lg font-semibold ">
-          {content.button.para}
+          className="bg-primaryColor text-black  px-4 rounded-lg font-semibold "
+        >
+          {content.button[`${home ? "home" : about && "about"}`].para}
         </button>
       </div>
     </>

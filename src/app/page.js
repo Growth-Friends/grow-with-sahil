@@ -7,8 +7,8 @@ import MarketingToolSection from "@/components/MarketingToolSection/MarketingToo
 export default function Home() {
   return (
     <>
-      <HeroSection />
-      <ExpertSection />
+      <HeroSection home={true} />
+      <ExpertSection home={true} />
       <MarketingToolSection />
       <GrowthResourcesSection />
       <BlogSection />
