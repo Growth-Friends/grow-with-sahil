@@ -182,6 +182,10 @@
           "link": "/"
         }
       ]
+    },
+    "searchBar": {
+      "tools": { "placeholder": "Search for you Tool" },
+      "resources": { "placeholder": "Search for your Resource" }
     }
   },
   "home": {

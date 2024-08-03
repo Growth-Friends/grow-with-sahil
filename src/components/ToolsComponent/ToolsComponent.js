@@ -15,7 +15,7 @@ function ToolsComponent({ seoTools, socialTools, performanceTools }) {
   );
   return (
     <MainLayout>
-      <div className="py-10 overflow-hidden ">
+      <div className="pt-8 pb-8 overflow-hidden ">
         <div className="text-center bg-black text-white py-10 px-3 rounded-t-2xl">
           <h2 className="font-bold text-5xl ">{content.heading}</h2>
           <p className="text-bgBlackPara text-xl w-[580px] mx-auto mt-3 tracking-wide leading-normal ">
