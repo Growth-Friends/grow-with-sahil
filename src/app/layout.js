@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={rale.className}>
-        {/* <Navbar /> */}
+        <Navbar />
         {children}
       </body>
     </html>
