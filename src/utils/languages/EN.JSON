@@ -41,6 +41,147 @@
         }
       ],
       "button": { "para": "Get it Now!" }
+    },
+    "seoTools": {
+      "heading": "Search Engine optimization",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "toolsList": [
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Google Index Checker",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Domain Age Checker",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Domain Authority Checker",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Whois Domain Lookup",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Robots.txt Generator",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Keywords Suggestion Tool",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Meta Tag Generator",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Hosting Checker",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Adsense Calculator",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Hosting Calculator",
+          "link": "/"
+        }
+      ]
+    },
+    "socialTools": {
+      "heading": "Social Media",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "toolsList": [
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Instagram Retention Analyser",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Influencer Finder",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Youtube Tags Finder",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Twitter Trend Analyser",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Twitter Boolen search Helper",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Instagram Trend Finder",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "YouTube Thumbnail Download",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Instagram Reel Download",
+          "link": "/"
+        }
+      ]
+    },
+    "performanceTools": {
+      "heading": "Performance Marketing",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "toolsList": [
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Facebook Ads Library",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Google Ads Transparency",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Ads Saver Extension",
+          "link": "/"
+        }
+      ]
     }
   },
   "home": {
@@ -117,48 +258,48 @@
       "button": "Check out",
       "link": "marketingTools",
       "marketingToolList": [
-        { "name": "Google Index Checker", "link": "/google-index-checker" },
-        { "name": "Domain Age Checker", "link": "/domain-age-checker" },
+        { "name": "Google Index Checker", "link": "/" },
+        { "name": "Domain Age Checker", "link": "/" },
         {
           "name": "Domain Authority Checker",
-          "link": "/domain-authority-checker"
+          "link": "/"
         },
-        { "name": "Whois Domain Lookup", "link": "/whois-domain-lookup" },
-        { "name": "Robots.txt Generator", "link": "/robots-txt-generator" },
+        { "name": "Whois Domain Lookup", "link": "/" },
+        { "name": "Robots.txt Generator", "link": "/" },
         {
           "name": "Keywords Suggestion Tool",
-          "link": "/keywords Suggestion Tools"
+          "link": "/"
         },
-        { "name": "Meta Tag Generator", "link": "/Meta Tag Generator" },
-        { "name": "Hosting Checker", "link": "/hosting-checker" },
-        { "name": "Adsense Calculator", "link": "/adsense-calculator" },
-        { "name": "Hosting Calculator", "link": "/hosting-calculator" },
+        { "name": "Meta Tag Generator", "link": "/" },
+        { "name": "Hosting Checker", "link": "/" },
+        { "name": "Adsense Calculator", "link": "/" },
+        { "name": "Hosting Calculator", "link": "/" },
         {
           "name": "Instagram Retention Analyser",
-          "link": "/instagram-retention-analyser"
+          "link": "/"
         },
-        { "name": "Influencer Finder", "link": "/influencer-finder" },
-        { "name": "Youtube Tags Finder", "link": "/youtube-tags-finder" },
-        { "name": "Twitter Trend Analyser", "link": "/twitter-trend-analyser" },
+        { "name": "Influencer Finder", "link": "/" },
+        { "name": "Youtube Tags Finder", "link": "/" },
+        { "name": "Twitter Trend Analyser", "link": "/" },
         {
           "name": "Twitter Boolen search Helper",
-          "link": "/twitter-boolen-search-helper"
+          "link": "/"
         },
-        { "name": "Instagram Trend Finder", "link": "/instagram-trend-finder" },
+        { "name": "Instagram Trend Finder", "link": "/" },
         {
           "name": "YouTube Thumbnail Download",
-          "link": "/youtube-thumbnail-download"
+          "link": "/"
         },
         {
           "name": "Instagram Reel Download",
-          "link": "/instagram-reel-download"
+          "link": "/"
         },
-        { "name": "Facebook Ads Library", "link": "/facebook-ads-library" },
+        { "name": "Facebook Ads Library", "link": "/" },
         {
           "name": "Google Ads Transparency",
-          "link": "/google-ads-transparency"
+          "link": "/"
         },
-        { "name": "Ads Saver Extension", "link": "/ads-savers-extension" }
+        { "name": "Ads Saver Extension", "link": "/" }
       ]
     },
     "growthResourcesSection": {
