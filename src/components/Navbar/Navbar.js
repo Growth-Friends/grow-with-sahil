@@ -6,6 +6,7 @@ import Link from "next/link";
 import staticRoutes from "@/utils/routes/staticRoutes";
 import { heroSectionRef } from "../HeroSection/HeroSection";
 import { marketingToolRef } from "../MarketingToolSection/MarketingToolSection";
+import { subHeroSectionRef } from "../SubHeroSection/SubHeroSection";
 
 function Navbar() {
   const content = getComponentText("util.navbar");
@@ -18,9 +19,12 @@ function Navbar() {
     const heroSectionRect = heroSectionRef?.current?.getBoundingClientRect();
     const marketingToolRect =
       marketingToolRef?.current?.getBoundingClientRect();
+    const subHeroSectionRect =
+      subHeroSectionRef?.current?.getBoundingClientRect();
     if (
       (heroSectionRect?.top < 1 && heroSectionRect?.bottom > 0) ||
-      (marketingToolRect?.top < 1 && marketingToolRect?.bottom > 0)
+      (marketingToolRect?.top < 1 && marketingToolRect?.bottom > 0) ||
+      (subHeroSectionRect?.top < 1 && subHeroSectionRect?.bottom > 0)
     ) {
       setBgBlack(true);
     } else {

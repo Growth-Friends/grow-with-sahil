@@ -323,6 +323,35 @@
       "subHeading": [{ "para": "Have a Project in mind?" }],
       "mainImageUrl": "/aboutPicture.png"
     },
+    "experienceSection": {
+      "heading": "MY EXPERIENCE",
+      "experienceSectionList": [
+        {
+          "head": "4Fox",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram."
+        },
+        {
+          "head": "4Fox",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram."
+        },
+        {
+          "head": "4Fox",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram."
+        },
+        {
+          "head": "4Fox",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram."
+        },
+        {
+          "head": "4Fox",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram."
+        },
+        {
+          "head": "4Fox",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram."
+        }
+      ]
+    },
     "expertSection": {
       "heading": ["Expertise on ", "All Channels."],
       "expertList": [
