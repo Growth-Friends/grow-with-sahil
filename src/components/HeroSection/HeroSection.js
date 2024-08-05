@@ -88,7 +88,7 @@ function HeroSection({ home, about }) {
           src={imageFilePrefix(content.mainImageUrl)}
           alt="shail profile picture"
           className={`h-auto max-w-none ms-auto ${
-            home ? "w-[800px]" : about && "w-[450px] me-14 "
+            home ? "w-full" : about && "w-[380px] "
           }  `}
         />
       </div>

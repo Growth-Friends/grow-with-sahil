@@ -13,10 +13,10 @@ function SubHeroSection() {
     <MainLayout
       ref={subHeroSectionRef}
       outerClass={"bg-black text-white"}
-      innerClass={"pt-40 pb-28"}
+      innerClass={"pt-36 pb-28"}
     >
       <BreadCrumbAndShare />
-      <div className="text-center mt-16">
+      <div className="text-center mt-20">
         <h1 className="uppercase font-bold text-7xl">{content.heading}</h1>
         <p className="text-bgBlackPara text-2xl w-[630px] mx-auto mt-8 tracking-wide leading-normal ">
           {content.subHeading.map((item, index) => {

@@ -7,6 +7,11 @@ import staticRoutes from "@/utils/routes/staticRoutes";
 import { heroSectionRef } from "../HeroSection/HeroSection";
 import { marketingToolRef } from "../MarketingToolSection/MarketingToolSection";
 import { subHeroSectionRef } from "../SubHeroSection/SubHeroSection";
+import {
+  performanceToolsRef,
+  seoToolsRef,
+  socialToolsRef,
+} from "../ToolsComponent/ToolsWrapper/ToolsWrapper";
 
 function Navbar() {
   const content = getComponentText("util.navbar");
@@ -21,10 +26,17 @@ function Navbar() {
       marketingToolRef?.current?.getBoundingClientRect();
     const subHeroSectionRect =
       subHeroSectionRef?.current?.getBoundingClientRect();
+    const seoToolsRect = seoToolsRef?.current?.getBoundingClientRect();
+    const socialToolsRect = socialToolsRef?.current?.getBoundingClientRect();
+    const performanceToolsRect =
+      performanceToolsRef?.current?.getBoundingClientRect();
     if (
       (heroSectionRect?.top < 1 && heroSectionRect?.bottom > 0) ||
       (marketingToolRect?.top < 1 && marketingToolRect?.bottom > 0) ||
-      (subHeroSectionRect?.top < 1 && subHeroSectionRect?.bottom > 0)
+      (subHeroSectionRect?.top < 1 && subHeroSectionRect?.bottom > 0) ||
+      (seoToolsRect?.top < 1 && seoToolsRect?.bottom > 0) ||
+      (socialToolsRect?.top < 1 && socialToolsRect?.bottom > 0) ||
+      (performanceToolsRect?.top < 1 && performanceToolsRect?.bottom > 0)
     ) {
       setBgBlack(true);
     } else {
