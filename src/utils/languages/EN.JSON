@@ -186,6 +186,100 @@
     "searchBar": {
       "tools": { "placeholder": "Search for you Tool" },
       "resources": { "placeholder": "Search for your Resource" }
+    },
+    "resources": {
+      "resourceList": [
+        {
+          "head": "SEO Checklist Roadmap",
+          "subHeading": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ],
+          "imageUrl": "/resourcesImage.png",
+          "rating": 4,
+          "downloadCount": "250+",
+          "button": "Get Now",
+          "link": "/"
+        },
+        {
+          "head": "SEO Checklist Roadmap",
+          "subHeading": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ],
+          "imageUrl": "/resourcesImage.png",
+          "rating": 4,
+          "downloadCount": "250+",
+          "button": "Get Now",
+          "link": "/"
+        },
+        {
+          "head": "SEO Checklist Roadmap",
+          "subHeading": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ],
+          "imageUrl": "/resourcesImage.png",
+          "rating": 4,
+          "downloadCount": "250+",
+          "button": "Get Now",
+          "link": "/"
+        },
+        {
+          "head": "SEO Checklist Roadmap",
+          "subHeading": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ],
+          "imageUrl": "/resourcesImage.png",
+          "rating": 4,
+          "downloadCount": "250+",
+          "button": "Get Now",
+          "link": "/"
+        },
+        {
+          "head": "SEO Checklist Roadmap",
+          "subHeading": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ],
+          "imageUrl": "/resourcesImage.png",
+          "rating": 4,
+          "downloadCount": "250+",
+          "button": "Get Now",
+          "link": "/"
+        },
+        {
+          "head": "SEO Checklist Roadmap",
+          "subHeading": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ],
+          "imageUrl": "/resourcesImage.png",
+          "rating": 4,
+          "downloadCount": "250+",
+          "button": "Get Now",
+          "link": "/"
+        }
+      ]
     }
   },
   "home": {
@@ -536,6 +630,18 @@
   "marketingTools": {
     "subHeroSection": {
       "heading": "Marketing Tools",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ]
+    }
+  },
+  "growthResources": {
+    "subHeroSection": {
+      "heading": "Growth Resources",
       "subHeading": [
         { "para": "Get a " },
         { "link": "40-page action plan", "href": "/" },

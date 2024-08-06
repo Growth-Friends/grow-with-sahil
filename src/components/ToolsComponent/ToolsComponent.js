@@ -16,7 +16,7 @@ const ToolsComponent = forwardRef(
     );
     return (
       <MainLayout>
-        <div className="pt-8 pb-8 overflow-hidden ">
+        <div className="py-8 overflow-hidden ">
           <div
             ref={ref}
             className="text-center bg-black text-white py-10 px-3 rounded-t-2xl"

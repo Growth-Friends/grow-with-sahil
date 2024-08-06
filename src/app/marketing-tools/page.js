@@ -6,9 +6,10 @@ import React from "react";
 function MarketingToolsPage() {
   return (
     <>
-      <SubHeroSection />
+      <SubHeroSection marketingTools={true} />
       <SearchBarContainer tools={true} />
       <ToolsWrapper />
+      <div className="bg-black h-[450px] " />
     </>
   );
 }

@@ -6,9 +6,13 @@ import { getComponentText } from "@/utils/functions/functions";
 
 export let subHeroSectionRef;
 
-function SubHeroSection() {
+function SubHeroSection({ marketingTools, growthResources }) {
   subHeroSectionRef = useRef();
-  const content = getComponentText("marketingTools.subHeroSection");
+  const content = getComponentText(
+    `${
+      marketingTools ? "marketingTools" : growthResources && "growthResources"
+    }.subHeroSection`
+  );
   return (
     <MainLayout
       ref={subHeroSectionRef}

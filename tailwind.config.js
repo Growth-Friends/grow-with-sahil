@@ -7,7 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: { primaryColor: "#AFCAF2", bgBlackPara: "#ACACAC" },
+      colors: {
+        primaryColor: "#AFCAF2",
+        bgBlackPara: "#ACACAC",
+        borderColor: "#D2D2D2",
+      },
       backgroundImage: {
         blackSideLeft:
           "linear-gradient(90deg, #060011 0%, rgba(6, 0, 17, 0) 100%)",
