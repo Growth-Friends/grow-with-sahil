@@ -6,8 +6,10 @@ import React, { useRef } from "react";
 
 export let moreResourcesRef;
 
-function MoreResources() {
-  const content = getComponentText("util.moreResources");
+function MoreResources({ moreResources, moreTools }) {
+  const content = getComponentText(
+    `util.${moreResources ? "moreResources" : moreTools && "moreTools"}`
+  );
   moreResourcesRef = useRef();
   return (
     <MainLayout>

@@ -1,7 +1,12 @@
-import { getComponentText, svgFilePrefix } from "@/utils/functions/functions";
+import {
+  filePrefix,
+  getComponentText,
+  svgFilePrefix,
+} from "@/utils/functions/functions";
 import React, { forwardRef } from "react";
 import MainLayout from "../Layout/MainLayout";
 import Link from "next/link";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const ToolsComponent = forwardRef(
   ({ seoTools, socialTools, performanceTools }, ref) => {
@@ -44,19 +49,45 @@ const ToolsComponent = forwardRef(
           <div className="grid grid-cols-3 p-10 gap-10 border-x-2 border-b-2 border-paraSecondary/40 rounded-b-2xl ">
             {content.toolsList.map((item, index) => {
               return (
-                <Link
+                <div
                   key={index}
-                  href={item.link}
-                  className="bg-black text-white p-5 flex items-center gap-x-5 rounded-2xl hover:scale-105 transition-all duration-300 ease-in-out "
+                  className="bg-black text-white p-8 gap-x-5 rounded-xl "
                 >
-                  <img
-                    loading="lazy"
-                    src={svgFilePrefix(item.imageUrl)}
-                    alt={item.head}
-                    className="aspect-auto w-12"
-                  />
-                  <p className="font-semibold text-lg">{item.head}</p>
-                </Link>
+                  <div className="flex items-center gap-x-6">
+                    <img
+                      loading="lazy"
+                      src={svgFilePrefix(item.imageUrl)}
+                      alt={item.head}
+                      className="aspect-auto w-16"
+                    />
+                    <p className="font-semibold text-2xl">{item.head}</p>
+                  </div>
+                  <div className="flex items-center justify-between mt-5">
+                    <p className="font-light">
+                      {item.hostedInHouse ? "In-House" : "Re-directed"}
+                    </p>
+                    <div className="flex items-center gap-x-1">
+                      <img
+                        loading="lazy"
+                        alt="like symbol"
+                        src={svgFilePrefix("/likeSymbol.svg")}
+                        className="aspect-auto w-4"
+                      />
+                      <span>{item.likes}</span>
+                    </div>
+                  </div>
+                  <p className="text-lg mt-4">{item.aboutTool}</p>
+                  <div className="flex justify-center mt-10">
+                    <Link
+                      prefetch={false}
+                      href={filePrefix(item.link, "/marketing-tools")}
+                      className="bg-primaryColor text-black px-3 py-2 rounded-md font-medium flex items-center gap-x-1 hover:gap-x-2 transition-all duration-300 ease-in-out "
+                    >
+                      {item.button}
+                      <ArrowForwardIcon className="text-base" />
+                    </Link>
+                  </div>
+                </div>
               );
             })}
           </div>

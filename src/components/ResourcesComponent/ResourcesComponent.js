@@ -84,7 +84,7 @@ function ResourcesComponent() {
                   <Link
                     prefetch={false}
                     href={filePrefix(item.link, "/growth-resources")}
-                    className="bg-primaryColor px-3 py-2 rounded-md font-medium flex items-center gap-x-1 hover:gap-x-2 transition-all duration-300 ease-in-out "
+                    className="bg-primaryColor text-black px-3 py-2 rounded-md font-medium flex items-center gap-x-1 hover:gap-x-2 transition-all duration-300 ease-in-out "
                   >
                     {item.button}
                     <ArrowForwardIcon className="text-base" />

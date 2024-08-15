@@ -3,7 +3,7 @@ import SearchBarContainer from "@/components/SearchBar/SearchBarContainer";
 import SubHeroSection from "@/components/SubHeroSection/SubHeroSection";
 import React from "react";
 
-function page() {
+function growthResourcesPage() {
   return (
     <>
       <SubHeroSection growthResources={true} />
@@ -13,4 +13,4 @@ function page() {
   );
 }
 
-export default page;
+export default growthResourcesPage;

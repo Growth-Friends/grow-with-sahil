@@ -55,52 +55,92 @@
         {
           "imageUrl": "/checked.svg",
           "head": "Google Index Checker",
-          "link": "/"
+          "link": "/google-index-checker",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/bandage.svg",
           "head": "Domain Age Checker",
-          "link": "/"
+          "link": "/domain-age-checker",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/checked.svg",
           "head": "Domain Authority Checker",
-          "link": "/"
+          "link": "/domain-authority-checker",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/bandage.svg",
           "head": "Whois Domain Lookup",
-          "link": "/"
+          "link": "/whois-domain-lookup",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/checked.svg",
           "head": "Robots.txt Generator",
-          "link": "/"
+          "link": "/robots-txt-generator",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/bandage.svg",
           "head": "Keywords Suggestion Tool",
-          "link": "/"
+          "link": "/keywords-suggestion-tool",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/checked.svg",
           "head": "Meta Tag Generator",
-          "link": "/"
+          "link": "/meta-tag-generator",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/bandage.svg",
           "head": "Hosting Checker",
-          "link": "/"
+          "link": "/hosting-checker",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/checked.svg",
           "head": "Adsense Calculator",
-          "link": "/"
+          "link": "/adsense-calculator",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/bandage.svg",
           "head": "Hosting Calculator",
-          "link": "/"
+          "link": "/hosting-calculator",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         }
       ]
     },
@@ -117,42 +157,74 @@
         {
           "imageUrl": "/checked.svg",
           "head": "Instagram Retention Analyser",
-          "link": "/"
+          "link": "/instagram-retention-analyser",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/bandage.svg",
           "head": "Influencer Finder",
-          "link": "/"
+          "link": "/influencer-finder",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/checked.svg",
           "head": "Youtube Tags Finder",
-          "link": "/"
+          "link": "/youtube-tags-finder",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/bandage.svg",
           "head": "Twitter Trend Analyser",
-          "link": "/"
+          "link": "/twitter-trend-analyser",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/checked.svg",
           "head": "Twitter Boolen search Helper",
-          "link": "/"
+          "link": "/twitter-boolen-search-helper",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/bandage.svg",
           "head": "Instagram Trend Finder",
-          "link": "/"
+          "link": "/Instagram-trend-finder",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/checked.svg",
           "head": "YouTube Thumbnail Download",
-          "link": "/"
+          "link": "/youtube-thumbnail-download",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/bandage.svg",
           "head": "Instagram Reel Download",
-          "link": "/"
+          "link": "/instagram-reel-download",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         }
       ]
     },
@@ -169,17 +241,29 @@
         {
           "imageUrl": "/checked.svg",
           "head": "Facebook Ads Library",
-          "link": "/"
+          "link": "/facebook-ads-library",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/bandage.svg",
           "head": "Google Ads Transparency",
-          "link": "/"
+          "link": "/google-ads-transparency",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         },
         {
           "imageUrl": "/checked.svg",
           "head": "Ads Saver Extension",
-          "link": "/"
+          "link": "/ads-saver-extension",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
         }
       ]
     },
@@ -471,6 +555,68 @@
     },
     "moreResources": {
       "heading": "Related Resources",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "resourcesList": [
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Google Index Checker",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Domain Age Checker",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Domain Authority Checker",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Whois Domain Lookup",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Robots.txt Generator",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Keywords Suggestion Tool",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Meta Tag Generator",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Hosting Checker",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Adsense Calculator",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Hosting Calculator",
+          "link": "/"
+        }
+      ]
+    },
+    "moreTools": {
+      "heading": "Related Tools",
       "subHeading": [
         { "para": "Get a " },
         { "link": "40-page action plan", "href": "/" },
