@@ -9,7 +9,6 @@ function page() {
       <SubHeroSection growthResources={true} />
       <SearchBarContainer resources={true} />
       <ResourcesComponent />
-      <div className="bg-black h-[450px] " />
     </>
   );
 }

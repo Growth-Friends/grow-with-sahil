@@ -32,7 +32,7 @@ function ExpertSection({ home, about }) {
                 />
               </div>
               <p className="font-semibold text-2xl mt-5 ">{item.head}</p>
-              <p className="text-bgBlackPara mt-3 px-3 ">{item.para}</p>
+              <p className="text-paraSecondary mt-3 px-3 ">{item.para}</p>
             </div>
           );
         })}

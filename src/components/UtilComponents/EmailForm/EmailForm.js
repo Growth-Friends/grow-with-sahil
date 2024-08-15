@@ -26,7 +26,7 @@ function EmailForm({ home, about }) {
   return (
     <>
       <PopupForm open={isDialogOpen} onClose={closeDialog} />
-      <div className="flex gap-x-3 text-lg">
+      <div className="inline-flex gap-x-3 text-lg">
         {content.inputList.map((item, index) => {
           return (
             <Input

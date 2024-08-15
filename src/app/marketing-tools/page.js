@@ -9,7 +9,6 @@ function MarketingToolsPage() {
       <SubHeroSection marketingTools={true} />
       <SearchBarContainer tools={true} />
       <ToolsWrapper />
-      <div className="bg-black h-[450px] " />
     </>
   );
 }

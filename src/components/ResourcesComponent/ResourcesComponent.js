@@ -1,6 +1,7 @@
 import React from "react";
 import MainLayout from "../Layout/MainLayout";
 import {
+  filePrefix,
   getComponentText,
   imageFilePrefix,
   svgFilePrefix,
@@ -12,7 +13,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 const inter = Inter({ subsets: ["latin"], weight: ["500"] });
 
 function ResourcesComponent() {
-  const content = getComponentText("util.resources");
+  const content = getComponentText("util.growthResources");
   return (
     <MainLayout>
       <div className="py-8 flex items-center flex-wrap justify-start gap-y-14 ">
@@ -24,7 +25,7 @@ function ResourcesComponent() {
             <div key={index} className="w-[calc(100%/3)] flex-shrink-0 px-5 ">
               <div className="bg-black text-white py-6 px-3 rounded-t-lg text-center">
                 <p className="font-bold text-[26px] ">{item.head}</p>
-                <p className="text-bgBlackPara text-[15px] mt-1 tracking-wide leading-normal inline-block ">
+                <p className="text-paraSecondary text-[15px] mt-1 tracking-wide leading-normal inline-block ">
                   {item.subHeading.map((item, index) => {
                     return (
                       <React.Fragment key={index}>
@@ -82,7 +83,7 @@ function ResourcesComponent() {
                   </div>
                   <Link
                     prefetch={false}
-                    href={item.link}
+                    href={filePrefix(item.link, "/growth-resources")}
                     className="bg-primaryColor px-3 py-2 rounded-md font-medium flex items-center gap-x-1 hover:gap-x-2 transition-all duration-300 ease-in-out "
                   >
                     {item.button}

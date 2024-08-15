@@ -187,7 +187,7 @@
       "tools": { "placeholder": "Search for you Tool" },
       "resources": { "placeholder": "Search for your Resource" }
     },
-    "resources": {
+    "growthResources": {
       "resourceList": [
         {
           "head": "SEO Checklist Roadmap",
@@ -202,7 +202,7 @@
           "rating": 4,
           "downloadCount": "250+",
           "button": "Get Now",
-          "link": "/"
+          "link": "/seo-checklist-roadmap"
         },
         {
           "head": "SEO Checklist Roadmap",
@@ -217,7 +217,7 @@
           "rating": 4,
           "downloadCount": "250+",
           "button": "Get Now",
-          "link": "/"
+          "link": "/seo-checklist-roadmap"
         },
         {
           "head": "SEO Checklist Roadmap",
@@ -232,7 +232,7 @@
           "rating": 4,
           "downloadCount": "250+",
           "button": "Get Now",
-          "link": "/"
+          "link": "/seo-checklist-roadmap"
         },
         {
           "head": "SEO Checklist Roadmap",
@@ -247,7 +247,7 @@
           "rating": 4,
           "downloadCount": "250+",
           "button": "Get Now",
-          "link": "/"
+          "link": "/seo-checklist-roadmap"
         },
         {
           "head": "SEO Checklist Roadmap",
@@ -262,7 +262,7 @@
           "rating": 4,
           "downloadCount": "250+",
           "button": "Get Now",
-          "link": "/"
+          "link": "/seo-checklist-roadmap"
         },
         {
           "head": "SEO Checklist Roadmap",
@@ -277,8 +277,270 @@
           "rating": 4,
           "downloadCount": "250+",
           "button": "Get Now",
+          "link": "/seo-checklist-roadmap"
+        }
+      ]
+    },
+    "footer": {
+      "brandName": "GWS",
+      "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences. Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social.",
+      "footerList": [
+        {
+          "head": "Overview",
+          "linkList": [
+            { "para": "About me", "link": "about" },
+            { "para": "All Tools", "link": "tools" },
+            { "para": "All Resources", "link": "about" },
+            { "para": "Blogs", "link": "about" }
+          ]
+        },
+        {
+          "head": "Services",
+          "linkList": [
+            {
+              "para": "Performance Marketing",
+              "link": "home",
+              "disabled": true
+            },
+            {
+              "para": "Social Media Marketing",
+              "link": "home",
+              "disabled": true
+            },
+            {
+              "para": "Influencer Marketing",
+              "link": "home",
+              "disabled": true
+            },
+            {
+              "para": "Search Engine Optimization",
+              "link": "home",
+              "disabled": true
+            },
+            {
+              "para": "Growth Loops",
+              "link": "home",
+              "disabled": true
+            },
+            {
+              "para": "Go to Market Strategy",
+              "link": "home",
+              "disabled": true
+            },
+            {
+              "para": "Retention Marketing",
+              "link": "home",
+              "disabled": true
+            }
+          ]
+        },
+        {
+          "head": "Tools",
+          "linkList": [
+            {
+              "para": "Google Index Checker",
+              "link": "home",
+              "disabled": true
+            },
+            { "para": "Domain Age Checker", "link": "home", "disabled": true },
+            {
+              "para": "Instagram Retention Analyser",
+              "link": "home",
+              "disabled": true
+            },
+            {
+              "para": "Youtube Tags Finder",
+              "link": "home",
+              "disabled": true
+            },
+            {
+              "para": "YouTube Thumbnail Download",
+              "link": "home",
+              "disabled": true
+            },
+            {
+              "para": "Meta Tag Generator",
+              "link": "home",
+              "disabled": true
+            }
+          ]
+        },
+        {
+          "head": "Growth Resources",
+          "linkList": [
+            { "para": "Important Softwares", "link": "home", "disabled": true },
+            {
+              "para": "On-page & Off page SEO Prompt",
+              "link": "home",
+              "disabled": true
+            },
+            {
+              "para": "Landing Page 101 ChatGPT",
+              "link": "home",
+              "disabled": true
+            },
+            {
+              "para": "Social Media Calender Template",
+              "link": "home",
+              "disabled": true
+            },
+            {
+              "para": "Checklist for Twitter growth",
+              "link": "home",
+              "disabled": true
+            },
+            {
+              "para": "The Art of Chatgpt writing",
+              "link": "home",
+              "disabled": true
+            }
+          ]
+        }
+      ],
+      "socialShareList": [
+        { "imageUrl": "/linkedinIcon.svg", "link": "/" },
+        { "imageUrl": "/youtubeIcon.svg", "link": "/" },
+        { "imageUrl": "/twitterIcon.svg", "link": "/" },
+        { "imageUrl": "/instagramIcon.svg", "link": "/" }
+      ]
+    },
+    "detailSection": {
+      "contentList": [
+        {
+          "type": "heading-para",
+          "heading": "What is Google Index Checker?",
+          "headingType": "h2",
+          "paraList": [
+            {
+              "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences. Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves"
+            },
+            {
+              "para": " leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences."
+            }
+          ]
+        },
+        {
+          "type": "heading-para",
+          "heading": "What is Google Index Checker?",
+          "headingType": "h3",
+          "paraList": [
+            {
+              "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences. Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves"
+            },
+            {
+              "para": " leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences."
+            }
+          ]
+        },
+        { "type": "email-promotion" },
+        {
+          "type": "heading-para",
+          "heading": "What is Google Index Checker?",
+          "headingType": "h4",
+          "paraList": [
+            {
+              "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences. Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves"
+            },
+            {
+              "para": " leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences."
+            }
+          ]
+        }
+      ],
+      "emailPromotion": {
+        "subHeading": [
+          { "para": "Get a " },
+          { "link": "40-page action plan", "href": "/" },
+          {
+            "para": " with all you need to build a crazily good growth marketing funnel."
+          }
+        ],
+        "benefitsList": [
+          {
+            "para": "100% tailor made for your brand.",
+            "imageUrl": "/star.svg",
+            "alt": "tailor made icon"
+          },
+          {
+            "para": "Free for Cost. No Strings attached.",
+            "imageUrl": "/addUser.svg",
+            "alt": "free cost icon"
+          }
+        ]
+      }
+    },
+    "moreResources": {
+      "heading": "Related Resources",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "resourcesList": [
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Google Index Checker",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Domain Age Checker",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Domain Authority Checker",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Whois Domain Lookup",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Robots.txt Generator",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Keywords Suggestion Tool",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Meta Tag Generator",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Hosting Checker",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Adsense Calculator",
+          "link": "/"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Hosting Calculator",
           "link": "/"
         }
+      ]
+    },
+    "aboutMeSection": {
+      "heading": "About Me",
+      "name": "Sahil Khan",
+      "position": "Growth Marketer",
+      "aboutMe": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences. Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social.",
+      "socialShareList": [
+        { "imageUrl": "/linkedinIcon.svg", "link": "/" },
+        { "imageUrl": "/youtubeIcon.svg", "link": "/" },
+        { "imageUrl": "/twitterIcon.svg", "link": "/" },
+        { "imageUrl": "/instagramIcon.svg", "link": "/" }
       ]
     }
   },

@@ -79,7 +79,7 @@ function ExperienceSection() {
                         className={`border-2 border-black px-4 pt-4 pb-5 relative w-[350px] mx-auto `}
                       >
                         <p className="font-semibold text-2xl">{item.head}</p>
-                        <p className="text-bgBlackPara text-lg mt-1">
+                        <p className="text-paraSecondary text-lg mt-1">
                           {item.para}
                         </p>
                         {index % 2 == 0 ? (

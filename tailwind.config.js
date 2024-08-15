@@ -9,8 +9,9 @@ module.exports = {
     extend: {
       colors: {
         primaryColor: "#AFCAF2",
-        bgBlackPara: "#ACACAC",
+        paraSecondary: "#ACACAC",
         borderColor: "#D2D2D2",
+        footerPara: "#F2F3F4",
       },
       backgroundImage: {
         blackSideLeft:

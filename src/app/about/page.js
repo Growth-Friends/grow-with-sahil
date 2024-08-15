@@ -9,7 +9,6 @@ function About() {
       <HeroSection about={true} />
       <ExperienceSection />
       <ExpertSection about={true} />
-      <div className="bg-black h-[450px] " />
     </>
   );
 }

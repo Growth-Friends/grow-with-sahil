@@ -12,6 +12,9 @@ import {
   seoToolsRef,
   socialToolsRef,
 } from "../ToolsComponent/ToolsWrapper/ToolsWrapper";
+import { footerRef } from "../Footer/Footer";
+import { moreResourcesRef } from "../ResourcesComponent/MoreResources/MoreResources";
+import { emailPromotionRef } from "../DetailSection/Promotions/EmailPromotion";
 
 function Navbar() {
   const content = getComponentText("util.navbar");
@@ -30,13 +33,21 @@ function Navbar() {
     const socialToolsRect = socialToolsRef?.current?.getBoundingClientRect();
     const performanceToolsRect =
       performanceToolsRef?.current?.getBoundingClientRect();
+    const footerRect = footerRef?.current?.getBoundingClientRect();
+    const moreResourcesRect =
+      moreResourcesRef?.current?.getBoundingClientRect();
+    const emailPromotionRect =
+      emailPromotionRef?.current?.getBoundingClientRect();
     if (
       (heroSectionRect?.top < 1 && heroSectionRect?.bottom > 0) ||
       (marketingToolRect?.top < 1 && marketingToolRect?.bottom > 0) ||
       (subHeroSectionRect?.top < 1 && subHeroSectionRect?.bottom > 0) ||
       (seoToolsRect?.top < 1 && seoToolsRect?.bottom > 0) ||
       (socialToolsRect?.top < 1 && socialToolsRect?.bottom > 0) ||
-      (performanceToolsRect?.top < 1 && performanceToolsRect?.bottom > 0)
+      (performanceToolsRect?.top < 1 && performanceToolsRect?.bottom > 0) ||
+      (footerRect?.top < 1 && footerRect?.bottom > 0) ||
+      (moreResourcesRect?.top < 1 && moreResourcesRect?.bottom > 0) ||
+      (emailPromotionRect?.top < 1 && emailPromotionRect?.bottom > 0)
     ) {
       setBgBlack(true);
     } else {

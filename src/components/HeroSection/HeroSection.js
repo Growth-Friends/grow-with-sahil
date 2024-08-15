@@ -43,7 +43,7 @@ function HeroSection({ home, about }) {
             );
           })}
         </h1>
-        <p className="text-bgBlackPara text-xl w-[580px] mt-3 tracking-wide leading-normal ">
+        <p className="text-paraSecondary text-xl w-[580px] mt-3 tracking-wide leading-normal ">
           {content.subHeading.map((item, index) => {
             return (
               <React.Fragment key={index}>

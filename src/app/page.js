@@ -12,7 +12,6 @@ export default function Home() {
       <MarketingToolSection />
       <GrowthResourcesSection />
       <BlogSection />
-      <div className="bg-black h-[450px] " />
     </>
   );
 }

@@ -16,13 +16,13 @@ const ToolsComponent = forwardRef(
     );
     return (
       <MainLayout>
-        <div className="py-8 overflow-hidden ">
+        <div className="py-10 overflow-hidden ">
           <div
             ref={ref}
             className="text-center bg-black text-white py-10 px-3 rounded-t-2xl"
           >
-            <h2 className="font-bold text-5xl ">{content.heading}</h2>
-            <p className="text-bgBlackPara text-xl w-[580px] mx-auto mt-3 tracking-wide leading-normal ">
+            <h2 className="font-bold text-5xl uppercase ">{content.heading}</h2>
+            <p className="text-paraSecondary text-xl w-[580px] mx-auto mt-3 tracking-wide leading-normal ">
               {content.subHeading.map((item, index) => {
                 return (
                   <React.Fragment key={index}>
@@ -41,7 +41,7 @@ const ToolsComponent = forwardRef(
               })}
             </p>
           </div>
-          <div className="grid grid-cols-3 p-10 gap-10 border-x-2 border-b-2 border-bgBlackPara/40 rounded-b-2xl ">
+          <div className="grid grid-cols-3 p-10 gap-10 border-x-2 border-b-2 border-paraSecondary/40 rounded-b-2xl ">
             {content.toolsList.map((item, index) => {
               return (
                 <Link
