@@ -15,11 +15,29 @@ import {
 import { footerRef } from "../Footer/Footer";
 import { moreResourcesRef } from "../ResourcesComponent/MoreResources/MoreResources";
 import { emailPromotionRef } from "../DetailSection/Promotions/EmailPromotion";
+import MenuIcon from "@mui/icons-material/Menu";
+import { Dialog, Slide } from "@mui/material";
+import CloseIcon from "@mui/icons-material/Close";
+
+const Transition = React.forwardRef(function Transition(props, ref) {
+  return <Slide direction="left" ref={ref} {...props} />;
+});
 
 function Navbar() {
   const content = getComponentText("util.navbar");
   const [scrollPosition, setScrollPosition] = useState();
   const [bgBlack, setBgBlack] = useState(true);
+  const [dialogBoxOpen, setDialogBoxOpen] = useState(false);
+
+  //open dialog box
+  function openDialogBox() {
+    setDialogBoxOpen(true);
+  }
+
+  //close dialog box
+  function closeDialogBox() {
+    setDialogBoxOpen(false);
+  }
 
   //scroll function
   function scrollFunction() {
@@ -69,18 +87,20 @@ function Navbar() {
       outerClass={`fixed top-0 left-0 w-full ${
         bgBlack ? "text-white border-white/30" : "text-black border-black/20"
       } z-20 transition-all duration-300 ease-in-out backdrop-blur-lg  ${
-        scrollPosition > 0 ? " border-b-[1px] py-4 " : " border-b-0 py-8 "
+        scrollPosition > 0
+          ? " border-b-[1px] xl:py-4 lg:py-3 md:py-2 py-2 "
+          : " border-b-0 xl:py-8 lg:py-6 md:py-5 py-2 "
       } `}
     >
       <nav className="flex justify-between items-center">
         <Link
           prefetch={false}
           href={staticRoutes["home"]}
-          className="font-semibold text-3xl "
+          className="font-semibold xl:text-3xl lg:text-2xl md:text-xl text-2xl "
         >
           {content.brandName}
         </Link>
-        <ul className="flex gap-x-8 text-lg ">
+        <ul className="md:flex hidden xl:gap-x-8 lg:gap-x-7 gap-x-6 xl:text-lg lg:text-base text-sm ">
           {content.navList.map((item, index) => {
             return (
               <li key={index}>
@@ -91,6 +111,48 @@ function Navbar() {
             );
           })}
         </ul>
+        <div className="md:hidden flex items-center p-2">
+          <MenuIcon className="text-3xl" onClick={openDialogBox} />
+        </div>
+        <Dialog
+          fullScreen
+          open={dialogBoxOpen}
+          TransitionComponent={Transition}
+        >
+          <div className="px-[20px]">
+            <div className="py-2 flex items-center justify-between text-black">
+              <Link
+                prefetch={false}
+                href={staticRoutes["home"]}
+                onClick={closeDialogBox}
+                className="font-semibold text-2xl "
+              >
+                {content.brandName}
+              </Link>
+              <div className="flex items-center p-2">
+                <CloseIcon className="text-3xl" onClick={closeDialogBox} />
+              </div>
+            </div>
+            <div className="mt-5">
+              <ul className="flex flex-col gap-y-5 text-xl font-medium ">
+                {content.navList.map((item, index) => {
+                  return (
+                    <li key={index}>
+                      <Link
+                        prefetch={false}
+                        href={staticRoutes[`${item.link}`]}
+                        onClick={closeDialogBox}
+                        className="block"
+                      >
+                        {item.para}
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          </div>
+        </Dialog>
       </nav>
     </MainLayout>
   );

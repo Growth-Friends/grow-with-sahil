@@ -5,7 +5,8 @@ const MainLayout = forwardRef(
     return (
       <div
         ref={ref}
-        className={`px-3 select-none overflow-hidden ${outerClass}`}>
+        className={`md:px-[40px] px-[20px] select-none overflow-hidden ${outerClass}`}
+      >
         <div className={`max-w-[80rem] mx-auto ${innerClass} `}>{children}</div>
       </div>
     );
