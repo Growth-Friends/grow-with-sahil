@@ -119,7 +119,7 @@ function Navbar() {
           open={dialogBoxOpen}
           TransitionComponent={Transition}
         >
-          <div className="px-[20px]">
+          <div className="px-[10px]">
             <div className="py-2 flex items-center justify-between text-black">
               <Link
                 prefetch={false}

@@ -18,11 +18,11 @@ function HeroSection({ home, about }) {
   return (
     <MainLayout
       ref={heroSectionRef}
-      outerClass="bg-black text-white h-screen "
-      innerClass="h-full flex flex-col justify-center relative "
+      outerClass="bg-black text-white xl:h-screen h-auto "
+      innerClass="h-full flex flex-col justify-center relative lg:py-48 md:py-36 pt-28 "
     >
-      <div className="relative z-10">
-        <h1 className="flex flex-col font-bold text-[54px] leading-[1.35] ">
+      <div className="relative z-10 md:text-start text-center">
+        <h1 className="flex flex-col font-bold xl:text-[54px] lg:text-[45px] md:text-[38px] text-[24px] leading-[1.35] py-0 ">
           {content.heading.map((item, index) => {
             return (
               <span key={index}>
@@ -43,7 +43,7 @@ function HeroSection({ home, about }) {
             );
           })}
         </h1>
-        <p className="text-paraSecondary text-xl w-[580px] mt-3 tracking-wide leading-normal ">
+        <p className="text-paraSecondary xl:text-xl lg:text-lg md:text-base text-sm xl:w-[580px] lg:w-[500px] md:w-[460px] w-full mt-4 tracking-wide leading-normal ">
           {content.subHeading.map((item, index) => {
             return (
               <React.Fragment key={index}>
@@ -58,28 +58,41 @@ function HeroSection({ home, about }) {
             );
           })}
         </p>
-        {content?.benefitsList && (
-          <div className="flex items-center flex-wrap font-medium text-lg gap-x-6 mt-4 ">
-            {content.benefitsList.map((item, index) => {
-              return (
-                <div key={index} className="flex items-center gap-x-2">
-                  <img
-                    src={svgFilePrefix(item.imageUrl)}
-                    alt={item.alt}
-                    className="aspect-auto w-4"
-                  />
-                  <p>{item.para}</p>
-                </div>
-              );
-            })}
-          </div>
-        )}
-        <div className="mt-7">
+        <div className="flex items-center md:justify-start justify-center">
+          {content?.benefitsList && (
+            <div className="flex items-start lg:flex-row flex-col font-medium xl:text-lg lg:text-base md:text-sm text-xs gap-x-6 gap-y-1 mt-4 ">
+              {content.benefitsList.map((item, index) => {
+                return (
+                  <div key={index} className="flex items-center gap-x-2">
+                    <img
+                      src={svgFilePrefix(item.imageUrl)}
+                      alt={item.alt}
+                      className="aspect-auto md:w-4 w-3"
+                    />
+                    <p>{item.para}</p>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+
+        <div className="lg:mt-10 md:mt-8 mt-10">
           <EmailForm home={home} about={about} />
+        </div>
+        <div className={`md:hidden block w-full mt-14`}>
+          <img
+            loading="lazy"
+            src={imageFilePrefix(content.mainImageUrl)}
+            alt="shail profile picture"
+            className={`h-auto max-w-none ms-auto ${
+              home ? "w-full" : about && "w-[380px] "
+            }  `}
+          />
         </div>
       </div>
       <div
-        className={`absolute w-[50%] bottom-0 right-0 ${
+        className={`hidden md:block absolute lg:w-[50%] w-[55%] bottom-0 right-0 ${
           home ? "translate-x-[10%]" : about && ""
         } `}
       >

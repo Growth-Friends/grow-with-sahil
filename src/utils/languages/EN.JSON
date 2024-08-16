@@ -4,7 +4,6 @@
       "brandName": "GWS",
       "navList": [
         { "para": "About Me", "link": "about" },
-        { "para": "Services", "link": "services" },
         { "para": "Marketing Tools", "link": "marketingTools" },
         { "para": "Growth Resources", "link": "growthResources" }
       ]
