@@ -23,7 +23,7 @@ function ExpertSection() {
           className="aspect-auto xl:w-48 lg:w-36 md:w-28 w-20 "
         />
       </div>
-      <div className="grid md:grid-cols-3 grid-cols-2 xl:gap-20 lg:gap-8 md:gap-4 gap-x-0.5 gap-y-6 xl:py-20 md:py-12 py-10 ">
+      <div className="grid md:grid-cols-3 grid-cols-2 xl:gap-20 lg:gap-8 md:gap-4 gap-x-0.5 gap-y-5 xl:py-20 md:py-12 py-10 ">
         {content.expertList.map((item, index) => {
           return (
             <Link
