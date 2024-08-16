@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import React from "react";
 import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRightRounded";
+import staticRoutes from "@/utils/routes/staticRoutes";
 
 function BreadCrumb() {
   const pathName = usePathname();
@@ -12,7 +13,7 @@ function BreadCrumb() {
     <div>
       <ul className="flex">
         <li>
-          <Link href={"/"}>
+          <Link href={staticRoutes.home} prefetch={false}>
             <HomeRoundedIcon />
           </Link>
         </li>
@@ -25,7 +26,9 @@ function BreadCrumb() {
                 <>
                   <KeyboardArrowRightRoundedIcon />
                   <li className="capitalize flex items-end">
-                    <Link href={currentPath}>{item.replaceAll("-", " ")}</Link>
+                    <Link prefetch={false} href={currentPath}>
+                      {item.replaceAll("-", " ")}
+                    </Link>
                   </li>
                 </>
               )}

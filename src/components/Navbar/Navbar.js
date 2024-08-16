@@ -73,14 +73,20 @@ function Navbar() {
       } `}
     >
       <nav className="flex justify-between items-center">
-        <Link href={staticRoutes["home"]} className="font-semibold text-3xl ">
+        <Link
+          prefetch={false}
+          href={staticRoutes["home"]}
+          className="font-semibold text-3xl "
+        >
           {content.brandName}
         </Link>
         <ul className="flex gap-x-8 text-lg ">
           {content.navList.map((item, index) => {
             return (
               <li key={index}>
-                <Link href={staticRoutes[`${item.link}`]}>{item.para}</Link>
+                <Link prefetch={false} href={staticRoutes[`${item.link}`]}>
+                  {item.para}
+                </Link>
               </li>
             );
           })}

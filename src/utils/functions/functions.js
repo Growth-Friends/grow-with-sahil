@@ -22,5 +22,5 @@ export function svgFilePrefix(imageUrl) {
 
 //common file prefix
 export function filePrefix(url, prefix) {
-  return `${prefix}${url}`;
+  return `${prefix ? prefix : ""}${url}`;
 }

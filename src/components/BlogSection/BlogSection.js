@@ -1,6 +1,8 @@
 import { getComponentText, imageFilePrefix } from "@/utils/functions/functions";
 import React from "react";
 import MainLayout from "../Layout/MainLayout";
+import Link from "next/link";
+import staticRoutes from "@/utils/routes/staticRoutes";
 
 function BlogSection() {
   const content = getComponentText("home.blogSection");
@@ -46,9 +48,13 @@ function BlogSection() {
                         <span>{item.publish}</span>
                         <span>{item.author}</span>
                       </p>
-                      <button className="bg-primaryColor text-black hover:bg-black hover:text-primaryColor px-3 py-1 rounded-md font-semibold text-md transition-all duration-300 ease-in-out">
+                      <Link
+                        prefetch={false}
+                        href={staticRoutes.blog}
+                        className="bg-primaryColor text-black hover:bg-black hover:text-white px-3 py-1 rounded-md font-semibold text-md transition-all duration-300 ease-in-out"
+                      >
                         {item.button}
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

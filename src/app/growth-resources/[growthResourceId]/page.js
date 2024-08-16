@@ -8,7 +8,7 @@ import React from "react";
 function IndividualGrowthResourcesPage() {
   return (
     <>
-      <SubHeroSection growthResources={true} />
+      <SubHeroSection />
       <GrowthResourceDownload />
       <DetailSection />
       <MoreResources moreResources={true} />

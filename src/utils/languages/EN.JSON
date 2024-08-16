@@ -5,9 +5,7 @@
       "navList": [
         { "para": "About Me", "link": "about" },
         { "para": "Services", "link": "services" },
-        { "para": "Tools", "link": "tools" },
         { "para": "Marketing Tools", "link": "marketingTools" },
-        { "para": "Resources", "link": "resources" },
         { "para": "Growth Resources", "link": "growthResources" }
       ]
     },
@@ -371,121 +369,127 @@
       "footerList": [
         {
           "head": "Overview",
+          "staticRoutes": true,
           "linkList": [
             { "para": "About me", "link": "about" },
-            { "para": "All Tools", "link": "tools" },
-            { "para": "All Resources", "link": "about" },
-            { "para": "Blogs", "link": "about" }
+            { "para": "All Tools", "link": "marketingTools" },
+            { "para": "All Resources", "link": "growthResources" },
+            { "para": "Blogs", "link": "blog" }
           ]
         },
         {
           "head": "Services",
+          "staticRoutes": false,
           "linkList": [
             {
               "para": "Performance Marketing",
-              "link": "home",
-              "disabled": true
+              "link": "/performance-marketing",
+              "prefix": "/services"
             },
             {
               "para": "Social Media Marketing",
-              "link": "home",
-              "disabled": true
+              "link": "/social-media-marketing",
+              "prefix": "/services"
             },
             {
               "para": "Influencer Marketing",
-              "link": "home",
-              "disabled": true
+              "link": "/influencer-marketing",
+              "prefix": "/services"
             },
             {
               "para": "Search Engine Optimization",
-              "link": "home",
-              "disabled": true
+              "link": "/search-engine-optimization",
+              "prefix": "/services"
             },
             {
               "para": "Growth Loops",
-              "link": "home",
-              "disabled": true
+              "link": "/growth-loops",
+              "prefix": "/services"
             },
             {
               "para": "Go to Market Strategy",
-              "link": "home",
-              "disabled": true
+              "link": "/go-to-market-strategy",
+              "prefix": "/services"
             },
             {
               "para": "Retention Marketing",
-              "link": "home",
-              "disabled": true
+              "link": "/retention-marketing",
+              "prefix": "/services"
             }
           ]
         },
         {
           "head": "Tools",
+          "staticRoutes": false,
           "linkList": [
             {
               "para": "Google Index Checker",
-              "link": "home",
-              "disabled": true
+              "link": "/google-index-checker",
+              "prefix": "/marketing-tools"
             },
-            { "para": "Domain Age Checker", "link": "home", "disabled": true },
+            {
+              "para": "Domain Age Checker",
+              "link": "/domain-age-checker",
+              "prefix": "/marketing-tools"
+            },
             {
               "para": "Instagram Retention Analyser",
-              "link": "home",
-              "disabled": true
+              "link": "/instagram-retention-analyser",
+              "prefix": "/marketing-tools"
             },
             {
               "para": "Youtube Tags Finder",
-              "link": "home",
-              "disabled": true
+              "link": "/youtube-tags-finder",
+              "prefix": "/marketing-tools"
             },
             {
               "para": "YouTube Thumbnail Download",
-              "link": "home",
-              "disabled": true
+              "link": "/youtube-thumbnail-download",
+              "prefix": "/marketing-tools"
             },
             {
               "para": "Meta Tag Generator",
-              "link": "home",
-              "disabled": true
+              "link": "/meta-tag-generator",
+              "prefix": "/marketing-tools"
             }
           ]
         },
         {
           "head": "Growth Resources",
+          "staticRoutes": false,
           "linkList": [
-            { "para": "Important Softwares", "link": "home", "disabled": true },
+            {
+              "para": "Important Softwares",
+              "link": "/important-softwares",
+              "prefix": "/growth-resources"
+            },
             {
               "para": "On-page & Off page SEO Prompt",
-              "link": "home",
-              "disabled": true
+              "link": "/on-page-&-off-page-seo-prompt",
+              "prefix": "/growth-resources"
             },
             {
               "para": "Landing Page 101 ChatGPT",
-              "link": "home",
-              "disabled": true
+              "link": "/landing-page-101-chatgpt",
+              "prefix": "/growth-resources"
             },
             {
               "para": "Social Media Calender Template",
-              "link": "home",
-              "disabled": true
+              "link": "/social-media-calender-template",
+              "prefix": "/growth-resources"
             },
             {
               "para": "Checklist for Twitter growth",
-              "link": "home",
-              "disabled": true
+              "link": "/checklist-for-twitter-growth",
+              "prefix": "/growth-resources"
             },
             {
               "para": "The Art of Chatgpt writing",
-              "link": "home",
-              "disabled": true
+              "link": "/the-art-of-chatgpt-writing",
+              "prefix": "/growth-resources"
             }
           ]
         }
-      ],
-      "socialShareList": [
-        { "imageUrl": "/linkedinIcon.svg", "link": "/" },
-        { "imageUrl": "/youtubeIcon.svg", "link": "/" },
-        { "imageUrl": "/twitterIcon.svg", "link": "/" },
-        { "imageUrl": "/instagramIcon.svg", "link": "/" }
       ]
     },
     "detailSection": {
@@ -681,14 +685,24 @@
       "heading": "About Me",
       "name": "Sahil Khan",
       "position": "Growth Marketer",
-      "aboutMe": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences. Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social.",
-      "socialShareList": [
-        { "imageUrl": "/linkedinIcon.svg", "link": "/" },
-        { "imageUrl": "/youtubeIcon.svg", "link": "/" },
-        { "imageUrl": "/twitterIcon.svg", "link": "/" },
-        { "imageUrl": "/instagramIcon.svg", "link": "/" }
+      "aboutMe": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences. Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social."
+    },
+    "subHeroSection": {
+      "heading": "Growth Resources",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
       ]
-    }
+    },
+    "socialShareList": [
+      { "imageUrl": "/linkedinIcon.svg", "link": "/" },
+      { "imageUrl": "/youtubeIcon.svg", "link": "/" },
+      { "imageUrl": "/twitterIcon.svg", "link": "/" },
+      { "imageUrl": "/instagramIcon.svg", "link": "/" }
+    ]
   },
   "home": {
     "heroSection": {
@@ -723,32 +737,38 @@
         {
           "head": "Social Media Marketing",
           "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
-          "imageUrl": "/socialMedia.svg"
+          "imageUrl": "/socialMedia.svg",
+          "link": "/social-media-marketing"
         },
         {
           "head": "Performance Marketing",
           "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
-          "imageUrl": "/performance.svg"
+          "imageUrl": "/performance.svg",
+          "link": "/performance-marketing"
         },
         {
           "head": "Retention Marketing",
           "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
-          "imageUrl": "/retention.svg"
+          "imageUrl": "/retention.svg",
+          "link": "/retention-marketing"
         },
         {
           "head": "Search Engine Optimization",
           "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
-          "imageUrl": "/seo.svg"
+          "imageUrl": "/seo.svg",
+          "link": "/search-engine-optimization"
         },
         {
           "head": "Go-To Market Strategy",
           "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
-          "imageUrl": "/marketStrategy.svg"
+          "imageUrl": "/marketStrategy.svg",
+          "link": "/go-to-market-strategy"
         },
         {
           "head": "Influencer Marketing",
           "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
-          "imageUrl": "/influencer.svg"
+          "imageUrl": "/influencer.svg",
+          "link": "/influencer-marketing"
         }
       ]
     },
@@ -764,48 +784,48 @@
       "button": "Check out",
       "link": "marketingTools",
       "marketingToolList": [
-        { "name": "Google Index Checker", "link": "/" },
-        { "name": "Domain Age Checker", "link": "/" },
+        { "name": "Google Index Checker", "link": "/google-index-checker" },
+        { "name": "Domain Age Checker", "link": "/domain-age-checker" },
         {
           "name": "Domain Authority Checker",
-          "link": "/"
+          "link": "/domain-authority-checker"
         },
-        { "name": "Whois Domain Lookup", "link": "/" },
-        { "name": "Robots.txt Generator", "link": "/" },
+        { "name": "Whois Domain Lookup", "link": "/whois-domain-lookup" },
+        { "name": "Robots.txt Generator", "link": "/robots-txt-generator" },
         {
           "name": "Keywords Suggestion Tool",
-          "link": "/"
+          "link": "/keywords-suggestion-tool"
         },
-        { "name": "Meta Tag Generator", "link": "/" },
-        { "name": "Hosting Checker", "link": "/" },
-        { "name": "Adsense Calculator", "link": "/" },
-        { "name": "Hosting Calculator", "link": "/" },
+        { "name": "Meta Tag Generator", "link": "/meta-tag-generator" },
+        { "name": "Hosting Checker", "link": "/hosting-checker" },
+        { "name": "Adsense Calculator", "link": "/adsense-calculator" },
+        { "name": "Hosting Calculator", "link": "/hosting-calculator" },
         {
           "name": "Instagram Retention Analyser",
-          "link": "/"
+          "link": "/instagram-retention-analyser"
         },
-        { "name": "Influencer Finder", "link": "/" },
-        { "name": "Youtube Tags Finder", "link": "/" },
-        { "name": "Twitter Trend Analyser", "link": "/" },
+        { "name": "Influencer Finder", "link": "/influencer-finder" },
+        { "name": "Youtube Tags Finder", "link": "/youtube-tags-finder" },
+        { "name": "Twitter Trend Analyser", "link": "/twitter-trend-analyser" },
         {
           "name": "Twitter Boolen search Helper",
-          "link": "/"
+          "link": "/twitter-boolen-search-helper"
         },
-        { "name": "Instagram Trend Finder", "link": "/" },
+        { "name": "Instagram Trend Finder", "link": "/Instagram-trend-finder" },
         {
           "name": "YouTube Thumbnail Download",
-          "link": "/"
+          "link": "/youtube-thumbnail-download"
         },
         {
           "name": "Instagram Reel Download",
-          "link": "/"
+          "link": "/instagram-reel-download"
         },
-        { "name": "Facebook Ads Library", "link": "/" },
+        { "name": "Facebook Ads Library", "link": "/facebook-ads-library" },
         {
           "name": "Google Ads Transparency",
-          "link": "/"
+          "link": "/google-ads-transparency"
         },
-        { "name": "Ads Saver Extension", "link": "/" }
+        { "name": "Ads Saver Extension", "link": "/ads-saver-extension" }
       ]
     },
     "growthResourcesSection": {
@@ -821,7 +841,7 @@
         {
           "imageUrl": "",
           "heading": "Ultimate SEO Audit Checklist",
-          "link": "/",
+          "link": "/ultimate-seo-audit-checklist",
           "button": "Get Now",
           "para": [
             { "para": "Get a " },
@@ -834,7 +854,7 @@
         {
           "imageUrl": "",
           "heading": "Ultimate SEO Audit Checklist",
-          "link": "/",
+          "link": "/ultimate-seo-audit-checklist",
           "button": "Get Now",
           "para": [
             { "para": "Get a " },
@@ -847,7 +867,7 @@
         {
           "imageUrl": "",
           "heading": "Ultimate SEO Audit Checklist",
-          "link": "/",
+          "link": "/ultimate-seo-audit-checklist",
           "button": "Get Now",
           "para": [
             { "para": "Get a " },
@@ -860,7 +880,7 @@
         {
           "imageUrl": "",
           "heading": "Ultimate SEO Audit Checklist",
-          "link": "/",
+          "link": "/ultimate-seo-audit-checklist",
           "button": "Get Now",
           "para": [
             { "para": "Get a " },
@@ -873,7 +893,7 @@
         {
           "imageUrl": "",
           "heading": "Ultimate SEO Audit Checklist",
-          "link": "/",
+          "link": "/ultimate-seo-audit-checklist",
           "button": "Get Now",
           "para": [
             { "para": "Get a " },
@@ -1031,30 +1051,6 @@
           "head": "Influencer Marketing",
           "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
           "imageUrl": "/influencer.svg"
-        }
-      ]
-    }
-  },
-  "marketingTools": {
-    "subHeroSection": {
-      "heading": "Marketing Tools",
-      "subHeading": [
-        { "para": "Get a " },
-        { "link": "40-page action plan", "href": "/" },
-        {
-          "para": " with all you need to build a crazily good growth marketing funnel."
-        }
-      ]
-    }
-  },
-  "growthResources": {
-    "subHeroSection": {
-      "heading": "Growth Resources",
-      "subHeading": [
-        { "para": "Get a " },
-        { "link": "40-page action plan", "href": "/" },
-        {
-          "para": " with all you need to build a crazily good growth marketing funnel."
         }
       ]
     }

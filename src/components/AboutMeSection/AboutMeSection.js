@@ -9,6 +9,7 @@ import Link from "next/link";
 
 function AboutMeSection() {
   const content = getComponentText("util.aboutMeSection");
+  const socialShareList = getComponentText("util.socialShareList");
 
   return (
     <MainLayout>
@@ -32,13 +33,13 @@ function AboutMeSection() {
             </p>
             <p className="text-paraSecondary mt-4">{content.aboutMe}</p>
             <div className="flex items-center gap-x-4 mt-10">
-              {content.socialShareList.map((item, index) => {
+              {socialShareList.map((item, index) => {
                 return (
                   <Link
                     key={index}
                     href={item.link}
                     target="_blank"
-                    prefetch={true}
+                    prefetch={false}
                     className="bg-black rounded-full p-1.5"
                   >
                     <img

@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 import MainLayout from "../Layout/MainLayout";
-import { getComponentText } from "@/utils/functions/functions";
+import { filePrefix, getComponentText } from "@/utils/functions/functions";
 import Marquee from "react-fast-marquee";
 import Link from "next/link";
 import staticRoutes from "@/utils/routes/staticRoutes";
@@ -40,7 +40,7 @@ function MarketingToolSection() {
             return (
               <Link
                 prefetch={false}
-                href={item.link}
+                href={filePrefix(item.link, "/marketing-tools")}
                 key={index}
                 className="px-4 py-4 bg-black hover:bg-primaryColor hover:text-black transition-all duration-300 ease-in-out border-[3px] border-primaryColor rounded-lg text-lg font-medium mx-2.5 "
               >
@@ -54,7 +54,7 @@ function MarketingToolSection() {
             return (
               <Link
                 prefetch={false}
-                href={item.link}
+                href={filePrefix(item.link, "/marketing-tools")}
                 key={index}
                 className="px-4 py-4 bg-black hover:bg-primaryColor hover:text-black transition-all duration-300 ease-in-out border-[3px] border-primaryColor rounded-lg text-lg font-medium mx-2.5 "
               >

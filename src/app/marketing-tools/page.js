@@ -6,7 +6,7 @@ import React from "react";
 function MarketingToolsPage() {
   return (
     <>
-      <SubHeroSection marketingTools={true} />
+      <SubHeroSection />
       <SearchBarContainer tools={true} />
       <ToolsWrapper />
     </>

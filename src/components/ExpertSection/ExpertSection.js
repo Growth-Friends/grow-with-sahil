@@ -1,11 +1,14 @@
 import React from "react";
 import MainLayout from "../Layout/MainLayout";
-import { getComponentText, svgFilePrefix } from "@/utils/functions/functions";
+import {
+  filePrefix,
+  getComponentText,
+  svgFilePrefix,
+} from "@/utils/functions/functions";
+import Link from "next/link";
 
-function ExpertSection({ home, about }) {
-  const content = getComponentText(
-    `${home ? "home" : about && "about"}.expertSection`
-  );
+function ExpertSection() {
+  const content = getComponentText("home.expertSection");
   return (
     <MainLayout innerClass={"py-20"}>
       <div className="flex items-center justify-between ">
@@ -23,7 +26,12 @@ function ExpertSection({ home, about }) {
       <div className="grid grid-cols-3 gap-20 py-20 ">
         {content.expertList.map((item, index) => {
           return (
-            <div key={index} className="text-center ">
+            <Link
+              prefetch={false}
+              href={filePrefix(item.link, "/services")}
+              key={index}
+              className="text-center hover:shadow-xl transition-all duration-300 ease-in-out px-2 py-4 rounded-lg "
+            >
               <div className="bg-black p-5 rounded-full aspect-square w-[86px] inline-flex items-center ">
                 <img
                   src={svgFilePrefix(item.imageUrl)}
@@ -33,7 +41,7 @@ function ExpertSection({ home, about }) {
               </div>
               <p className="font-semibold text-2xl mt-5 ">{item.head}</p>
               <p className="text-paraSecondary mt-3 px-3 ">{item.para}</p>
-            </div>
+            </Link>
           );
         })}
       </div>

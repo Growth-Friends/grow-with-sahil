@@ -42,6 +42,7 @@ function MoreResources({ moreResources, moreTools }) {
           {content.resourcesList.map((item, index) => {
             return (
               <Link
+                prefetch={false}
                 key={index}
                 href={item.link}
                 className="bg-black text-white p-3.5 flex items-center gap-x-5 rounded-xl hover:scale-105 transition-all duration-300 ease-in-out "

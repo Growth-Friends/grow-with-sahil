@@ -7,15 +7,11 @@ import { usePathname } from "next/navigation";
 
 export let subHeroSectionRef;
 
-function SubHeroSection({ marketingTools, growthResources }) {
+function SubHeroSection() {
   subHeroSectionRef = useRef();
   const pathArray = usePathname().split("/");
   const currentPathName = pathArray[pathArray.length - 1].replaceAll("-", " ");
-  const content = getComponentText(
-    `${
-      marketingTools ? "marketingTools" : growthResources && "growthResources"
-    }.subHeroSection`
-  );
+  const content = getComponentText("util.subHeroSection");
   return (
     <MainLayout
       ref={subHeroSectionRef}

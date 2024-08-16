@@ -6,7 +6,7 @@ import React from "react";
 function growthResourcesPage() {
   return (
     <>
-      <SubHeroSection growthResources={true} />
+      <SubHeroSection />
       <SearchBarContainer resources={true} />
       <ResourcesComponent />
     </>

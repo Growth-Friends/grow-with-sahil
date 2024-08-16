@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import MainLayout from "../Layout/MainLayout";
-import { getComponentText } from "@/utils/functions/functions";
+import { filePrefix, getComponentText } from "@/utils/functions/functions";
 import Link from "next/link";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
@@ -104,7 +104,7 @@ function GrowthResourcesSection() {
                   <div className="mt-5 text-center">
                     <Link
                       prefetch={false}
-                      href={item.link}
+                      href={filePrefix(item.link, "/growth-resources")}
                       className="bg-primaryColor text-black px-3 py-1 rounded-lg font-semibold inline-flex items-center text-lg gap-x-2 hover:gap-x-4 transition-all duration-300 ease-in-out "
                     >
                       {item.button}

@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"], weight: ["500"] });
 function GrowthResourceDownload() {
   const ratingArray = new Array(5).fill(false).fill(true, 0, 4);
   return (
-    <MainLayout innerClass={"pt-20 pb-6"}>
+    <MainLayout innerClass={"pt-12 pb-6"}>
       <div>
         <img
           src={imageFilePrefix("/resourcesImage.png")}

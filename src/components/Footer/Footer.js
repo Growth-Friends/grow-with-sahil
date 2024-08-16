@@ -1,5 +1,9 @@
 "use client";
-import { getComponentText, svgFilePrefix } from "@/utils/functions/functions";
+import {
+  filePrefix,
+  getComponentText,
+  svgFilePrefix,
+} from "@/utils/functions/functions";
 import staticRoutes from "@/utils/routes/staticRoutes";
 import Link from "next/link";
 import React, { useRef } from "react";
@@ -9,6 +13,7 @@ export let footerRef;
 
 function Footer() {
   const content = getComponentText("util.footer");
+  const socialShareList = getComponentText("util.socialShareList");
   footerRef = useRef();
   return (
     <MainLayout
@@ -23,16 +28,21 @@ function Footer() {
         </p>
         <div className="grid grid-flow-col grid-cols-4 mt-[45px] ">
           {content.footerList.map((item, index) => {
+            const staticRoutesActive = item.staticRoutes;
             return (
-              <div className="flex flex-col">
+              <div key={index} className="flex flex-col">
                 <p className="font-bold text-[28px]">{item.head}</p>
-                <ul key={index} className="flex flex-col mt-[12px] gap-y-2">
+                <ul className="flex flex-col mt-[12px] gap-y-2">
                   {item.linkList.map((item, index) => {
                     return (
                       <li key={index}>
                         <Link
                           prefetch={false}
-                          href={staticRoutes[`${item.link}`]}
+                          href={
+                            staticRoutesActive
+                              ? staticRoutes[`${item.link}`]
+                              : filePrefix(item.link, item.prefix)
+                          }
                           className={`${
                             item.disabled && "pointer-events-none"
                           } text-footerPara `}
@@ -48,13 +58,13 @@ function Footer() {
           })}
         </div>
         <div className="flex items-center justify-center gap-x-8 mt-[70px]">
-          {content.socialShareList.map((item, index) => {
+          {socialShareList.map((item, index) => {
             return (
               <Link
                 key={index}
                 href={item.link}
                 target="_blank"
-                prefetch={true}
+                prefetch={false}
               >
                 <img
                   loading="lazy"
