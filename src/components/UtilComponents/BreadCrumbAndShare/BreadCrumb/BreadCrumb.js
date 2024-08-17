@@ -11,10 +11,10 @@ function BreadCrumb() {
   const pathsArray = pathName.split("/");
   return (
     <div>
-      <ul className="flex">
+      <ul className="flex items-center lg:text-base text-sm">
         <li>
           <Link href={staticRoutes.home} prefetch={false}>
-            <HomeRoundedIcon />
+            <HomeRoundedIcon className="md:text-2xl text-xl " />
           </Link>
         </li>
         {pathsArray.map((item, index, array) => {

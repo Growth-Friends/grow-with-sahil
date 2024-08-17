@@ -16,12 +16,16 @@ function SubHeroSection() {
     <MainLayout
       ref={subHeroSectionRef}
       outerClass={"bg-black text-white"}
-      innerClass={"pt-36 pb-28"}
+      innerClass={
+        "xl:pt-36 lg:pt-32 md:pt-28 pt-24 xl:pb-28 lg:pb-24 md:pb-20 pb-16 "
+      }
     >
       <BreadCrumbAndShare />
-      <div className="text-center mt-20">
-        <h1 className="uppercase font-bold text-7xl">{currentPathName}</h1>
-        <p className="text-paraSecondary text-2xl w-[630px] mx-auto mt-8 tracking-wide leading-normal ">
+      <div className="text-center xl:mt-20 lg:mt-16 md:mt-14 mt-12 ">
+        <h1 className="uppercase font-bold xl:text-7xl lg:text-6xl md:text-5xl text-3xl  ">
+          {currentPathName}
+        </h1>
+        <p className="text-paraSecondary xl:text-2xl lg:text-xl md:text-lg text-sm xl:w-[630px] lg:w-[580px] md:w-[500px] w-full mx-auto xl:mt-8 lg:mt-6 md:mt-4 mt-3 tracking-wide leading-normal ">
           {content.subHeading.map((item, index) => {
             return (
               <React.Fragment key={index}>

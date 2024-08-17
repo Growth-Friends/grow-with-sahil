@@ -42,7 +42,7 @@ function ShareWebsite() {
   return (
     <div className="relative" onClick={isHoveredOpen}>
       <ShareRoundedIcon
-        className="share-social-button cursor-pointer"
+        className="share-social-button cursor-pointer lg:text-2xl text-xl"
         onClick={isHoveredOpen}
       />
       <AnimatePresence>
