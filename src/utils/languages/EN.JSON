@@ -1,0 +1,1082 @@
+{
+  "util": {
+    "navbar": {
+      "brandName": "GWS",
+      "navList": [
+        { "para": "About Me", "link": "about" },
+        { "para": "Marketing Tools", "link": "marketingTools" },
+        { "para": "Growth Resources", "link": "growthResources" }
+      ]
+    },
+    "emailForm": {
+      "inputList": [
+        {
+          "placeholder": "Your Email ID",
+          "trueType": "email",
+          "name": "email",
+          "type": "text"
+        }
+      ],
+      "button": {
+        "home": { "para": "Get it Now!" },
+        "about": { "para": "Let's Chat" }
+      }
+    },
+    "popupForm": {
+      "heading": ["Unlock Your Free", "Growth Plan!"],
+      "inputList": [
+        {
+          "placeholder": "Your Name",
+          "trueType": "text",
+          "name": "name",
+          "type": "text"
+        },
+        {
+          "placeholder": "Your Phone Number",
+          "trueType": "phone",
+          "name": "phone",
+          "type": "text"
+        }
+      ],
+      "button": { "para": "Get it Now" }
+    },
+    "popupDownload": {
+      "heading": ["Get your Product Now!"],
+      "inputList": [
+        {
+          "placeholder": "Your Name",
+          "trueType": "text",
+          "name": "name",
+          "type": "text"
+        },
+        {
+          "placeholder": "Your Email ID",
+          "trueType": "email",
+          "name": "email",
+          "type": "text"
+        },
+        {
+          "placeholder": "Your Phone Number",
+          "trueType": "phone",
+          "name": "phone",
+          "type": "text"
+        }
+      ],
+      "button": { "para": "Get it Now!" }
+    },
+    "seoTools": {
+      "heading": "Search Engine optimization",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "toolsList": [
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Google Index Checker",
+          "link": "/google-index-checker",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Domain Age Checker",
+          "link": "/domain-age-checker",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Domain Authority Checker",
+          "link": "/domain-authority-checker",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Whois Domain Lookup",
+          "link": "/whois-domain-lookup",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Robots.txt Generator",
+          "link": "/robots-txt-generator",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Keywords Suggestion Tool",
+          "link": "/keywords-suggestion-tool",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Meta Tag Generator",
+          "link": "/meta-tag-generator",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Hosting Checker",
+          "link": "/hosting-checker",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Adsense Calculator",
+          "link": "/adsense-calculator",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Hosting Calculator",
+          "link": "/hosting-calculator",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        }
+      ]
+    },
+    "socialTools": {
+      "heading": "Social Media",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "toolsList": [
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Instagram Retention Analyser",
+          "link": "/instagram-retention-analyser",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Influencer Finder",
+          "link": "/influencer-finder",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Youtube Tags Finder",
+          "link": "/youtube-tags-finder",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Twitter Trend Analyser",
+          "link": "/twitter-trend-analyser",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Twitter Boolen search Helper",
+          "link": "/twitter-boolen-search-helper",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Instagram Trend Finder",
+          "link": "/Instagram-trend-finder",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "YouTube Thumbnail Download",
+          "link": "/youtube-thumbnail-download",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Instagram Reel Download",
+          "link": "/instagram-reel-download",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        }
+      ]
+    },
+    "performanceTools": {
+      "heading": "Performance Marketing",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "toolsList": [
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Facebook Ads Library",
+          "link": "/facebook-ads-library",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Google Ads Transparency",
+          "link": "/google-ads-transparency",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Ads Saver Extension",
+          "link": "/ads-saver-extension",
+          "hostedInHouse": true,
+          "likes": "+4000",
+          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
+          "button": "Check out"
+        }
+      ]
+    },
+    "searchBar": {
+      "tools": { "placeholder": "Search for you Tool" },
+      "resources": { "placeholder": "Search for your Resource" }
+    },
+    "growthResources": {
+      "resourceList": [
+        {
+          "head": "SEO Checklist Roadmap",
+          "subHeading": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ],
+          "imageUrl": "/resourcesImage.png",
+          "rating": 4,
+          "downloadCount": "250+",
+          "button": "Get Now",
+          "link": "/seo-checklist-roadmap"
+        },
+        {
+          "head": "SEO Checklist Roadmap",
+          "subHeading": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ],
+          "imageUrl": "/resourcesImage.png",
+          "rating": 4,
+          "downloadCount": "250+",
+          "button": "Get Now",
+          "link": "/seo-checklist-roadmap"
+        },
+        {
+          "head": "SEO Checklist Roadmap",
+          "subHeading": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ],
+          "imageUrl": "/resourcesImage.png",
+          "rating": 4,
+          "downloadCount": "250+",
+          "button": "Get Now",
+          "link": "/seo-checklist-roadmap"
+        },
+        {
+          "head": "SEO Checklist Roadmap",
+          "subHeading": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ],
+          "imageUrl": "/resourcesImage.png",
+          "rating": 4,
+          "downloadCount": "250+",
+          "button": "Get Now",
+          "link": "/seo-checklist-roadmap"
+        },
+        {
+          "head": "SEO Checklist Roadmap",
+          "subHeading": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ],
+          "imageUrl": "/resourcesImage.png",
+          "rating": 4,
+          "downloadCount": "250+",
+          "button": "Get Now",
+          "link": "/seo-checklist-roadmap"
+        },
+        {
+          "head": "SEO Checklist Roadmap",
+          "subHeading": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ],
+          "imageUrl": "/resourcesImage.png",
+          "rating": 4,
+          "downloadCount": "250+",
+          "button": "Get Now",
+          "link": "/seo-checklist-roadmap"
+        }
+      ]
+    },
+    "footer": {
+      "brandName": "GWS",
+      "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences. Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social.",
+      "footerList": [
+        {
+          "head": "Overview",
+          "staticRoutes": true,
+          "linkList": [
+            { "para": "About me", "link": "about" },
+            { "para": "All Tools", "link": "marketingTools" },
+            { "para": "All Resources", "link": "growthResources" },
+            { "para": "Blogs", "link": "blog" }
+          ]
+        },
+        {
+          "head": "Services",
+          "staticRoutes": false,
+          "linkList": [
+            {
+              "para": "Performance Marketing",
+              "link": "/performance-marketing",
+              "prefix": "/services"
+            },
+            {
+              "para": "Social Media Marketing",
+              "link": "/social-media-marketing",
+              "prefix": "/services"
+            },
+            {
+              "para": "Influencer Marketing",
+              "link": "/influencer-marketing",
+              "prefix": "/services"
+            },
+            {
+              "para": "Search Engine Optimization",
+              "link": "/search-engine-optimization",
+              "prefix": "/services"
+            },
+            {
+              "para": "Growth Loops",
+              "link": "/growth-loops",
+              "prefix": "/services"
+            },
+            {
+              "para": "Go to Market Strategy",
+              "link": "/go-to-market-strategy",
+              "prefix": "/services"
+            },
+            {
+              "para": "Retention Marketing",
+              "link": "/retention-marketing",
+              "prefix": "/services"
+            }
+          ]
+        },
+        {
+          "head": "Tools",
+          "staticRoutes": false,
+          "linkList": [
+            {
+              "para": "Google Index Checker",
+              "link": "/google-index-checker",
+              "prefix": "/marketing-tools"
+            },
+            {
+              "para": "Domain Age Checker",
+              "link": "/domain-age-checker",
+              "prefix": "/marketing-tools"
+            },
+            {
+              "para": "Instagram Retention Analyser",
+              "link": "/instagram-retention-analyser",
+              "prefix": "/marketing-tools"
+            },
+            {
+              "para": "Youtube Tags Finder",
+              "link": "/youtube-tags-finder",
+              "prefix": "/marketing-tools"
+            },
+            {
+              "para": "YouTube Thumbnail Download",
+              "link": "/youtube-thumbnail-download",
+              "prefix": "/marketing-tools"
+            },
+            {
+              "para": "Meta Tag Generator",
+              "link": "/meta-tag-generator",
+              "prefix": "/marketing-tools"
+            }
+          ]
+        },
+        {
+          "head": "Growth Resources",
+          "staticRoutes": false,
+          "linkList": [
+            {
+              "para": "Important Softwares",
+              "link": "/important-softwares",
+              "prefix": "/growth-resources"
+            },
+            {
+              "para": "On-page & Off page SEO Prompt",
+              "link": "/on-page-&-off-page-seo-prompt",
+              "prefix": "/growth-resources"
+            },
+            {
+              "para": "Landing Page 101 ChatGPT",
+              "link": "/landing-page-101-chatgpt",
+              "prefix": "/growth-resources"
+            },
+            {
+              "para": "Social Media Calender Template",
+              "link": "/social-media-calender-template",
+              "prefix": "/growth-resources"
+            },
+            {
+              "para": "Checklist for Twitter growth",
+              "link": "/checklist-for-twitter-growth",
+              "prefix": "/growth-resources"
+            },
+            {
+              "para": "The Art of Chatgpt writing",
+              "link": "/the-art-of-chatgpt-writing",
+              "prefix": "/growth-resources"
+            }
+          ]
+        }
+      ]
+    },
+    "detailSection": {
+      "contentList": [
+        {
+          "type": "heading-para",
+          "heading": "What is Google Index Checker?",
+          "headingType": "h2",
+          "paraList": [
+            {
+              "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences. Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves"
+            },
+            {
+              "para": " leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences."
+            }
+          ]
+        },
+        {
+          "type": "heading-para",
+          "heading": "What is Google Index Checker?",
+          "headingType": "h3",
+          "paraList": [
+            {
+              "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences. Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves"
+            },
+            {
+              "para": " leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences."
+            }
+          ]
+        },
+        { "type": "email-promotion" },
+        {
+          "type": "heading-para",
+          "heading": "What is Google Index Checker?",
+          "headingType": "h4",
+          "paraList": [
+            {
+              "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences. Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves"
+            },
+            {
+              "para": " leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences."
+            }
+          ]
+        }
+      ],
+      "emailPromotion": {
+        "subHeading": [
+          { "para": "Get a " },
+          { "link": "40-page action plan", "href": "/" },
+          {
+            "para": " with all you need to build a crazily good growth marketing funnel."
+          }
+        ],
+        "benefitsList": [
+          {
+            "para": "100% tailor made for your brand.",
+            "imageUrl": "/star.svg",
+            "alt": "tailor made icon"
+          },
+          {
+            "para": "Free for Cost. No Strings attached.",
+            "imageUrl": "/addUser.svg",
+            "alt": "free cost icon"
+          }
+        ]
+      }
+    },
+    "moreResources": {
+      "heading": "Related Resources",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "resourcesList": [
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Google Index Checker",
+          "link": "/google-index-checker"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Domain Age Checker",
+          "link": "/domain-age-checker"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Domain Authority Checker",
+          "link": "/domain-authority-checker"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Whois Domain Lookup",
+          "link": "/whois-domain-lookup"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Robots.txt Generator",
+          "link": "/robots-txt-generator"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Keywords Suggestion Tool",
+          "link": "/keywords-suggestion-tool"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Meta Tag Generator",
+          "link": "/meta-tag-generator"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Hosting Checker",
+          "link": "/hosting-checker"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Adsense Calculator",
+          "link": "/adsense-calculator"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Hosting Calculator",
+          "link": "/hosting-calculator"
+        }
+      ]
+    },
+    "moreTools": {
+      "heading": "Related Tools",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "resourcesList": [
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Google Index Checker",
+          "link": "/google-index-checker"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Domain Age Checker",
+          "link": "/domain-age-checker"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Domain Authority Checker",
+          "link": "/domain-authority-checker"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Whois Domain Lookup",
+          "link": "/whois-domain-lookup"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Robots.txt Generator",
+          "link": "/robots-txt-generator"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Keywords Suggestion Tool",
+          "link": "/keywords-suggestion-tool"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Meta Tag Generator",
+          "link": "/meta-tag-generator"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Hosting Checker",
+          "link": "/hosting-checker"
+        },
+        {
+          "imageUrl": "/checked.svg",
+          "head": "Adsense Calculator",
+          "link": "/adsense-calculator"
+        },
+        {
+          "imageUrl": "/bandage.svg",
+          "head": "Hosting Calculator",
+          "link": "/hosting-calculator"
+        }
+      ]
+    },
+    "aboutMeSection": {
+      "heading": "About Me",
+      "name": "Sahil Khan",
+      "position": "Growth Marketer",
+      "aboutMe": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences. Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.Social."
+    },
+    "subHeroSection": {
+      "heading": "Growth Resources",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ]
+    },
+    "socialShareList": [
+      { "imageUrl": "/linkedinIcon.svg", "link": "/" },
+      { "imageUrl": "/youtubeIcon.svg", "link": "/" },
+      { "imageUrl": "/twitterIcon.svg", "link": "/" },
+      { "imageUrl": "/instagramIcon.svg", "link": "/" }
+    ]
+  },
+  "home": {
+    "heroSection": {
+      "heading": [
+        [{ "para": "YOU DON’T NEED FEATURES, " }],
+        [{ "para": "YOU NEED " }, { "para": "MARKETING.", "styleBg": true }]
+      ],
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "benefitsList": [
+        {
+          "para": "100% tailor made for your brand.",
+          "imageUrl": "/star.svg",
+          "alt": "tailor made icon"
+        },
+        {
+          "para": "Free for Cost. No Strings attached.",
+          "imageUrl": "/addUser.svg",
+          "alt": "free cost icon"
+        }
+      ],
+      "mainImageUrl": "/profilePicture.png"
+    },
+    "expertSection": {
+      "heading": ["Expertise on ", "All Channels."],
+      "expertList": [
+        {
+          "head": "Social Media Marketing",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/socialMedia.svg",
+          "link": "/social-media-marketing"
+        },
+        {
+          "head": "Performance Marketing",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/performance.svg",
+          "link": "/performance-marketing"
+        },
+        {
+          "head": "Retention Marketing",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/retention.svg",
+          "link": "/retention-marketing"
+        },
+        {
+          "head": "Search Engine Optimization",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/seo.svg",
+          "link": "/search-engine-optimization"
+        },
+        {
+          "head": "Go-To Market Strategy",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/marketStrategy.svg",
+          "link": "/go-to-market-strategy"
+        },
+        {
+          "head": "Influencer Marketing",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/influencer.svg",
+          "link": "/influencer-marketing"
+        }
+      ]
+    },
+    "marketingToolSection": {
+      "heading": "Check out Marketing Tools",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "button": "Check out",
+      "link": "marketingTools",
+      "marketingToolList": [
+        { "name": "Google Index Checker", "link": "/google-index-checker" },
+        { "name": "Domain Age Checker", "link": "/domain-age-checker" },
+        {
+          "name": "Domain Authority Checker",
+          "link": "/domain-authority-checker"
+        },
+        { "name": "Whois Domain Lookup", "link": "/whois-domain-lookup" },
+        { "name": "Robots.txt Generator", "link": "/robots-txt-generator" },
+        {
+          "name": "Keywords Suggestion Tool",
+          "link": "/keywords-suggestion-tool"
+        },
+        { "name": "Meta Tag Generator", "link": "/meta-tag-generator" },
+        { "name": "Hosting Checker", "link": "/hosting-checker" },
+        { "name": "Adsense Calculator", "link": "/adsense-calculator" },
+        { "name": "Hosting Calculator", "link": "/hosting-calculator" },
+        {
+          "name": "Instagram Retention Analyser",
+          "link": "/instagram-retention-analyser"
+        },
+        { "name": "Influencer Finder", "link": "/influencer-finder" },
+        { "name": "Youtube Tags Finder", "link": "/youtube-tags-finder" },
+        { "name": "Twitter Trend Analyser", "link": "/twitter-trend-analyser" },
+        {
+          "name": "Twitter Boolen search Helper",
+          "link": "/twitter-boolen-search-helper"
+        },
+        { "name": "Instagram Trend Finder", "link": "/Instagram-trend-finder" },
+        {
+          "name": "YouTube Thumbnail Download",
+          "link": "/youtube-thumbnail-download"
+        },
+        {
+          "name": "Instagram Reel Download",
+          "link": "/instagram-reel-download"
+        },
+        { "name": "Facebook Ads Library", "link": "/facebook-ads-library" },
+        {
+          "name": "Google Ads Transparency",
+          "link": "/google-ads-transparency"
+        },
+        { "name": "Ads Saver Extension", "link": "/ads-saver-extension" }
+      ]
+    },
+    "growthResourcesSection": {
+      "heading": "Growth Resources",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "growthResourcesList": [
+        {
+          "imageUrl": "",
+          "heading": "Ultimate SEO Audit Checklist",
+          "link": "/ultimate-seo-audit-checklist",
+          "button": "Get Now",
+          "para": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ]
+        },
+        {
+          "imageUrl": "",
+          "heading": "Ultimate SEO Audit Checklist",
+          "link": "/ultimate-seo-audit-checklist",
+          "button": "Get Now",
+          "para": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ]
+        },
+        {
+          "imageUrl": "",
+          "heading": "Ultimate SEO Audit Checklist",
+          "link": "/ultimate-seo-audit-checklist",
+          "button": "Get Now",
+          "para": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ]
+        },
+        {
+          "imageUrl": "",
+          "heading": "Ultimate SEO Audit Checklist",
+          "link": "/ultimate-seo-audit-checklist",
+          "button": "Get Now",
+          "para": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ]
+        },
+        {
+          "imageUrl": "",
+          "heading": "Ultimate SEO Audit Checklist",
+          "link": "/ultimate-seo-audit-checklist",
+          "button": "Get Now",
+          "para": [
+            { "para": "Get a " },
+            { "link": "40-page action plan", "href": "/" },
+            {
+              "para": " with all you need to build a crazily good growth marketing funnel."
+            }
+          ]
+        }
+      ]
+    },
+    "blogSection": {
+      "heading": "Blogs",
+      "subHeading": [
+        { "para": "Get a " },
+        { "link": "40-page action plan", "href": "/" },
+        {
+          "para": " with all you need to build a crazily good growth marketing funnel."
+        }
+      ],
+      "blogList": [
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
+        },
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
+        },
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
+        },
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
+        },
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
+        },
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
+        },
+        {
+          "heading": "What is Meta Pixel and how to set it up?",
+          "para": "Stop losing money! Without Meta Pixel, you may be missing out on crucial insights and losing money on your ads.",
+          "author": "Shail Khan",
+          "publish": "Published by",
+          "button": "Read More",
+          "link": "/",
+          "imageUrl": "/blogImage.png"
+        }
+      ]
+    }
+  },
+  "about": {
+    "heroSection": {
+      "heading": [
+        [{ "para": "A GROWTH MARKETER " }],
+        [{ "para": "WITH " }, { "para": "6 YEARS OF EXP.", "styleBg": true }]
+      ],
+      "subHeading": [{ "para": "Have a Project in mind?" }],
+      "mainImageUrl": "/aboutPicture.png"
+    },
+    "experienceSection": {
+      "heading": "MY EXPERIENCE",
+      "experienceSectionList": [
+        {
+          "head": "4Fox",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram."
+        },
+        {
+          "head": "4Fox",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram."
+        },
+        {
+          "head": "4Fox",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram."
+        },
+        {
+          "head": "4Fox",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram."
+        },
+        {
+          "head": "4Fox",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram."
+        },
+        {
+          "head": "4Fox",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram."
+        }
+      ]
+    },
+    "expertSection": {
+      "heading": ["Expertise on ", "All Channels."],
+      "expertList": [
+        {
+          "head": "Social Media Marketing",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/socialMedia.svg"
+        },
+        {
+          "head": "Performance Marketing",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/performance.svg"
+        },
+        {
+          "head": "Retention Marketing",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/retention.svg"
+        },
+        {
+          "head": "Search Engine Optimization",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/seo.svg"
+        },
+        {
+          "head": "Go-To Market Strategy",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/marketStrategy.svg"
+        },
+        {
+          "head": "Influencer Marketing",
+          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "imageUrl": "/influencer.svg"
+        }
+      ]
+    }
+  }
+}
