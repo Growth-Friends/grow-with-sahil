@@ -1,6 +1,10 @@
 "use client";
 import MainLayout from "@/components/Layout/MainLayout";
-import { getComponentText, svgFilePrefix } from "@/utils/functions/functions";
+import {
+  filePrefix,
+  getComponentText,
+  svgFilePrefix,
+} from "@/utils/functions/functions";
 import Link from "next/link";
 import React, { useRef } from "react";
 
@@ -46,7 +50,12 @@ function MoreResources({ moreResources, moreTools }) {
               <Link
                 prefetch={false}
                 key={index}
-                href={item.link}
+                href={filePrefix(
+                  item.link,
+                  moreResources
+                    ? "/growth-resources"
+                    : moreTools && "/marketing-tools"
+                )}
                 className="bg-black text-white xl:p-3.5 p-3 flex items-center gap-x-5 rounded-xl hover:scale-105 transition-all duration-300 ease-in-out "
               >
                 <img
