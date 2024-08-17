@@ -12,10 +12,10 @@ function BlogSection() {
         "xl:pt-20 lg:pt-16 md:pt-14 pt-8 xl:pb-20 lg:pb-16 md:pb-14 pb-10 text-center"
       }
     >
-      <h2 className="font-bold xl:text-5xl lg:text-4xl md:text-3xl text-2xl px-3 ">
+      <h2 className="font-bold xl:text-5xl lg:text-4xl md:text-3xl text-2xl ">
         {content.heading}
       </h2>
-      <p className="text-paraSecondary xl:text-xl lg:text-lg md:text-base text-sm xl:w-[580px] lg:w-[500px] md:w-[460px] w-full md:px-0 px-3 xl:mt-3 lg:mt-2 mt-1 tracking-wide leading-normal inline-block ">
+      <p className="text-paraSecondary xl:text-xl lg:text-lg md:text-base text-sm xl:w-[580px] lg:w-[500px] md:w-[460px] w-full xl:mt-3 lg:mt-2 mt-1 tracking-wide leading-normal inline-block ">
         {content.subHeading.map((item, index) => {
           return (
             <React.Fragment key={index}>
@@ -60,7 +60,7 @@ function BlogSection() {
                       <Link
                         prefetch={false}
                         href={staticRoutes.blog}
-                        className="bg-primaryColor text-black hover:bg-black hover:text-white xl:px-3 px-2 py-1 xl:rounded-md rounded font-semibold xl:text-base text-sm transition-all duration-300 ease-in-out"
+                        className="bg-primaryColor text-black hover:bg-black hover:text-white xl:px-3 px-2 py-1 rounded-md font-semibold xl:text-base text-sm transition-all duration-300 ease-in-out"
                       >
                         {item.button}
                       </Link>

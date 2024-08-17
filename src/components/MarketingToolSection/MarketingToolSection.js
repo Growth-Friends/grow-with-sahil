@@ -19,10 +19,10 @@ function MarketingToolSection() {
       }
       ref={marketingToolRef}
     >
-      <h2 className="font-bold xl:text-5xl lg:text-4xl md:text-3xl text-2xl px-3 ">
+      <h2 className="font-bold xl:text-5xl lg:text-4xl md:text-3xl text-2xl ">
         {content.heading}
       </h2>
-      <p className="text-paraSecondary xl:text-xl lg:text-lg md:text-base text-sm xl:w-[580px] lg:w-[500px] md:w-[460px] w-full md:px-0 px-3 xl:mt-3 lg:mt-2 mt-1 tracking-wide leading-normal inline-block ">
+      <p className="text-paraSecondary xl:text-xl lg:text-lg md:text-base text-sm xl:w-[580px] lg:w-[500px] md:w-[460px] w-full xl:mt-3 lg:mt-2 mt-1 tracking-wide leading-normal inline-block ">
         {content.subHeading.map((item, index) => {
           return (
             <React.Fragment key={index}>
@@ -80,7 +80,7 @@ function MarketingToolSection() {
       <Link
         prefetch={false}
         href={staticRoutes[`${content.link}`]}
-        className="bg-primaryColor text-black lg:px-4 px-3 xl:py-3 lg:py-2.5 py-2 xl:rounded-lg lg:rounded-md rounded font-semibold inline-flex items-center xl:text-lg md:text-base text-sm xl:gap-x-2 lg:gap-x-1.5 md:gap-x-1 gap-x-0.5 hover:gap-x-4 transition-all duration-300 ease-in-out "
+        className="bg-primaryColor text-black lg:px-4 px-3 xl:py-3 lg:py-2.5 py-2 rounded-md font-semibold inline-flex items-center xl:text-lg md:text-base text-sm xl:gap-x-2 lg:gap-x-1.5 md:gap-x-1 gap-x-0.5 hover:gap-x-4 transition-all duration-300 ease-in-out "
       >
         <span>{content.button}</span>
 

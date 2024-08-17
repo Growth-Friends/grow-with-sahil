@@ -21,13 +21,15 @@ const ToolsComponent = forwardRef(
     );
     return (
       <MainLayout>
-        <div className="py-10 overflow-hidden ">
+        <div className="xl:py-10 py-7 overflow-hidden ">
           <div
             ref={ref}
-            className="text-center bg-black text-white py-10 px-3 rounded-t-2xl"
+            className="text-center bg-black text-white lg:py-10 md:py-8 py-7 px-3 rounded-t-2xl"
           >
-            <h2 className="font-bold text-5xl uppercase ">{content.heading}</h2>
-            <p className="text-paraSecondary text-xl w-[580px] mx-auto mt-3 tracking-wide leading-normal ">
+            <h2 className="font-bold xl:text-5xl lg:text-4xl md:text-3xl text-xl uppercase ">
+              {content.heading}
+            </h2>
+            <p className="text-paraSecondary xl:text-xl lg:text-lg md:text-base text-sm xl:w-[580px] lg:w-[500px] md:w-[460px] w-full xl:mt-3 lg:mt-2 mt-1 mx-auto tracking-wide leading-normal ">
               {content.subHeading.map((item, index) => {
                 return (
                   <React.Fragment key={index}>
@@ -46,23 +48,25 @@ const ToolsComponent = forwardRef(
               })}
             </p>
           </div>
-          <div className="grid grid-cols-3 p-10 gap-10 border-x-2 border-b-2 border-paraSecondary/40 rounded-b-2xl ">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:p-10 lg:p-8 md:p-6 p-6 xl:gap-10 lg:gap-8 md:gap-6 gap-6 border-x-2 border-b-2 border-paraSecondary/40 rounded-b-2xl ">
             {content.toolsList.map((item, index) => {
               return (
                 <div
                   key={index}
-                  className="bg-black text-white p-8 gap-x-5 rounded-xl "
+                  className="bg-black text-white xl:p-8 p-4 gap-x-5 rounded-xl flex flex-col xl:max-w-[320px] lg:max-w-[280px] md:max-w-[260px] max-w-[250px] mx-auto "
                 >
-                  <div className="flex items-center gap-x-6">
+                  <div className="flex items-center lg:gap-x-6 gap-x-5">
                     <img
                       loading="lazy"
                       src={svgFilePrefix(item.imageUrl)}
                       alt={item.head}
-                      className="aspect-auto w-16"
+                      className="aspect-auto xl:w-16 lg:w-14 w-12 "
                     />
-                    <p className="font-semibold text-2xl">{item.head}</p>
+                    <p className="font-semibold xl:text-2xl md:text-xl text-lg ">
+                      {item.head}
+                    </p>
                   </div>
-                  <div className="flex items-center justify-between mt-5">
+                  <div className="flex items-center justify-between xl:text-base text-sm mt-5">
                     <p className="font-light">
                       {item.hostedInHouse ? "In-House" : "Re-directed"}
                     </p>
@@ -76,12 +80,14 @@ const ToolsComponent = forwardRef(
                       <span>{item.likes}</span>
                     </div>
                   </div>
-                  <p className="text-lg mt-4">{item.aboutTool}</p>
-                  <div className="flex justify-center mt-10">
+                  <p className="xl:text-lg md:text-base text-sm mt-5 mb-10 ">
+                    {item.aboutTool}
+                  </p>
+                  <div className="flex justify-center mt-auto  ">
                     <Link
                       prefetch={false}
                       href={filePrefix(item.link, "/marketing-tools")}
-                      className="bg-primaryColor text-black px-3 py-2 rounded-md font-medium flex items-center gap-x-1 hover:gap-x-2 transition-all duration-300 ease-in-out "
+                      className="bg-primaryColor text-black px-3 py-2 rounded-md font-medium flex xl:text-base md:text-sm text-xs items-center gap-x-1 hover:gap-x-2 transition-all duration-300 ease-in-out "
                     >
                       {item.button}
                       <ArrowForwardIcon className="text-base" />
