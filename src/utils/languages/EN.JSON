@@ -23,6 +23,7 @@
       }
     },
     "popupForm": {
+      "heading": ["Unlock Your Free", "Growth Plan!"],
       "inputList": [
         {
           "placeholder": "Your Name",
@@ -37,7 +38,7 @@
           "type": "text"
         }
       ],
-      "button": { "para": "Get it Now!" }
+      "button": { "para": "Get it Now" }
     },
     "seoTools": {
       "heading": "Search Engine optimization",
