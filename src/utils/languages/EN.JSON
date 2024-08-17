@@ -40,6 +40,30 @@
       ],
       "button": { "para": "Get it Now" }
     },
+    "popupDownload": {
+      "heading": ["Get your Product Now!"],
+      "inputList": [
+        {
+          "placeholder": "Your Name",
+          "trueType": "text",
+          "name": "name",
+          "type": "text"
+        },
+        {
+          "placeholder": "Your Email ID",
+          "trueType": "email",
+          "name": "email",
+          "type": "text"
+        },
+        {
+          "placeholder": "Your Phone Number",
+          "trueType": "phone",
+          "name": "phone",
+          "type": "text"
+        }
+      ],
+      "button": { "para": "Get it Now!" }
+    },
     "seoTools": {
       "heading": "Search Engine optimization",
       "subHeading": [

@@ -90,15 +90,16 @@ function EmailForm({ home, about }) {
         name={name}
         phone={phone}
         onSubmitApi={onSubmitApi}
+        popupForm={true}
       />
-      <div
+      <form
         className={`inline-flex flex-wrap justify-center lg:gap-x-3 gap-x-2 ${
           inValid ? "gap-y-6" : "gap-y-3"
         }  lg:text-lg text-base `}
       >
         {content.inputList.map((item, index) => {
           return (
-            <div className="relative">
+            <div className="relative" key={index}>
               <Input
                 key={index}
                 name={item.name}
@@ -125,7 +126,7 @@ function EmailForm({ home, about }) {
         >
           {content.button[`${home ? "home" : about && "about"}`].para}
         </button>
-      </div>
+      </form>
     </>
   );
 }

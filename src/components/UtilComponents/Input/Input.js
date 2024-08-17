@@ -37,6 +37,7 @@ function Input({
   return (
     <input
       name={name}
+      id={name}
       type={type}
       required={required}
       className={roboto.className + ` outline-none ${inputCss} `}

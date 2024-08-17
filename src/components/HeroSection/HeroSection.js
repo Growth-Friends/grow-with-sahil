@@ -26,16 +26,16 @@ function HeroSection({ home, about }) {
           {content.heading.map((item, index) => {
             return (
               <span key={index}>
-                {item.map((ele, idx) => {
+                {item.map((item, index) => {
                   return (
                     <span
-                      key={idx}
+                      key={index}
                       className={`${
-                        ele.styleBg &&
+                        item.styleBg &&
                         "text-black bg-primaryColor px-3 rounded-lg "
                       }`}
                     >
-                      {ele.para}
+                      {item.para}
                     </span>
                   );
                 })}
