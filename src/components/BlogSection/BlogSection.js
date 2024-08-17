@@ -1,11 +1,51 @@
+"use client";
 import { getComponentText, imageFilePrefix } from "@/utils/functions/functions";
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import MainLayout from "../Layout/MainLayout";
 import Link from "next/link";
 import staticRoutes from "@/utils/routes/staticRoutes";
+import ArrowCircleLeftRoundedIcon from "@mui/icons-material/ArrowCircleLeftRounded";
+import ArrowCircleRightRoundedIcon from "@mui/icons-material/ArrowCircleRightRounded";
 
 function BlogSection() {
   const content = getComponentText("home.blogSection");
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const scrollRefs = useRef([]);
+  const scrollContainer = useRef();
+
+  //increase index
+  function increaseIndex() {
+    setCurrentIndex((previousIndex) => {
+      const maxScrollWidth =
+        scrollContainer.current.scrollWidth -
+        scrollContainer.current.clientWidth;
+      const currentScrollLeft =
+        scrollRefs.current[previousIndex + 1].offsetLeft;
+      if (currentScrollLeft <= maxScrollWidth) {
+        return previousIndex + 1;
+      } else {
+        return previousIndex;
+      }
+    });
+  }
+
+  //decrease index
+  function decreaseIndex() {
+    setCurrentIndex((previousIndex) => {
+      return previousIndex - 1 > 0 ? previousIndex - 1 : 0;
+    });
+  }
+
+  useEffect(() => {
+    if (scrollRefs.current[currentIndex] && scrollContainer.current) {
+      const offset = scrollRefs.current[currentIndex].offsetLeft;
+      scrollContainer.current.scrollTo({
+        left: offset,
+        behavior: "smooth",
+      });
+    }
+  }, [currentIndex]);
+
   return (
     <MainLayout
       innerClass={
@@ -31,10 +71,14 @@ function BlogSection() {
         })}
       </p>
       <div className="relative xl:mt-16 lg:mt-14 md:mt-12 mt-10 ">
-        <div className="relative md:overflow-hidden overflow-x-scroll flex">
+        <div
+          className="relative md:overflow-hidden overflow-x-scroll flex"
+          ref={scrollContainer}
+        >
           {content.blogList.map((item, index) => {
             return (
               <div
+                ref={(ref) => (scrollRefs.current[index] = ref)}
                 key={index}
                 className="lg:w-[calc(100%/4)] md:w-[calc(100%/3)] w-[220px] flex-shrink-0 xl:px-3 px-2 "
               >
@@ -71,6 +115,24 @@ function BlogSection() {
               </div>
             );
           })}
+        </div>
+        <div className="md:inline-flex hidden xl:mt-4 mt-3 xl:gap-x-2 gap-x-1.5 items-center text-slate-300">
+          <ArrowCircleLeftRoundedIcon
+            className="xl:text-3xl text-2xl cursor-pointer"
+            onClick={decreaseIndex}
+          />
+          {[true, true, true].map((item, index) => {
+            return (
+              <div
+                key={index}
+                className="xl:border-[4px] border-[3px] rounded-full border-slate-100 "
+              />
+            );
+          })}
+          <ArrowCircleRightRoundedIcon
+            className="xl:text-3xl text-2xl cursor-pointer"
+            onClick={increaseIndex}
+          />
         </div>
       </div>
     </MainLayout>
