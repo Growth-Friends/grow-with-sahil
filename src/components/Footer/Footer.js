@@ -22,17 +22,21 @@ function Footer() {
       ref={footerRef}
     >
       <div className="">
-        <h2 className="font-bold text-[32px]">{content.brandName}</h2>
-        <p className="font-medium text-[17px] leading-relaxed text-paraSecondary mt-[8px]">
+        <h2 className="font-bold xl:text-3xl lg:text-2xl md:text-xl text-2xl ">
+          {content.brandName}
+        </h2>
+        <p className="font-medium xl:text-[17px] lg:text-[16px] md:text-[15px] text-[14px] leading-relaxed text-paraSecondary mt-[8px]">
           {content.para}
         </p>
-        <div className="grid grid-flow-col grid-cols-4 mt-[45px] ">
+        <div className="grid grid-flow-col md:grid-cols-4 grid-cols-2 md:grid-rows-1 grid-rows-2 gap-x-3 gap-y-4 lg:mt-[45px] mt-[40px] ">
           {content.footerList.map((item, index) => {
             const staticRoutesActive = item.staticRoutes;
             return (
               <div key={index} className="flex flex-col">
-                <p className="font-bold text-[28px]">{item.head}</p>
-                <ul className="flex flex-col mt-[12px] gap-y-2">
+                <p className="font-bold xl:text-[23px] lg:text-[20px] md:text-[18px] text-[17px] ">
+                  {item.head}
+                </p>
+                <ul className="flex flex-col mt-[12px] lg:gap-y-2 md:gap-y-3 gap-y-2 xl:text-base lg:text-sm text-xs ">
                   {item.linkList.map((item, index) => {
                     return (
                       <li key={index}>
@@ -57,7 +61,7 @@ function Footer() {
             );
           })}
         </div>
-        <div className="flex items-center justify-center gap-x-8 mt-[70px]">
+        <div className="flex items-center justify-center gap-x-8 lg:mt-[70px] mt-[60px] ">
           {socialShareList.map((item, index) => {
             return (
               <Link
