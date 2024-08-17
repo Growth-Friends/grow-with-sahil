@@ -9,7 +9,7 @@ function BlogSection() {
   return (
     <MainLayout
       innerClass={
-        "xl:pt-20 lg:pt-16 md:pt-14 pt-10 xl:pb-20 lg:pb-16 md:pb-14 pb-10 text-center"
+        "xl:pt-20 lg:pt-16 md:pt-14 pt-8 xl:pb-20 lg:pb-16 md:pb-14 pb-10 text-center"
       }
     >
       <h2 className="font-bold xl:text-5xl lg:text-4xl md:text-3xl text-2xl px-3 ">
@@ -30,7 +30,7 @@ function BlogSection() {
           );
         })}
       </p>
-      <div className="relative pt-16">
+      <div className="relative xl:mt-16 lg:mt-14 md:mt-12 mt-10 ">
         <div className="relative overflow-hidden flex">
           {content.blogList.map((item, index) => {
             return (

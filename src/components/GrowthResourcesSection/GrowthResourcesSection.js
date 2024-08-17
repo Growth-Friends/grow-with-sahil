@@ -70,7 +70,7 @@ function GrowthResourcesSection() {
           onClick={decreaseIndex}
         >{`<`}</span>
         <div
-          className="flex md:overflow-hidden overflow-x-scroll relative max-w-[70rem] mx-auto "
+          className="flex md:overflow-hidden overflow-x-scroll relative xl:max-w-[65rem] lg:max-w-[58rem] md:max-w-[37rem] max-w-none mx-auto "
           ref={scrollContainer}
         >
           {content.growthResourcesList.map((item, index) => {
@@ -80,9 +80,9 @@ function GrowthResourcesSection() {
                 ref={(ref) => (scrollRefs.current[index] = ref)}
                 className="lg:w-[calc(100%/3)] md:w-[calc(100%/2)] w-[210px] md:px-0 px-2 flex-shrink-0 "
               >
-                <div className=" bg-black text-white md:p-4 p-2.5 rounded-xl xl:max-w-80 lg:max-w-72 md:max-w-[270px] max-w-none mx-auto ">
+                <div className=" bg-black text-white md:p-4 p-2.5 rounded-xl xl:max-w-[320px] lg:max-w-[284px] md:max-w-[270px] max-w-none mx-auto ">
                   <div className="bg-white md:h-40 h-28 rounded-xl"></div>
-                  <p className="font-bold xl:text-[22px] lg:text-[18px] md:text-[17px] text-[15px] leading-snug mt-2.5">
+                  <p className="font-bold xl:text-[22px] lg:text-[20px] md:text-[18px] text-[15px] leading-snug mt-2.5">
                     {item.heading}
                   </p>
                   <p className="text-paraSecondary xl:text-sm md:text-xs text-[10px] tracking-wide leading-normal mt-1 inline-block ">
