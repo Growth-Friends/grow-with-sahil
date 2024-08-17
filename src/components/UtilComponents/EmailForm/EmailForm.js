@@ -3,6 +3,8 @@ import { getComponentText } from "@/utils/functions/functions";
 import React, { useState } from "react";
 import PopupForm from "../PopupForm/PopupForm";
 import Input from "../Input/Input";
+import { usePathname } from "next/navigation";
+import getMethodCall from "@/utils/services/services";
 
 function EmailForm({ home, about }) {
   const content = getComponentText("util.emailForm");
@@ -11,6 +13,9 @@ function EmailForm({ home, about }) {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [inValid, setInValid] = useState(false);
+
+  //location
+  const location = usePathname();
 
   //onchange email
   function onChangeValue(value, key) {
@@ -25,9 +30,22 @@ function EmailForm({ home, about }) {
   }
 
   //onSubmit function api
-  function onSubmitApi(e) {
+  async function onSubmitApi(e) {
     e.preventDefault();
-    console.log(email, phone, name);
+    if (email !== "" && phone !== "" && name !== "") {
+      try {
+        const response = await getMethodCall(
+          `https://script.google.com/macros/s/AKfycbwWGLFIebBTTuhecu_5DldCE7iiTZcAPE_LXxZan-PCqO_PyrzFZHIdvJ6ag0J5w4dY/exec?name=${name}&phone=${phone}&email=${email}&location=${location}`
+        );
+        if (response.status === 200) {
+          closeDialog();
+        } else {
+          throw new Error("Failed to Post Data");
+        }
+      } catch (error) {
+        console.log("error", error);
+      }
+    }
   }
 
   // Check email validation function

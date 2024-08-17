@@ -29,6 +29,9 @@ function Input({
     } else if (trueType == "email") {
       value = value.replace(/[ ]/g, "");
       onChange(value, name);
+    } else if (trueType == "phone") {
+      value = value.replace(/[^0-9]/g, "").slice(0, 10);
+      onChange(value, name);
     }
   }
   return (

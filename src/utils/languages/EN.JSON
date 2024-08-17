@@ -33,7 +33,7 @@
         },
         {
           "placeholder": "Your Phone Number",
-          "trueType": "number",
+          "trueType": "phone",
           "name": "phone",
           "type": "text"
         }
