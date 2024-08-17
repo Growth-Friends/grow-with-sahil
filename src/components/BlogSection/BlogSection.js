@@ -60,6 +60,7 @@ function BlogSection() {
                       <Link
                         prefetch={false}
                         href={staticRoutes.blog}
+                        target="_blank"
                         className="bg-primaryColor text-black hover:bg-black hover:text-white xl:px-3 px-2 py-1 rounded-md font-semibold xl:text-base text-sm transition-all duration-300 ease-in-out"
                       >
                         {item.button}
