@@ -7,9 +7,15 @@ import staticRoutes from "@/utils/routes/staticRoutes";
 function BlogSection() {
   const content = getComponentText("home.blogSection");
   return (
-    <MainLayout innerClass={"pt-20 pb-20 text-center"}>
-      <h2 className="font-bold text-5xl ">{content.heading}</h2>
-      <p className="text-paraSecondary text-xl w-[580px] mt-3 tracking-wide leading-normal inline-block ">
+    <MainLayout
+      innerClass={
+        "xl:pt-20 lg:pt-16 md:pt-14 pt-10 xl:pb-20 lg:pb-16 md:pb-14 pb-10 text-center"
+      }
+    >
+      <h2 className="font-bold xl:text-5xl lg:text-4xl md:text-3xl text-2xl px-3 ">
+        {content.heading}
+      </h2>
+      <p className="text-paraSecondary xl:text-xl lg:text-lg md:text-base text-sm xl:w-[580px] lg:w-[500px] md:w-[460px] w-full md:px-0 px-3 xl:mt-3 lg:mt-2 mt-1 tracking-wide leading-normal inline-block ">
         {content.subHeading.map((item, index) => {
           return (
             <React.Fragment key={index}>

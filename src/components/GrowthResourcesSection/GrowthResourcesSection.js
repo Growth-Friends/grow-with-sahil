@@ -45,9 +45,11 @@ function GrowthResourcesSection() {
   }, [currentIndex]);
 
   return (
-    <MainLayout innerClass={"pt-20 pb-4 text-center"}>
-      <h2 className="font-bold text-5xl ">{content.heading}</h2>
-      <p className="text-paraSecondary text-xl w-[580px] mt-3 tracking-wide leading-normal inline-block ">
+    <MainLayout innerClass={"xl:pt-20 lg:pt-16 md:pt-14 pt-10 text-center"}>
+      <h2 className="font-bold xl:text-5xl lg:text-4xl md:text-3xl text-2xl px-3 ">
+        {content.heading}
+      </h2>
+      <p className="text-paraSecondary xl:text-xl lg:text-lg md:text-base text-sm xl:w-[580px] lg:w-[500px] md:w-[460px] w-full md:px-0 px-3 xl:mt-3 lg:mt-2 mt-1 tracking-wide leading-normal inline-block ">
         {content.subHeading.map((item, index) => {
           return (
             <React.Fragment key={index}>
@@ -62,13 +64,13 @@ function GrowthResourcesSection() {
           );
         })}
       </p>
-      <div className="mt-14 text-start relative">
+      <div className="xl:mt-14 lg:mt-12 md:mt-10 mt-8  text-start relative">
         <span
-          className="absolute left-0 top-1/2 -translate-y-1/2 font-bold text-5xl cursor-pointer select-none"
+          className="absolute md:block hidden left-0 -translate-x-2/3 top-1/2 -translate-y-1/2 font-bold text-5xl cursor-pointer select-none"
           onClick={decreaseIndex}
         >{`<`}</span>
         <div
-          className="flex overflow-hidden relative max-w-[70rem] mx-auto "
+          className="flex md:overflow-hidden overflow-x-scroll relative max-w-[70rem] mx-auto "
           ref={scrollContainer}
         >
           {content.growthResourcesList.map((item, index) => {
@@ -76,14 +78,14 @@ function GrowthResourcesSection() {
               <div
                 key={index}
                 ref={(ref) => (scrollRefs.current[index] = ref)}
-                className="w-[calc(100%/3)] flex-shrink-0 px-4 "
+                className="lg:w-[calc(100%/3)] md:w-[calc(100%/2)] w-[210px] md:px-0 px-2 flex-shrink-0 "
               >
-                <div className=" bg-black text-white p-4 rounded-xl">
-                  <div className="bg-white h-40 rounded-xl"></div>
-                  <p className="font-bold text-[22px] leading-snug mt-2.5">
+                <div className=" bg-black text-white md:p-4 p-2.5 rounded-xl xl:max-w-80 lg:max-w-72 md:max-w-[270px] max-w-none mx-auto ">
+                  <div className="bg-white md:h-40 h-28 rounded-xl"></div>
+                  <p className="font-bold xl:text-[22px] lg:text-[18px] md:text-[17px] text-[15px] leading-snug mt-2.5">
                     {item.heading}
                   </p>
-                  <p className="text-paraSecondary text-sm tracking-wide leading-normal mt-1 inline-block ">
+                  <p className="text-paraSecondary xl:text-sm md:text-xs text-[10px] tracking-wide leading-normal mt-1 inline-block ">
                     {item.para.map((item, index) => {
                       return (
                         <React.Fragment key={index}>
@@ -105,10 +107,10 @@ function GrowthResourcesSection() {
                     <Link
                       prefetch={false}
                       href={filePrefix(item.link, "/growth-resources")}
-                      className="bg-primaryColor text-black px-3 py-1 rounded-lg font-semibold inline-flex items-center text-lg gap-x-2 hover:gap-x-4 transition-all duration-300 ease-in-out "
+                      className="bg-primaryColor text-black md:px-3 px-2 md:py-2 py-1.5 rounded-lg font-semibold inline-flex items-center xl:text-lg md:text-base text-sm xl:gap-x-2 lg:gap-x-1.5 md:gap-x-1 gap-x-0.5 hover:gap-x-4 transition-all duration-300 ease-in-out "
                     >
                       {item.button}
-                      <ArrowForwardIcon className="text-xl" />
+                      <ArrowForwardIcon className="lg:text-xl md:text-lg text-base " />
                     </Link>
                   </div>
                 </div>
@@ -117,7 +119,7 @@ function GrowthResourcesSection() {
           })}
         </div>
         <span
-          className="absolute right-0 top-1/2 -translate-y-1/2 font-bold text-5xl cursor-pointer select-none"
+          className="absolute md:block hidden right-0 translate-x-2/3 top-1/2 -translate-y-1/2 font-bold text-5xl cursor-pointer select-none"
           onClick={increaseIndex}
         >{`>`}</span>
       </div>
