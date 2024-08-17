@@ -20,7 +20,11 @@ function ExperienceSection() {
   }, []);
 
   return (
-    <div style={{ height: scrollHeight * 3 }} ref={scrollContainer}>
+    <div
+      style={{ height: scrollHeight * 3 }}
+      ref={scrollContainer}
+      className="overflow-hidden"
+    >
       <div className="sticky top-5 py-14 max-w-[80rem] mx-auto ">
         <div className="flex items-center justify-between">
           <h2 className="font-semibold text-6xl">{content.heading}</h2>

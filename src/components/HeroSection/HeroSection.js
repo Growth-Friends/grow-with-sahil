@@ -77,16 +77,22 @@ function HeroSection({ home, about }) {
           )}
         </div>
 
-        <div className="lg:mt-10 md:mt-8 mt-10">
+        <div
+          className={`lg:mt-10 md:mt-8 ${home ? "mt-10" : about && "mt-6"} `}
+        >
           <EmailForm home={home} about={about} />
         </div>
-        <div className={`md:hidden block w-full mt-14`}>
+        <div
+          className={`md:hidden block w-full ${
+            home ? "mt-14" : about && "mt-2"
+          } `}
+        >
           <img
             loading="lazy"
             src={imageFilePrefix(content.mainImageUrl)}
             alt="shail profile picture"
             className={`h-auto max-w-none ms-auto ${
-              home ? "w-full" : about && "w-[380px] "
+              home ? "w-full" : about && "w-[70%] max-w-[300px] -mr-[20px] "
             }  `}
           />
         </div>
@@ -101,7 +107,10 @@ function HeroSection({ home, about }) {
           src={imageFilePrefix(content.mainImageUrl)}
           alt="shail profile picture"
           className={`h-auto max-w-none ms-auto ${
-            home ? "w-full" : about && "w-[380px] "
+            home
+              ? "w-full"
+              : about &&
+                "xl:w-[380px] lg:w-[340px] w-[250px] lg:-mr-0 -mr-[40px] "
           }  `}
         />
       </div>
