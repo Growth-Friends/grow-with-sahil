@@ -80,7 +80,7 @@ function MarketingToolSection() {
       <Link
         prefetch={false}
         href={staticRoutes[`${content.link}`]}
-        className="bg-primaryColor text-black lg:px-4 px-3 py-3 rounded-lg font-semibold inline-flex items-center xl:text-lg md:text-base text-sm xl:gap-x-2 lg:gap-x-1.5 md:gap-x-1 gap-x-0.5 hover:gap-x-4 transition-all duration-300 ease-in-out "
+        className="bg-primaryColor text-black lg:px-4 px-3 xl:py-3 lg:py-2.5 py-2 xl:rounded-lg lg:rounded-md rounded font-semibold inline-flex items-center xl:text-lg md:text-base text-sm xl:gap-x-2 lg:gap-x-1.5 md:gap-x-1 gap-x-0.5 hover:gap-x-4 transition-all duration-300 ease-in-out "
       >
         <span>{content.button}</span>
 

@@ -78,9 +78,9 @@ function GrowthResourcesSection() {
               <div
                 key={index}
                 ref={(ref) => (scrollRefs.current[index] = ref)}
-                className="lg:w-[calc(100%/3)] md:w-[calc(100%/2)] w-[210px] md:px-0 px-2 flex-shrink-0 "
+                className="lg:w-[calc(100%/3)] md:w-[calc(100%/2)] w-[230px] md:px-0 px-2 flex-shrink-0 "
               >
-                <div className=" bg-black text-white md:p-4 p-2.5 rounded-xl xl:max-w-[320px] lg:max-w-[284px] md:max-w-[270px] max-w-none mx-auto ">
+                <div className=" bg-black text-white md:p-4 p-2.5 md:pb-4 pb-3 rounded-xl xl:max-w-[320px] lg:max-w-[284px] md:max-w-[270px] max-w-none mx-auto ">
                   <div className="bg-white md:h-40 h-28 rounded-xl"></div>
                   <p className="font-bold xl:text-[22px] lg:text-[20px] md:text-[18px] text-[15px] leading-snug mt-2.5">
                     {item.heading}
@@ -107,7 +107,7 @@ function GrowthResourcesSection() {
                     <Link
                       prefetch={false}
                       href={filePrefix(item.link, "/growth-resources")}
-                      className="bg-primaryColor text-black md:px-3 px-2 md:py-2 py-1.5 rounded-lg font-semibold inline-flex items-center xl:text-lg md:text-base text-sm xl:gap-x-2 lg:gap-x-1.5 md:gap-x-1 gap-x-0.5 hover:gap-x-4 transition-all duration-300 ease-in-out "
+                      className="bg-primaryColor text-black md:px-3 px-2 xl:py-2 lg:py-1.5 py-1 xl:rounded-lg lg:rounded-md rounded font-semibold inline-flex items-center xl:text-lg md:text-base text-sm xl:gap-x-2 lg:gap-x-1.5 md:gap-x-1 gap-x-0.5 hover:gap-x-4 transition-all duration-300 ease-in-out "
                     >
                       {item.button}
                       <ArrowForwardIcon className="lg:text-xl md:text-lg text-base " />

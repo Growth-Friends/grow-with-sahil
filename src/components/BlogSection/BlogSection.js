@@ -31,10 +31,13 @@ function BlogSection() {
         })}
       </p>
       <div className="relative xl:mt-16 lg:mt-14 md:mt-12 mt-10 ">
-        <div className="relative overflow-hidden flex">
+        <div className="relative md:overflow-hidden overflow-x-scroll flex">
           {content.blogList.map((item, index) => {
             return (
-              <div key={index} className="w-[calc(100%/4)] flex-shrink-0 px-3 ">
+              <div
+                key={index}
+                className="lg:w-[calc(100%/4)] md:w-[calc(100%/3)] w-[220px] flex-shrink-0 xl:px-3 px-2 "
+              >
                 <div className="rounded-xl overflow-hidden text-start ">
                   <img
                     loading="lazy"
@@ -43,21 +46,21 @@ function BlogSection() {
                     className="w-full aspect-auto"
                   />
                   <div className="px-2.5 pt-4 pb-3.5 border-x-2 border-b-2 rounded-b-xl ">
-                    <p className="line-clamp-2 font-bold text-[23px] leading-[1.2] ">
+                    <p className="line-clamp-2 font-bold xl:text-[23px] lg:text-[19px] md:text-[18px] text-[17px] leading-[1.2] ">
                       {item.heading}
                     </p>
-                    <p className="line-clamp-3 font-medium text-sm text-paraSecondary leading-snug mt-3 ">
+                    <p className="line-clamp-3 font-medium xl:text-sm md:text-xs text-[10px] text-paraSecondary leading-snug md:mt-3 mt-2 ">
                       {item.para}
                     </p>
-                    <div className="mt-10 flex justify-between">
-                      <p className="flex flex-col font-medium text-xs text-paraSecondary ">
+                    <div className="xl:mt-10 mt-8 flex justify-between">
+                      <p className="flex flex-col font-medium xl:text-xs text-[10px] text-paraSecondary ">
                         <span>{item.publish}</span>
                         <span>{item.author}</span>
                       </p>
                       <Link
                         prefetch={false}
                         href={staticRoutes.blog}
-                        className="bg-primaryColor text-black hover:bg-black hover:text-white px-3 py-1 rounded-md font-semibold text-md transition-all duration-300 ease-in-out"
+                        className="bg-primaryColor text-black hover:bg-black hover:text-white xl:px-3 px-2 py-1 xl:rounded-md rounded font-semibold xl:text-base text-sm transition-all duration-300 ease-in-out"
                       >
                         {item.button}
                       </Link>
