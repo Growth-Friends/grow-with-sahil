@@ -12,23 +12,36 @@ function DetailSection() {
           <React.Fragment key={index}>
             {item.type === "heading-para" && (
               <MainLayout
-                innerClass={`mt-12 ${array.length - 1 == index && "mb-12"} `}
+                innerClass={`lg:mt-12 mt-8 ${
+                  array.length - 1 == index && "lg:mb-12 mb-8"
+                } `}
               >
                 {item.headingType === "h2" && (
-                  <h2 className="font-bold text-3xl mb-5">{item.heading}</h2>
+                  <h2 className="font-bold lg:text-3xl text-2xl lg:mb-5 mb-4 ">
+                    {item.heading}
+                  </h2>
                 )}
                 {item.headingType === "h3" && (
-                  <h3 className="font-bold text-2xl  mb-4">{item.heading}</h3>
+                  <h3 className="font-bold lg:text-2xl text-xl lg:mb-4 mb-3 ">
+                    {item.heading}
+                  </h3>
                 )}
                 {item.headingType === "h4" && (
-                  <h4 className="font-bold text-xl mb-3">{item.heading}</h4>
+                  <h4 className="font-bold lg:text-xl text-lg lg:mb-3 mb-2.5 ">
+                    {item.heading}
+                  </h4>
                 )}
                 {item.headingType === "h5" && (
-                  <h5 className="font-bold text-lg mb-2.5">{item.heading}</h5>
+                  <h5 className="font-bold lg:text-lg text-base lg:mb-2.5 mb-2">
+                    {item.heading}
+                  </h5>
                 )}
                 {item.paraList.map((item, index) => {
                   return (
-                    <p key={index} className="text-paraSecondary mt-2">
+                    <p
+                      key={index}
+                      className="text-paraSecondary lg:text-base text-sm mt-3 "
+                    >
                       {item.para}
                     </p>
                   );

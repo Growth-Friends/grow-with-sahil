@@ -13,10 +13,10 @@ function EmailPromotion() {
     <MainLayout
       ref={emailPromotionRef}
       outerClass={"bg-black text-white mt-12"}
-      innerClass="py-10 "
+      innerClass="lg:py-10 md:py-8 py-6 "
     >
       <div className="text-center">
-        <p className="text-paraSecondary text-2xl w-[630px] tracking-wide leading-normal mx-auto">
+        <p className="text-paraSecondary xl:text-2xl lg:text-xl md:text-lg text-sm xl:w-[630px] lg:w-[580px] md:w-[500px] w-full tracking-wide leading-normal mx-auto">
           {content.subHeading.map((item, index) => {
             return (
               <React.Fragment key={index}>
@@ -32,14 +32,14 @@ function EmailPromotion() {
           })}
         </p>
         {content?.benefitsList && (
-          <div className="inline-flex items-center flex-wrap font-medium text-lg gap-x-6 mt-4 ">
+          <div className="inline-flex items-start lg:flex-row flex-col font-medium xl:text-lg lg:text-base md:text-sm text-xs gap-x-6 gap-y-1 mt-4 ">
             {content.benefitsList.map((item, index) => {
               return (
                 <div key={index} className="flex items-center gap-x-2">
                   <img
                     src={svgFilePrefix(item.imageUrl)}
                     alt={item.alt}
-                    className="aspect-auto w-4"
+                    className="aspect-auto md:w-4 w-3"
                   />
                   <p>{item.para}</p>
                 </div>
