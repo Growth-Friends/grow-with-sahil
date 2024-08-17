@@ -13,26 +13,32 @@ function AboutMeSection() {
 
   return (
     <MainLayout>
-      <div className="py-20 overflow-hidden ">
-        <div className="text-center bg-black text-white py-8 px-3 rounded-t-2xl">
-          <h2 className="font-bold text-4xl uppercase ">{content.heading}</h2>
+      <div className="xl:py-20 lg:py-16 md:py-14 py-12 overflow-hidden ">
+        <div className="text-center bg-black text-white xl:py-8 py-6 px-3 rounded-t-2xl">
+          <h2 className="font-bold xl:text-4xl lg:text-3xl text-2xl uppercase ">
+            {content.heading}
+          </h2>
         </div>
-        <div className="grid grid-flow-col grid-cols-12 p-8 gap-8 border-x-2 border-b-2 border-paraSecondary/40 rounded-b-2xl">
-          <div className="col-span-4">
+        <div className="grid md:grid-flow-col grid-flow-row md:grid-rows-1 grid-rows-auto grid-cols-12 xl:p-8 lg:p-6 p-4 xl:gap-8 lg:gap-6 gap-4 border-x-2 border-b-2 border-paraSecondary/40 rounded-b-2xl">
+          <div className="md:col-span-4 col-span-full md:self-end self-auto">
             <img
               loading="lazy"
               alt="sahil khan image"
               src={imageFilePrefix("/profilePicture.png")}
-              className="aspect-auto w-full max-w-none rounded-xl "
+              className="aspect-auto w-full max-w-none xl:rounded-xl rounded-lg "
             />
           </div>
-          <div className="col-span-8 self-end">
-            <h3 className="uppercase font-bold text-3xl">{content.name}</h3>
-            <p className="uppercase font-semibold text-xl mt-0.5">
+          <div className="md:col-span-8 col-span-full md:self-end self-auto ">
+            <h3 className="uppercase font-bold xl:text-3xl lg:text-2xl text-xl ">
+              {content.name}
+            </h3>
+            <p className="uppercase font-semibold xl:text-xl lg:text-lg text-base lg:mt-0.5 mt-[1px] ">
               {content.position}
             </p>
-            <p className="text-paraSecondary mt-4">{content.aboutMe}</p>
-            <div className="flex items-center gap-x-4 mt-10">
+            <p className="text-paraSecondary xl:text-base lg:text-sm text-xs xl:mt-4 lg:mt-3 mt-2">
+              {content.aboutMe}
+            </p>
+            <div className="flex items-center gap-x-4 xl:mt-10 lg:mt-8 mt-6">
               {socialShareList.map((item, index) => {
                 return (
                   <Link
@@ -46,7 +52,7 @@ function AboutMeSection() {
                       loading="lazy"
                       src={svgFilePrefix(item.imageUrl)}
                       alt="linkedin icon"
-                      className="aspect-auto w-4"
+                      className="aspect-auto xl:w-4 md:w-3 w-4 "
                     />
                   </Link>
                 );
