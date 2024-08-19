@@ -5,3 +5,13 @@
 *::-webkit-scrollbar {
   width: 0;
 }
+
+.bg-primaryColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(175 202 242 / var(--tw-bg-opacity)) /* #afcaf2 */;
+}
+
+.hover\:bg-primaryColor:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(175 202 242 / var(--tw-bg-opacity)) /* #afcaf2 */;
+}
