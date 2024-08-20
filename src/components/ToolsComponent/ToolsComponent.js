@@ -51,7 +51,9 @@ const ToolsComponent = forwardRef(
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:p-10 lg:p-8 md:p-6 p-6 xl:gap-10 lg:gap-8 md:gap-6 gap-6 border-x-2 border-b-2 border-paraSecondary/40 rounded-b-2xl ">
             {content.toolsList.map((item, index) => {
               return (
-                <div
+                <Link
+                  prefetch={false}
+                  href={filePrefix(item.link, "/marketing-tools")}
                   key={index}
                   className="bg-black text-white xl:p-8 p-4 gap-x-5 rounded-xl flex flex-col xl:max-w-[320px] lg:max-w-[280px] md:max-w-[260px] max-w-[250px] mx-auto "
                 >
@@ -84,16 +86,12 @@ const ToolsComponent = forwardRef(
                     {item.aboutTool}
                   </p>
                   <div className="flex justify-center mt-auto  ">
-                    <Link
-                      prefetch={false}
-                      href={filePrefix(item.link, "/marketing-tools")}
-                      className="bg-primaryColor text-black px-3 py-2 rounded-md font-medium flex xl:text-base md:text-sm text-xs items-center gap-x-1 hover:gap-x-2 transition-all duration-300 ease-in-out "
-                    >
+                    <button className="bg-primaryColor text-black px-3 py-2 rounded-md font-medium flex xl:text-base md:text-sm text-xs items-center gap-x-1 hover:gap-x-2 transition-all duration-300 ease-in-out ">
                       {item.button}
                       <ArrowForwardIcon className="text-base" />
-                    </Link>
+                    </button>
                   </div>
-                </div>
+                </Link>
               );
             })}
           </div>
