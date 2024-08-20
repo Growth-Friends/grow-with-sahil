@@ -36,7 +36,7 @@ function ExperienceSection() {
             className="aspect-auto xl:w-72 lg:w-64 md:w-56 w-36 "
           />
         </div>
-        <div className="relative md:mt-0 mt-10">
+        <div className="relative md:mt-0 mt-4">
           <div className="w-0 h-0 xl:border-[15px] md:border-[12px] border-[8px] rounded-full border-black absolute left-0 top-1/2 -translate-y-1/2 "></div>
           <ArrowForwardRoundedIcon className="text-black xl:text-8xl md:text-7xl text-5xl absolute right-0 translate-x-[20%] top-1/2 -translate-y-1/2" />
           <div className=" overflow-hidden">
