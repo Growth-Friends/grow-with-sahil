@@ -5,7 +5,8 @@
       "navList": [
         { "para": "About Me", "link": "about" },
         { "para": "Marketing Tools", "link": "marketingTools" },
-        { "para": "Growth Resources", "link": "growthResources" }
+        { "para": "Growth Resources", "link": "growthResources" },
+        { "para": "Services", "link": "services" }
       ]
     },
     "emailForm": {
