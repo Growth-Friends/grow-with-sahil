@@ -1,4 +1,4 @@
-import EN_JSON from "../languages/EN.json";
+import EN_JSON from "../languages/EN.JSON";
 
 //get component text
 export function getComponentText(path) {
