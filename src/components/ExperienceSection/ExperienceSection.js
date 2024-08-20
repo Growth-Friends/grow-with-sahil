@@ -25,7 +25,7 @@ function ExperienceSection() {
       ref={scrollContainer}
       className="md:px-[40px] px-[10px]"
     >
-      <div className="sticky top-5 xl:py-14 lg:py-12 md:py-10 pt-8 pb-0 max-w-[80rem] mx-auto overflow-hidden  ">
+      <div className="sticky md:top-4 top-8 xl:py-14 lg:py-12 md:py-10 pt-8 pb-0 max-w-[80rem] mx-auto overflow-hidden  ">
         <div className="flex items-center justify-between">
           <h2 className="font-semibold xl:text-6xl lg:text-5xl md:text-4xl text-3xl ">
             {content.heading}
@@ -36,7 +36,7 @@ function ExperienceSection() {
             className="aspect-auto xl:w-72 lg:w-64 md:w-56 w-36 "
           />
         </div>
-        <div className="relative xl:mt-14 lg:mt-10 md:mt-8 mt-4 ">
+        <div className="relative md:mt-0 mt-4">
           <div className="w-0 h-0 xl:border-[15px] md:border-[12px] border-[8px] rounded-full border-black absolute left-0 top-1/2 -translate-y-1/2 "></div>
           <ArrowForwardRoundedIcon className="text-black xl:text-8xl md:text-7xl text-5xl absolute right-0 translate-x-[20%] top-1/2 -translate-y-1/2" />
           <div className=" overflow-hidden">
@@ -54,9 +54,9 @@ function ExperienceSection() {
                     <div
                       className={`${
                         index % 2 === 0
-                          ? "order-none xl:border-b-8 md:border-b-[6px] border-b-[4px] xl:-mb-1 md:-mb-[3px] -mb-[1.8px] "
-                          : "order-2 xl:border-t-8 md:border-t-[6px] border-t-[4px] xl:-mt-1 md:-mt-[3px] -mt-[1.8px] "
-                      } border-black xl:py-12 md:py-10 py-8 `}
+                          ? "order-none xl:border-b-8 md:border-b-[6px] border-b-[4px] xl:-mb-1 md:-mb-[3px] -mb-[1.8px] xl:pb-12 md:pb-10 pb-8 "
+                          : "order-2 xl:border-t-8 md:border-t-[6px] border-t-[4px] xl:-mt-1 md:-mt-[3px] -mt-[1.8px] xl:pt-12 md:pt-10 pt-8 "
+                      } border-black  `}
                     >
                       <motion.div
                         variants={{

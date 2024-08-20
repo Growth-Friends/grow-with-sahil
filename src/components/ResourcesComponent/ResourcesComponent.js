@@ -22,7 +22,9 @@ function ResourcesComponent() {
             .fill(false)
             .fill(true, 0, item.rating);
           return (
-            <div
+            <Link
+              prefetch={false}
+              href={filePrefix(item.link, "/growth-resources")}
               key={index}
               className="lg:w-[calc(100%/3)] md:w-[calc(100%/2)] w-full flex-shrink-0 xl:px-5 px-4 lg:max-w-none max-w-[300px] mx-auto "
             >
@@ -89,17 +91,13 @@ function ResourcesComponent() {
                       </span>
                     </div>
                   </div>
-                  <Link
-                    prefetch={false}
-                    href={filePrefix(item.link, "/growth-resources")}
-                    className="bg-primaryColor text-black xl:px-3 px-2 xl:py-2 py-1.5 xl:text-base text-sm rounded-md font-medium flex items-center gap-x-1 hover:gap-x-2 transition-all duration-300 ease-in-out "
-                  >
+                  <button className="bg-primaryColor text-black xl:px-3 px-2 xl:py-2 py-1.5 xl:text-base text-sm rounded-md font-medium flex items-center gap-x-1 hover:gap-x-2 transition-all duration-300 ease-in-out ">
                     {item.button}
                     <ArrowForwardIcon className="lg:text-base text-sm " />
-                  </Link>
+                  </button>
                 </div>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>
