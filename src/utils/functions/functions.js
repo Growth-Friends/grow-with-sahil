@@ -12,15 +12,15 @@ export function getComponentText(path) {
 
 //image file prefix
 export function imageFilePrefix(imageUrl) {
-  return `/images/${imageUrl}`;
+  return `./images/${imageUrl}`;
 }
 
 //svg file prefix
 export function svgFilePrefix(imageUrl) {
-  return `/svg/${imageUrl}`;
+  return `./svg/${imageUrl}`;
 }
 
 //common file prefix
 export function filePrefix(url, prefix) {
-  return `${prefix ? prefix : ""}${url}`;
+  return `.${prefix ? prefix : ""}${url}`;
 }
