@@ -39,12 +39,9 @@ function ResourcesComponent() {
                         {item.para ? (
                           <span>{item.para}</span>
                         ) : (
-                          <a
-                            href={item.href}
-                            className="underline underline-offset-4"
-                          >
+                          <span className="underline underline-offset-4">
                             {item.link}
-                          </a>
+                          </span>
                         )}
                       </React.Fragment>
                     );

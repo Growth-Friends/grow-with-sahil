@@ -767,31 +767,31 @@
         },
         {
           "head": "Performance Marketing",
-          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "para": "Performance marketing focuses on driving measurable results through digital channels like search engines, social media, and display ads.",
           "imageUrl": "/performance.svg",
           "link": "/performance-marketing"
         },
         {
           "head": "Retention Marketing",
-          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "para": "Retention Marketing involves nurturing customers through personalized email, SMS and app campaigns to boost loyalty.",
           "imageUrl": "/retention.svg",
           "link": "/retention-marketing"
         },
         {
           "head": "Search Engine Optimization",
-          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "para": "SEO involves optimizing your website's content and structure to rank higher on search engines like Google, driving organic traffic.",
           "imageUrl": "/seo.svg",
           "link": "/search-engine-optimization"
         },
         {
           "head": "Go-To Market Strategy",
-          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "para": "This strategy involves crafting a plan to introduce products to the market by identifying target audiences, channels, and tactics for success.",
           "imageUrl": "/marketStrategy.svg",
           "link": "/go-to-market-strategy"
         },
         {
           "head": "Influencer Marketing",
-          "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences.",
+          "para": "This uses social media personalities on platforms like Instagram, YouTube, to reach target audiences.",
           "imageUrl": "/influencer.svg",
           "link": "/influencer-marketing"
         }
