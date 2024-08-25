@@ -800,10 +800,8 @@
     "marketingToolSection": {
       "heading": "Check out Marketing Tools",
       "subHeading": [
-        { "para": "Get a " },
-        { "link": "40-page action plan", "href": "/" },
         {
-          "para": " with all you need to build a crazily good growth marketing funnel."
+          "para": "Supercharge Your Success with Game-Changing Marketing Tools."
         }
       ],
       "button": "Check out",
@@ -856,10 +854,8 @@
     "growthResourcesSection": {
       "heading": "Growth Resources",
       "subHeading": [
-        { "para": "Get a " },
-        { "link": "40-page action plan", "href": "/" },
         {
-          "para": " with all you need to build a crazily good growth marketing funnel."
+          "para": "Supercharge Your Success with Game-Changing Marketing Tools."
         }
       ],
       "growthResourcesList": [
@@ -933,10 +929,8 @@
     "blogSection": {
       "heading": "Blogs",
       "subHeading": [
-        { "para": "Get a " },
-        { "link": "40-page action plan", "href": "/" },
         {
-          "para": " with all you need to build a crazily good growth marketing funnel."
+          "para": "Explore In-Depth Insights: Your Ultimate Blog Destination"
         }
       ],
       "blogList": [
