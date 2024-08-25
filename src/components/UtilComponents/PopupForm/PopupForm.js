@@ -16,11 +16,14 @@ function PopupForm({
   popupForm,
   popupDownload,
   inValid,
-  download = "",
 }) {
   const content = getComponentText(
     `util.${popupForm ? "popupForm" : popupDownload && "popupDownload"}`
   );
+  const thankyouContent = getComponentText(
+    `util.${popupForm ? "popupThankyou" : popupDownload && "popupDownload"}`
+  );
+  const [thankyou, setThankyou] = useState(false);
 
   return (
     <Dialog open={open}>
@@ -29,11 +32,20 @@ function PopupForm({
           onClick={onClose}
           className="absolute top-1 right-1 md:text-3xl text-xl cursor-pointer "
         />
-        <h2 className="flex flex-col font-bold md:text-2xl text-xl items-center ">
-          {content.heading.map((item, index) => {
-            return <span key={index}>{item}</span>;
-          })}
-        </h2>
+        {!thankyou ? (
+          <h2 className="flex flex-col font-bold md:text-2xl text-xl items-center ">
+            {content.heading.map((item, index) => {
+              return <span key={index}>{item}</span>;
+            })}
+          </h2>
+        ) : (
+          <h2 className="flex flex-col font-bold md:text-2xl text-xl items-center ">
+            {thankyouContent.heading.map((item, index) => {
+              return <span key={index}>{item}</span>;
+            })}
+          </h2>
+        )}
+
         <form className="flex flex-col gap-y-3 md:mt-6 mt-4 relative ">
           {content.inputList.map((item, index) => {
             return (

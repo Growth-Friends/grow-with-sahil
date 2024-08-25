@@ -41,6 +41,11 @@
       ],
       "button": { "para": "Get it Now" }
     },
+    "popupThankyou": {
+      "heading": ["Thank you for", "your response!"],
+
+      "button": { "para": "Get it Now" }
+    },
     "popupDownload": {
       "heading": ["Get your Product Now!"],
       "inputList": [
@@ -723,10 +728,19 @@
       ]
     },
     "socialShareList": [
-      { "imageUrl": "/linkedinIcon.svg", "link": "/" },
-      { "imageUrl": "/youtubeIcon.svg", "link": "/" },
-      { "imageUrl": "/twitterIcon.svg", "link": "/" },
-      { "imageUrl": "/instagramIcon.svg", "link": "/" }
+      {
+        "imageUrl": "/linkedinIcon.svg",
+        "link": "https://www.linkedin.com/in/growwithsahil"
+      },
+      {
+        "imageUrl": "/youtubeIcon.svg",
+        "link": "https://www.youtube.com/@growwithsahilofficial"
+      },
+      { "imageUrl": "/twitterIcon.svg", "link": "https://x.com/growwithsahil" },
+      {
+        "imageUrl": "/instagramIcon.svg",
+        "link": "https://www.instagram.com/growwithsahil/"
+      }
     ]
   },
   "home": {
