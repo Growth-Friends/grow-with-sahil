@@ -6,7 +6,8 @@
         { "para": "About Me", "link": "about" },
         { "para": "Marketing Tools", "link": "marketingTools" },
         { "para": "Growth Resources", "link": "growthResources" },
-        { "para": "Services", "link": "services" }
+        { "para": "Services", "link": "services" },
+        { "para": "Contact Me", "link": "contact" }
       ]
     },
     "emailForm": {
