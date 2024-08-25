@@ -44,8 +44,13 @@
     },
     "popupThankyou": {
       "heading": ["Thank you for", "your response!"],
-
-      "button": { "para": "Get it Now" }
+      "mainPara": "We will reach out to you in 24-48 hours for your growth plan",
+      "socialPara": "Meanwhile, you can follow me on"
+    },
+    "popupDownloadThankyou": {
+      "heading": ["Thank you for", "your response!"],
+      "mainPara": "We will share your resources in 24-48 hours on your email.",
+      "socialPara": "Meanwhile, you can follow me on"
     },
     "popupDownload": {
       "heading": ["Get your Product Now!"],
