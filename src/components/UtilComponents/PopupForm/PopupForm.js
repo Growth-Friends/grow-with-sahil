@@ -17,6 +17,7 @@ function PopupForm({
   popupForm,
   popupDownload,
   inValid,
+  thankyou,
 }) {
   const content = getComponentText(
     `util.${popupForm ? "popupForm" : popupDownload && "popupDownload"}`
@@ -27,7 +28,6 @@ function PopupForm({
     }`
   );
   const socialShareList = getComponentText("util.socialShareList");
-  const [thankyou, setThankyou] = useState(false);
 
   return (
     <Dialog open={open}>

@@ -6,6 +6,7 @@ import React from "react";
 
 function MarketingToolsPage() {
   const content = getComponentText("marketing-tools");
+
   return (
     <>
       <SubHeroSection content={content} />

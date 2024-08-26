@@ -13,6 +13,7 @@ function EmailForm({ home, about }) {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [inValid, setInValid] = useState(false);
+  const [thankyou, setThankyou] = useState(false);
 
   //location
   const location = usePathname();
@@ -38,7 +39,7 @@ function EmailForm({ home, about }) {
           `https://script.google.com/macros/s/AKfycbwWGLFIebBTTuhecu_5DldCE7iiTZcAPE_LXxZan-PCqO_PyrzFZHIdvJ6ag0J5w4dY/exec?name=${name}&phone=${phone}&email=${email}&location=${location}`
         );
         if (response.status === 200) {
-          closeDialog();
+          setThankyou(true);
         } else {
           throw new Error("Failed to Post Data");
         }
@@ -91,6 +92,7 @@ function EmailForm({ home, about }) {
         phone={phone}
         onSubmitApi={onSubmitApi}
         popupForm={true}
+        thankyou={thankyou}
       />
       <form
         className={`inline-flex flex-wrap justify-center lg:gap-x-3 gap-x-2 ${
