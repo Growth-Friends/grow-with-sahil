@@ -1,10 +1,11 @@
 import React from "react";
 import MainLayout from "../Layout/MainLayout";
-import { getComponentText } from "@/utils/functions/functions";
+import { imageFilePrefix } from "@/utils/functions/functions";
 import EmailPromotion from "./Promotions/EmailPromotion";
+import Image from "next/image";
 
-function DetailSection() {
-  const content = getComponentText("util.detailSection");
+function DetailSection({ content }) {
+  // const content = getComponentText("util.detailSection");
   return (
     <div>
       {content.contentList.map((item, index, array) => {
@@ -38,17 +39,50 @@ function DetailSection() {
                 )}
                 {item.paraList.map((item, index) => {
                   return (
-                    <p
-                      key={index}
-                      className="text-paraSecondary lg:text-base text-sm mt-3 "
-                    >
-                      {item.para}
-                    </p>
+                    <React.Fragment key={index}>
+                      {item.type === "paraList" &&
+                        item.content.map((item, index) => {
+                          return (
+                            <p
+                              key={index}
+                              className="text-paraSecondary lg:text-base text-sm mt-3 "
+                            >
+                              {item.para}
+                            </p>
+                          );
+                        })}
+                      {item.type === "listList" && (
+                        <ul className="list-disc list-inside mt-3 ps-5 ">
+                          {item.content.map((item, index) => {
+                            return (
+                              <li key={index} className="mt-1">
+                                <span className="font-bold text-black/70 ">
+                                  {item?.head}{" "}
+                                </span>
+                                <span className="text-paraSecondary">
+                                  {item.para}
+                                </span>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      )}
+                    </React.Fragment>
                   );
                 })}
               </MainLayout>
             )}
             {item.type === "email-promotion" && <EmailPromotion />}
+            {item.type === "image" && (
+              <MainLayout>
+                <div
+                  style={{
+                    backgroundImage: `url(${imageFilePrefix(item.imageUrl)})`,
+                  }}
+                  className="w-[55rem] mx-auto mt-10 h-[550px] bg-center bg-cover "
+                />
+              </MainLayout>
+            )}
           </React.Fragment>
         );
       })}

@@ -2,16 +2,15 @@
 import React, { useRef } from "react";
 import MainLayout from "../Layout/MainLayout";
 import BreadCrumbAndShare from "../UtilComponents/BreadCrumbAndShare/BreadCrumbAndShare";
-import { getComponentText } from "@/utils/functions/functions";
 import { usePathname } from "next/navigation";
 
 export let subHeroSectionRef;
 
-function SubHeroSection() {
+function SubHeroSection({ content }) {
   subHeroSectionRef = useRef();
   const pathArray = usePathname().split("/");
   const currentPathName = pathArray[pathArray.length - 1].replaceAll("-", " ");
-  const content = getComponentText("util.subHeroSection");
+
   return (
     <MainLayout
       ref={subHeroSectionRef}
