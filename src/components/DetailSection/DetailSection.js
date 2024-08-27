@@ -52,7 +52,7 @@ function DetailSection({ content }) {
                           );
                         })}
                       {item.type === "listList" && (
-                        <ul className="list-disc list-inside mt-3 ps-5 ">
+                        <ul className="list-disc mt-3 ps-5 ">
                           {item.content.map((item, index) => {
                             return (
                               <li key={index} className="mt-1">

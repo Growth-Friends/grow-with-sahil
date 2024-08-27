@@ -28,8 +28,6 @@ function ResourcesComponent() {
     })();
   }, []);
 
-  console.log(resourceList);
-
   return (
     <MainLayout>
       <div className="md:py-8 py-6 flex items-start flex-wrap justify-start xl:gap-y-14 md:gap-y-12 gap-y-8 ">

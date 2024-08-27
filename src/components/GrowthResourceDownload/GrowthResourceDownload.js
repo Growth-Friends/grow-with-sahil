@@ -13,8 +13,8 @@ import getMethodCall from "@/utils/services/services";
 
 const inter = Inter({ subsets: ["latin"], weight: ["500"] });
 
-function GrowthResourceDownload() {
-  const ratingArray = new Array(5).fill(false).fill(true, 0, 4);
+function GrowthResourceDownload({ data }) {
+  const ratingArray = new Array(5).fill(false).fill(true, 0, data.stars);
   const [isDialogOpen, setDialogOpen] = useState(false);
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
@@ -36,8 +36,8 @@ function GrowthResourceDownload() {
   // Function to trigger the file download
   function triggerFileDownload() {
     const a = document.createElement("a");
-    a.href = filePrefix("/pocketfulPdf.pdf", "/pdf");
-    a.download = "pocketfulPdf.pdf"; // Name the file here if you want to specify
+    a.href = data.cta_url;
+    a.download = data.resource_name; // Name the file here if you want to specify
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -63,7 +63,11 @@ function GrowthResourceDownload() {
             `https://script.google.com/macros/s/AKfycbwWGLFIebBTTuhecu_5DldCE7iiTZcAPE_LXxZan-PCqO_PyrzFZHIdvJ6ag0J5w4dY/exec?name=${name}&phone=${phone}&email=${email}&location=${location}`
           );
           if (response.status === 200) {
-            triggerFileDownload();
+            if (data.cta_url.includes("https://")) {
+              window.open(data.cta_url, "_blank");
+            } else {
+              triggerFileDownload();
+            }
             closeDialog();
           } else {
             throw new Error("Failed to Post Data");
@@ -110,10 +114,11 @@ function GrowthResourceDownload() {
         }
       >
         <div>
-          <img
-            src={imageFilePrefix("/resourcesImage.png")}
-            alt="growth resources"
-            className="w-full aspect-auto"
+          <div
+            style={{
+              backgroundImage: `url(${data.featured_image})`,
+            }}
+            className="w-[55rem] mx-auto mt-0 h-[550px] bg-center bg-cover shadow-lg "
           />
           <div className="flex items-center justify-between xl:pt-8 lg:pt-6 pt-4 ">
             <div className="inline-flex flex-col xl:gap-y-7 lg:gap-y-6 md:gap-y-5 gap-y-3">
@@ -144,7 +149,7 @@ function GrowthResourceDownload() {
                     " font-medium xl:text-xl lg:text-lg md:text-base text-sm "
                   }
                 >
-                  +250 Downloads
+                  +{data.Downloads} Downloads
                 </span>
               </div>
             </div>
@@ -152,7 +157,7 @@ function GrowthResourceDownload() {
               onClick={openDialog}
               className="bg-primaryColor px-3 py-2 rounded-md font-medium xl:text-lg lg:text-base md:text-sm text-xs flex items-center lg:gap-x-2 gap-x-1 hover:gap-x-3 transition-all duration-300 ease-in-out "
             >
-              Download Now
+              {data.cta_text}
               <ArrowForwardIcon className="lg:text-lg text-base" />
             </button>
           </div>

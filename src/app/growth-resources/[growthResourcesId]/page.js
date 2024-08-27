@@ -30,7 +30,7 @@ async function IndividualGrowthResourcesPage({ params }) {
     <>
       {/* Check if data is present before rendering SubHeroSection */}
       {data && <SubHeroSection subHeading={data.acf.out_description} />}
-      <GrowthResourceDownload />
+      <GrowthResourceDownload data={data.acf} />
       {/* Use HtmlContent to render HTML content dynamically */}
       {data && <HtmlContent data={data} />}
       <MoreResources moreResources={true} />
