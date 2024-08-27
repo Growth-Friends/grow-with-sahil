@@ -1,17 +1,24 @@
 "use client";
-import { getComponentText, imageFilePrefix } from "@/utils/functions/functions";
+import {
+  filePrefix,
+  getComponentText,
+  imageFilePrefix,
+} from "@/utils/functions/functions";
 import React, { useEffect, useRef, useState } from "react";
 import MainLayout from "../Layout/MainLayout";
 import Link from "next/link";
 import staticRoutes from "@/utils/routes/staticRoutes";
 import ArrowCircleLeftRoundedIcon from "@mui/icons-material/ArrowCircleLeftRounded";
 import ArrowCircleRightRoundedIcon from "@mui/icons-material/ArrowCircleRightRounded";
+import getMethodCall from "@/utils/services/services";
+import "./BlogSection.css";
 
 function BlogSection() {
   const content = getComponentText("home.blogSection");
   const [currentIndex, setCurrentIndex] = useState(0);
   const scrollRefs = useRef([]);
   const scrollContainer = useRef();
+  const [blogList, setBlogList] = useState([]);
 
   //increase index
   function increaseIndex() {
@@ -46,6 +53,16 @@ function BlogSection() {
     }
   }, [currentIndex]);
 
+  useEffect(() => {
+    (async () => {
+      const response = await getMethodCall(
+        "https://growwithsahil.com/blog/wp-json/wp/v2/posts?_fields=slug,title,excerpt&acf_format=standard"
+      );
+      const data = await response.json();
+      setBlogList(data);
+    })();
+  }, []);
+
   return (
     <MainLayout
       innerClass={
@@ -75,7 +92,7 @@ function BlogSection() {
           className="relative md:overflow-hidden overflow-x-scroll flex"
           ref={scrollContainer}
         >
-          {content.blogList.map((item, index) => {
+          {blogList.map((item, index) => {
             return (
               <div
                 ref={(ref) => (scrollRefs.current[index] = ref)}
@@ -85,29 +102,35 @@ function BlogSection() {
                 <div className="rounded-xl overflow-hidden text-start ">
                   <img
                     loading="lazy"
-                    src={imageFilePrefix(item.imageUrl)}
+                    src={imageFilePrefix("blogImage.png")}
                     alt={item.heading}
                     className="w-full aspect-auto"
                   />
                   <div className="px-2.5 pt-4 pb-3.5 border-x-2 border-b-2 rounded-b-xl ">
                     <p className="line-clamp-2 font-bold xl:text-[23px] lg:text-[19px] md:text-[18px] text-[17px] leading-[1.2] ">
-                      {item.heading}
+                      {item.title.rendered}
                     </p>
-                    <p className="line-clamp-3 font-medium xl:text-sm md:text-xs text-[10px] text-paraSecondary leading-snug md:mt-3 mt-2 ">
+                    {/* <p className="line-clamp-3 font-medium xl:text-sm md:text-xs text-[10px] text-paraSecondary leading-snug md:mt-3 mt-2 ">
                       {item.para}
-                    </p>
+                    </p> */}
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: item.excerpt.rendered,
+                      }}
+                      className="blogPara"
+                    ></div>
                     <div className="xl:mt-10 mt-8 flex justify-between">
                       <p className="flex flex-col font-medium xl:text-xs text-[10px] text-paraSecondary ">
-                        <span>{item.publish}</span>
-                        <span>{item.author}</span>
+                        {/* <span>{item.publish}</span>
+                        <span>{item.author}</span> */}
                       </p>
                       <Link
                         prefetch={false}
-                        href={staticRoutes.blog}
+                        href={`${staticRoutes.blog}/${item.slug}`}
                         target="_blank"
                         className="bg-primaryColor text-black hover:bg-black hover:text-white xl:px-3 px-2 py-1 rounded-md font-semibold xl:text-base text-sm transition-all duration-300 ease-in-out"
                       >
-                        {item.button}
+                        Read More
                       </Link>
                     </div>
                   </div>
