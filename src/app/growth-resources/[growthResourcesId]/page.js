@@ -8,9 +8,9 @@ import React from "react";
 function IndividualGrowthResourcesPage() {
   return (
     <>
-      <SubHeroSection />
+      {/* <SubHeroSection /> */}
       <GrowthResourceDownload />
-      <DetailSection />
+      {/* <DetailSection /> */}
       <MoreResources moreResources={true} />
       <AboutMeSection />
     </>
@@ -18,3 +18,15 @@ function IndividualGrowthResourcesPage() {
 }
 
 export default IndividualGrowthResourcesPage;
+
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const staticList = await fetch(
+    "https://growwithsahil.com/blog/wp-json/wp/v2/resource-api/?_fields=acf,content,slug&acf_format=standard "
+  ).then((res) => res.json());
+
+  return staticList.map((item) => ({
+    growthResourcesId: item.slug,
+  }));
+}

@@ -9,9 +9,9 @@ function ToolsWrapper() {
   seoToolsRef = useRef();
   socialToolsRef = useRef();
   performanceToolsRef = useRef();
-  const [seoToolsList, setSeoToolsList] = useState();
-  const [performanceToolsList, setPerformanceToolsList] = useState();
-  const [socialToolsList, setSocialToolsList] = useState();
+  const [seoToolsList, setSeoToolsList] = useState([]);
+  const [performanceToolsList, setPerformanceToolsList] = useState([]);
+  const [socialToolsList, setSocialToolsList] = useState([]);
 
   useEffect(() => {
     (async () => {
@@ -19,9 +19,19 @@ function ToolsWrapper() {
         "https://growwithsahil.com/blog/wp-json/wp/v2/tools-api/?_fields=acf,content,slug&acf_format=standard"
       );
       const data = await response.json();
+      setPerformanceToolsList(
+        data.filter((item) => {
+          return item.acf.tool_category === "Performance Marketing";
+        })
+      );
       setSeoToolsList(
         data.filter((item) => {
           return item.acf.tool_category === "Search Engine optimization";
+        })
+      );
+      setSocialToolsList(
+        data.filter((item) => {
+          return item.acf.tool_category === "Social Media";
         })
       );
     })();
@@ -29,21 +39,21 @@ function ToolsWrapper() {
 
   return (
     <>
-      {seoToolsList && (
+      {seoToolsList.length !== 0 && (
         <ToolsComponent
           seoTools={true}
           ref={seoToolsRef}
           toolsList={seoToolsList}
         />
       )}
-      {socialToolsList && (
+      {socialToolsList.length !== 0 && (
         <ToolsComponent
           socialTools={true}
           ref={socialToolsRef}
           toolsList={socialToolsList}
         />
       )}
-      {performanceToolsList && (
+      {performanceToolsList.length !== 0 && (
         <ToolsComponent
           performanceTools={true}
           ref={performanceToolsRef}
