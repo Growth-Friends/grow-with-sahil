@@ -4,6 +4,7 @@ import DummyToolsSection from "@/components/DummyToolsSection/DummyToolsSection"
 import HtmlContent from "@/components/HtmlContent/HtmlContent";
 import MoreResources from "@/components/ResourcesComponent/MoreResources/MoreResources";
 import SubHeroSection from "@/components/SubHeroSection/SubHeroSection";
+import ToolsRedirectComponent from "@/components/ToolsRedirectComponent/ToolsRedirectComponent";
 import React from "react";
 
 async function fetchToolData(slug) {
@@ -28,7 +29,7 @@ async function IndividualMarketingToolsPage({ params }) {
   return (
     <>
       <SubHeroSection subHeading={data.acf.out_description} />
-      <DummyToolsSection />
+      <ToolsRedirectComponent data={data.acf} />
       <HtmlContent data={data} />
       <MoreResources moreTools={true} />
       <AboutMeSection />
