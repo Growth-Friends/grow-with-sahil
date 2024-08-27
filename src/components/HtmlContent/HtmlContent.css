@@ -4,18 +4,21 @@
 .detailPageCss h4,
 .detailPageCss h5 {
   font-weight: bold;
+  margin: 1rem 0; /* Default margin for headings */
 }
 
 /* Styles for h2 */
 .detailPageCss h2 {
   font-size: 1.5rem; /* Base font size for small screens */
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; /* Already defined, so this line can remain */
 }
 
+/* Default margin for paragraphs */
 .detailPageCss p {
   color: #acacac;
   font-size: 0.875rem; /* Base font size for small screens, equivalent to text-sm */
-  margin-top: 0.75rem; /* Base margin for small screens, equivalent to mt-3 */
+  margin-top: 0.75rem; /* Already defined, so this line can remain */
+  margin-bottom: 1rem; /* Add a default bottom margin for paragraphs */
 }
 
 @media (min-width: 1024px) {
@@ -24,33 +27,34 @@
     font-size: 1.875rem; /* 3xl */
     margin-bottom: 1.25rem;
   }
-}
 
-@media (min-width: 1024px) {
-  /* Large screens */
   .detailPageCss p {
     font-size: 1rem; /* Equivalent to text-base */
+    margin-bottom: 1.25rem; /* Add a default bottom margin for paragraphs on large screens */
   }
 }
 
 /* Styles for h3 */
 .detailPageCss h3 {
   font-size: 1.25rem; /* Base font size for small screens */
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem; /* This will set the default bottom margin */
+  margin-top: 1rem; /* Add default top margin */
 }
 
 @media (min-width: 1024px) {
   /* Large screens */
   .detailPageCss h3 {
     font-size: 1.5rem; /* 2xl */
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
+    margin-top: 1.25rem; /* Adjust top margin for large screens */
   }
 }
 
 /* Styles for h4 */
 .detailPageCss h4 {
   font-size: 1.125rem; /* Base font size for small screens */
-  margin-bottom: 0.625rem;
+  margin-bottom: 0.625rem; /* This will set the default bottom margin */
+  margin-top: 0.875rem; /* Add default top margin */
 }
 
 @media (min-width: 1024px) {
@@ -58,13 +62,15 @@
   .detailPageCss h4 {
     font-size: 1.25rem; /* xl */
     margin-bottom: 0.75rem;
+    margin-top: 1rem; /* Adjust top margin for large screens */
   }
 }
 
 /* Styles for h5 */
 .detailPageCss h5 {
   font-size: 1rem; /* Base font size for small screens */
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem; /* This will set the default bottom margin */
+  margin-top: 0.75rem; /* Add default top margin */
 }
 
 @media (min-width: 1024px) {
@@ -72,24 +78,37 @@
   .detailPageCss h5 {
     font-size: 1.125rem; /* lg */
     margin-bottom: 0.625rem;
+    margin-top: 0.875rem; /* Adjust top margin for large screens */
   }
 }
 
 /* Styles for unordered list (ul) */
 .detailPageCss ul {
   list-style-type: disc; /* Default bullet style */
-  list-style-position: inside; /* Bullets inside the list container */
+  list-style-position: outside; /* Bullets inside the list container */
   margin-top: 0.75rem; /* Equivalent to mt-3 */
+  margin-bottom: 1rem; /* Add default bottom margin for ul */
+  padding-left: 1.25rem; /* Equivalent to ps-5 */
+}
+
+/* Styles for ordered list (ol) */
+.detailPageCss ol {
+  list-style-type: decimal; /* Default bullet style */
+  list-style-position: outside; /* Bullets inside the list container */
+  margin-top: 0.75rem; /* Equivalent to mt-3 */
+  margin-bottom: 1rem; /* Add default bottom margin for ol */
   padding-left: 1.25rem; /* Equivalent to ps-5 */
 }
 
 /* Styles for list items (li) */
-.detailPageCss ul li {
+.detailPageCss ul li,
+.detailPageCss ol li {
   margin-top: 0.25rem; /* Small margin between list items, equivalent to mt-1 */
 }
 
 /* Styles for list item headers (span inside li) */
-.detailPageCss ul li strong {
+.detailPageCss ul li strong,
+.detailPageCss ol li strong {
   font-weight: bold;
   color: rgba(0, 0, 0, 0.9); /* Applying 70% opacity to black */
 }
