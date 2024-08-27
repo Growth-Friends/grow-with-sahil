@@ -56,7 +56,7 @@ function DetailSection({ content }) {
                           {item.content.map((item, index) => {
                             return (
                               <li key={index} className="mt-1">
-                                <span className="font-bold text-black/70 ">
+                                <span className="font-bold text-black/90 ">
                                   {item?.head}{" "}
                                 </span>
                                 <span className="text-paraSecondary">

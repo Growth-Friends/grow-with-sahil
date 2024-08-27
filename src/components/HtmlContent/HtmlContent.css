@@ -1,0 +1,95 @@
+/* Global styles */
+.detailPageCss h2,
+.detailPageCss h3,
+.detailPageCss h4,
+.detailPageCss h5 {
+  font-weight: bold;
+}
+
+/* Styles for h2 */
+.detailPageCss h2 {
+  font-size: 1.5rem; /* Base font size for small screens */
+  margin-bottom: 1rem;
+}
+
+.detailPageCss p {
+  color: #acacac;
+  font-size: 0.875rem; /* Base font size for small screens, equivalent to text-sm */
+  margin-top: 0.75rem; /* Base margin for small screens, equivalent to mt-3 */
+}
+
+@media (min-width: 1024px) {
+  /* Large screens */
+  .detailPageCss h2 {
+    font-size: 1.875rem; /* 3xl */
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Large screens */
+  .detailPageCss p {
+    font-size: 1rem; /* Equivalent to text-base */
+  }
+}
+
+/* Styles for h3 */
+.detailPageCss h3 {
+  font-size: 1.25rem; /* Base font size for small screens */
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 1024px) {
+  /* Large screens */
+  .detailPageCss h3 {
+    font-size: 1.5rem; /* 2xl */
+    margin-bottom: 1rem;
+  }
+}
+
+/* Styles for h4 */
+.detailPageCss h4 {
+  font-size: 1.125rem; /* Base font size for small screens */
+  margin-bottom: 0.625rem;
+}
+
+@media (min-width: 1024px) {
+  /* Large screens */
+  .detailPageCss h4 {
+    font-size: 1.25rem; /* xl */
+    margin-bottom: 0.75rem;
+  }
+}
+
+/* Styles for h5 */
+.detailPageCss h5 {
+  font-size: 1rem; /* Base font size for small screens */
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  /* Large screens */
+  .detailPageCss h5 {
+    font-size: 1.125rem; /* lg */
+    margin-bottom: 0.625rem;
+  }
+}
+
+/* Styles for unordered list (ul) */
+.detailPageCss ul {
+  list-style-type: disc; /* Default bullet style */
+  list-style-position: inside; /* Bullets inside the list container */
+  margin-top: 0.75rem; /* Equivalent to mt-3 */
+  padding-left: 1.25rem; /* Equivalent to ps-5 */
+}
+
+/* Styles for list items (li) */
+.detailPageCss ul li {
+  margin-top: 0.25rem; /* Small margin between list items, equivalent to mt-1 */
+}
+
+/* Styles for list item headers (span inside li) */
+.detailPageCss ul li strong {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.9); /* Applying 70% opacity to black */
+}

@@ -19,7 +19,7 @@ const ToolsComponent = forwardRef(
           : performanceTools && "performanceTools"
       }`
     );
-    console.log(toolsList);
+
     return (
       <MainLayout>
         <div className="xl:py-10 py-7 overflow-hidden ">

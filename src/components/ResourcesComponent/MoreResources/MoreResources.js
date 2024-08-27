@@ -50,12 +50,17 @@ function MoreResources({ moreResources, moreTools }) {
               <Link
                 prefetch={false}
                 key={index}
-                href={filePrefix(
-                  item.link,
+                // href={filePrefix(
+                //   item.link,
+                //   moreResources
+                //     ? "/growth-resources"
+                //     : moreTools && "/marketing-tools"
+                // )}
+                href={
                   moreResources
                     ? "/growth-resources"
                     : moreTools && "/marketing-tools"
-                )}
+                }
                 className="bg-black text-white xl:p-3.5 p-3 flex items-center gap-x-5 rounded-xl hover:scale-105 transition-all duration-300 ease-in-out "
               >
                 <img

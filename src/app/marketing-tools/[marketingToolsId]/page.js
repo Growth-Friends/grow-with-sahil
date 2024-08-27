@@ -1,16 +1,35 @@
 import AboutMeSection from "@/components/AboutMeSection/AboutMeSection";
 import DetailSection from "@/components/DetailSection/DetailSection";
 import DummyToolsSection from "@/components/DummyToolsSection/DummyToolsSection";
+import HtmlContent from "@/components/HtmlContent/HtmlContent";
 import MoreResources from "@/components/ResourcesComponent/MoreResources/MoreResources";
 import SubHeroSection from "@/components/SubHeroSection/SubHeroSection";
 import React from "react";
 
-function IndividualMarketingToolsPage({ params }) {
+async function fetchToolData(slug) {
+  const res = await fetch(
+    `https://growwithsahil.com/blog/wp-json/wp/v2/tools-api/?slug=${slug}&_fields=acf,content,slug&acf_format=standard`,
+    { cache: "no-store" } // This option disables caching to get fresh data
+  );
+  if (!res.ok) {
+    // Handle error
+    throw new Error("Failed to fetch data");
+  }
+  return res.json();
+}
+
+async function IndividualMarketingToolsPage({ params }) {
+  // Fetch data using the slug from params
+  const toolData = await fetchToolData(params.marketingToolsId);
+
+  // Assuming toolData is an array and you need the first item
+  const data = toolData.length ? toolData[0] : null;
+
   return (
     <>
-      {/* <SubHeroSection /> */}
+      <SubHeroSection subHeading={data.acf.out_description} />
       <DummyToolsSection />
-      {/* <DetailSection /> */}
+      <HtmlContent data={data} />
       <MoreResources moreTools={true} />
       <AboutMeSection />
     </>
