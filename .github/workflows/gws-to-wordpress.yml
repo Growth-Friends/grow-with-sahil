@@ -8,7 +8,7 @@ on:
 
 jobs:
   web-deploy:
-    name: 🎉 Build and Prepare Deployment
+    name: 🎉 Build, Commit, and Prepare Deployment
     runs-on: ubuntu-latest
 
     steps:
@@ -26,21 +26,29 @@ jobs:
     - name: Build project
       run: npm run build
 
-    - name: Create ZIP of out folder
-      run: zip -r out.zip out
+    - name: Commit the out folder
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add out
+        git commit -m "Auto-commit: add out folder after build"
+        git push origin main
 
   ftp-deploy:
     name: 🎉 FTP Deploy
     runs-on: ubuntu-latest
     needs: web-deploy
     steps:
+    - name: 🚚 Get latest code with out folder
+      uses: actions/checkout@v4
+
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ftp://217.21.94.151
         username: u251186022
         password: ${{ secrets.FTP_PASSWORD }} # Store your FTP password as a secret in GitHub
-        local-dir: ./out/ # Make sure to match the local-dir with your actual output directory and end with a slash
+        local-dir: ./out/ # Upload the contents of the out folder
         server-dir: /public_html/ # Must end with a trailing slash
         protocol: ftps # Use secure FTPS protocol
         port: 21
