@@ -4,6 +4,7 @@ import GrowthResourceDownload from "@/components/GrowthResourceDownload/GrowthRe
 import MoreResources from "@/components/ResourcesComponent/MoreResources/MoreResources";
 import SubHeroSection from "@/components/SubHeroSection/SubHeroSection";
 import React from "react";
+import { notFound } from "next/navigation"; // Import the notFound function from next/navigation
 
 // Function to fetch data from the API
 async function fetchResourceData(slug) {
@@ -26,13 +27,17 @@ async function IndividualGrowthResourcesPage({ params }) {
   // Assuming resourceData is an array and you need the first item
   const data = resourceData.length ? resourceData[0] : null;
 
+  // If no data is found, show the default Next.js 404 page
+  if (!data) {
+    return notFound(); // This will render the default 404 page
+  }
+
   return (
     <>
-      {/* Check if data is present before rendering SubHeroSection */}
-      {data && <SubHeroSection subHeading={data.acf.out_description} />}
+      {/* Render components only if data is present */}
+      <SubHeroSection subHeading={data.acf.out_description} />
       <GrowthResourceDownload data={data.acf} />
-      {/* Use HtmlContent to render HTML content dynamically */}
-      {data && <HtmlContent data={data} />}
+      <HtmlContent data={data} />
       <MoreResources moreResources={true} />
       <AboutMeSection />
     </>
@@ -42,6 +47,7 @@ async function IndividualGrowthResourcesPage({ params }) {
 export default IndividualGrowthResourcesPage;
 
 export const dynamicParams = false;
+export const dynamic = "error";
 
 // Function to generate static parameters for pre-rendering
 export async function generateStaticParams() {

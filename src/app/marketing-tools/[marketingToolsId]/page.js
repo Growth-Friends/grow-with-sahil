@@ -1,11 +1,10 @@
 import AboutMeSection from "@/components/AboutMeSection/AboutMeSection";
-import DetailSection from "@/components/DetailSection/DetailSection";
-import DummyToolsSection from "@/components/DummyToolsSection/DummyToolsSection";
 import HtmlContent from "@/components/HtmlContent/HtmlContent";
 import MoreResources from "@/components/ResourcesComponent/MoreResources/MoreResources";
 import SubHeroSection from "@/components/SubHeroSection/SubHeroSection";
 import ToolsRedirectComponent from "@/components/ToolsRedirectComponent/ToolsRedirectComponent";
 import React from "react";
+import { notFound } from "next/navigation"; // Import the notFound function from next/navigation
 
 async function fetchToolData(slug) {
   const res = await fetch(
@@ -26,10 +25,15 @@ async function IndividualMarketingToolsPage({ params }) {
   // Assuming toolData is an array and you need the first item
   const data = toolData.length ? toolData[0] : null;
 
+  // Check if data is null and use notFound to trigger the default 404 page
+  if (!data) {
+    return notFound(); // Render the default Next.js 404 page
+  }
+
   return (
     <>
-      <SubHeroSection subHeading={data.acf.out_description} />
-      <ToolsRedirectComponent data={data.acf} />
+      <SubHeroSection subHeading={data?.acf?.out_description} />
+      <ToolsRedirectComponent data={data?.acf} />
       <HtmlContent data={data} />
       <MoreResources moreTools={true} />
       <AboutMeSection />
@@ -40,6 +44,7 @@ async function IndividualMarketingToolsPage({ params }) {
 export default IndividualMarketingToolsPage;
 
 export const dynamicParams = false;
+export const dynamic = "error";
 
 export async function generateStaticParams() {
   const staticList = await fetch(
