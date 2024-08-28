@@ -1,15 +1,19 @@
-name: GWS to WordPress
+name: 🚀 Deploy website on push
 
 on:
-  workflow_dispatch: # This enables the manual trigger
+  push: # Deploy on push to the main branch
+    branches:
+      - main
+  workflow_dispatch: # Enables the manual trigger
 
 jobs:
-  deploy:
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
 
     - name: Install Node.js
       uses: actions/setup-node@v2
@@ -29,12 +33,10 @@ jobs:
       run: |
         curl -T out.zip ftp://u251186022:${{ secrets.FTP_PASSWORD }}@217.21.94.151/public_html/out.zip --user u251186022:${{ secrets.FTP_PASSWORD }}
 
-    - name: Extract ZIP on server via File Manager
+    - name: Extract ZIP on server via FTP
       run: |
-        curl -X POST https://srv784-files.hstgr.io/15bf51d26f35c315/files/public_html/extract.php \
-        -F "file=@out.zip" \
-        -F "destination=/public_html" \
-        --user u251186022:${{ secrets.FTP_PASSWORD }}
+        curl --silent ftp://u251186022:${{ secrets.FTP_PASSWORD }}@217.21.94.151 --quote "CWD /public_html" --quote "RNFR out.zip" --quote "RNTO /out.zip" --quote "SITE UNZIP /public_html/out.zip"
+        curl --silent ftp://u251186022:${{ secrets.FTP_PASSWORD }}@217.21.94.151 --quote "DELE /public_html/out.zip"
 
     - name: Clean up
       run: rm -f out.zip
@@ -43,3 +45,20 @@ jobs:
       if: always()
       run: |
         echo "Clean up done, no commit to repo."
+
+  ftp-deploy:
+    name: 🎉 FTP Deploy
+    runs-on: ubuntu-latest
+    needs: web-deploy
+    steps:
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ftp://217.21.94.151
+        username: u251186022
+        password: ${{ secrets.FTP_PASSWORD }} # Store your FTP password as a secret in GitHub
+        local-dir: ./out/ # Make sure to match the local-dir with your actual output directory and end with a slash
+        server-dir: /public_html/ # Must end with a trailing slash
+        protocol: ftps # Use secure FTPS protocol
+        port: 21
+        log-level: standard
