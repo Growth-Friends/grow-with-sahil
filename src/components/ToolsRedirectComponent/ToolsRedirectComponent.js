@@ -14,7 +14,6 @@ const inter = Inter({ subsets: ["latin"], weight: ["500"] });
 
 function ToolsRedirectComponent({ data }) {
   const ratingArray = new Array(5).fill(false).fill(true, 0, data.stars);
-
   return (
     <>
       <MainLayout
@@ -58,13 +57,14 @@ function ToolsRedirectComponent({ data }) {
                     " font-medium xl:text-xl lg:text-lg md:text-base text-sm "
                   }
                 >
-                  +{data.Downloads} Downloads
+                  +{data.downloads} Users
                 </span>
               </div>
             </div>
             <Link
               href={data.cta_url}
               prefetch={false}
+              target="_blank"
               className="bg-primaryColor px-3 py-2 rounded-md font-medium xl:text-lg lg:text-base md:text-sm text-xs flex items-center lg:gap-x-2 gap-x-1 hover:gap-x-3 transition-all duration-300 ease-in-out "
             >
               {data.cta_text}
