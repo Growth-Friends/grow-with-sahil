@@ -1,0 +1,116 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[6126,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-8d63f0f806c7d1ea.js","935","static/chunks/935-36c9dab5fbb488ea.js","84","static/chunks/84-a02fde76cb3cbdf2.js","880","static/chunks/880-5c1b97caeb7a3c17.js","185","static/chunks/app/layout-ccf6825d2943bd53.js"],"default"]
+7:I[6938,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-8d63f0f806c7d1ea.js","935","static/chunks/935-36c9dab5fbb488ea.js","84","static/chunks/84-a02fde76cb3cbdf2.js","880","static/chunks/880-5c1b97caeb7a3c17.js","185","static/chunks/app/layout-ccf6825d2943bd53.js"],"default"]
+4:["growthResourcesId","important-softwares-name","d"]
+0:["WUCO0Tz5g8HYUGc3WlmJ_",[[["",{"children":["growth-resources",{"children":[["growthResourcesId","important-softwares-name","d"],{"children":["__PAGE__?{\"growthResourcesId\":\"important-softwares-name\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["growth-resources",{"children":[["growthResourcesId","important-softwares-name","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","growth-resources","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/263a965a17fd62aa.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/72bf7e955f21236e.css","precedence":"next","crossOrigin":"$undefined"}]]}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","growth-resources","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_5470e1","children":[["$","$L6",null,{}],["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}],["$","$L7",null,{}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5608cdceca13d012.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/d2692d282998e2fb.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L8"]]]]]
+a:I[2805,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-8d63f0f806c7d1ea.js","84","static/chunks/84-a02fde76cb3cbdf2.js","457","static/chunks/app/growth-resources/%5BgrowthResourcesId%5D/page-338f7a9f7f5fc3ed.js"],"default"]
+b:I[231,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-8d63f0f806c7d1ea.js","84","static/chunks/84-a02fde76cb3cbdf2.js","457","static/chunks/app/growth-resources/%5BgrowthResourcesId%5D/page-338f7a9f7f5fc3ed.js"],""]
+2:["$L9",["$","$La",null,{"moreResources":true}],["$","div",null,{"className":"md:px-[40px] px-[10px] select-none overflow-hidden ","children":["$","div",null,{"className":"max-w-[80rem] mx-auto  ","children":["$","div",null,{"className":"xl:py-20 lg:py-16 md:py-14 py-12 overflow-hidden ","children":[["$","div",null,{"className":"text-center bg-black text-white xl:py-8 py-6 px-3 rounded-t-2xl","children":["$","h2",null,{"className":"font-bold xl:text-4xl lg:text-3xl text-2xl uppercase ","children":"About Me"}]}],["$","div",null,{"className":"grid md:grid-flow-col grid-flow-row md:grid-rows-1 grid-rows-auto grid-cols-12 xl:p-8 lg:p-6 p-4 xl:gap-8 lg:gap-6 gap-4 border-x-2 border-b-2 border-paraSecondary/40 rounded-b-2xl","children":[["$","div",null,{"className":"md:col-span-4 col-span-full md:self-end self-auto","children":["$","img",null,{"loading":"lazy","alt":"sahil khan image","src":"/images//profilePicture.png","className":"aspect-auto w-full max-w-none xl:rounded-xl rounded-lg "}]}],["$","div",null,{"className":"md:col-span-8 col-span-full md:self-end self-auto ","children":[["$","h3",null,{"className":"uppercase font-bold xl:text-3xl lg:text-2xl text-xl ","children":"Sahil Khan"}],["$","p",null,{"className":"uppercase font-semibold xl:text-xl lg:text-lg text-base lg:mt-0.5 mt-[1px] ","children":"Growth Marketer"}],["$","p",null,{"className":"text-paraSecondary xl:text-base lg:text-sm text-xs xl:mt-4 lg:mt-3 mt-2","children":"I’m Sahil Khan, a professional marketer with over 5 years of experience in Fin-tech, Crypto, and AI. My expertise spans Brand Building, Growth Marketing, Crypto & Web3 Marketing, Performance Marketing, Influencer Marketing, Social Media Growth Hacking, and Brand Identity Creation. I also bring strong design skills to the table, enhancing my marketing strategies."}],["$","div",null,{"className":"flex items-center gap-x-4 xl:mt-10 lg:mt-8 mt-6","children":[["$","$Lb","0",{"href":"https://www.linkedin.com/in/growwithsahil","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//linkedinIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}],["$","$Lb","1",{"href":"https://www.youtube.com/@growwithsahilofficial","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//youtubeIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}],["$","$Lb","2",{"href":"https://x.com/growwithsahil","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//twitterIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}],["$","$Lb","3",{"href":"https://www.instagram.com/growwithsahil/","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//instagramIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}]]}]]}]]}]]}]}]}]]
+8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Create Next App"}],["$","meta","3",{"name":"description","content":"Generated by create next app"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"400x400"}],["$","meta","5",{"name":"next-size-adjust"}]]
+1:null
+c:I[2086,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-8d63f0f806c7d1ea.js","84","static/chunks/84-a02fde76cb3cbdf2.js","457","static/chunks/app/growth-resources/%5BgrowthResourcesId%5D/page-338f7a9f7f5fc3ed.js"],"default"]
+d:I[6466,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-8d63f0f806c7d1ea.js","84","static/chunks/84-a02fde76cb3cbdf2.js","457","static/chunks/app/growth-resources/%5BgrowthResourcesId%5D/page-338f7a9f7f5fc3ed.js"],"default"]
+e:T1b75,
+<h3 class="wp-block-heading">The Ultimate Marketing Toolbox Giveaway: Unlock Your Path to Unprecedented Growth! 🚀</h3>
+
+
+
+<p>In today&#8217;s fast-paced digital landscape, marketers are constantly searching for that competitive edge—the tools and strategies that will elevate their game and drive exceptional growth. But with the overwhelming number of software options available, it&#8217;s easy to feel lost. How do you know which tools will truly make a difference in your marketing efforts?</p>
+
+
+
+<p>Imagine having access to a carefully curated collection of the most powerful marketing tools, all in one place. Tools that have been tested, proven, and trusted by professionals to deliver real results. Tools that could be the key to unlocking your marketing potential and propelling your business to new heights. Well, you&#8217;re in luck—because that&#8217;s exactly what this giveaway is all about.</p>
+
+
+
+<p>Welcome to the <strong>Ultimate Marketing Toolbox Giveaway</strong>, your ticket to discovering the best software and tools that will revolutionize your marketing strategy. This isn&#8217;t just another list of generic recommendations. No, this is a handpicked selection of the very best tools across various aspects of marketing—tools that have helped me achieve remarkable growth, and now, they can help you too.</p>
+
+
+
+<h3 class="wp-block-heading">Why This Toolbox is a Game-Changer</h3>
+
+
+
+<p>The world of marketing is vast and complex, with countless tools vying for your attention. But not all tools are created equal. Some are indispensable, while others are simply noise. This toolbox cuts through the clutter and gives you access to the essentials—those that have been instrumental in driving growth, enhancing productivity, and maximizing ROI.</p>
+
+
+
+<p>Each tool in this giveaway has been chosen for its ability to address specific challenges that marketers face every day. Whether it&#8217;s optimizing your website for search engines, crafting compelling email campaigns, managing social media like a pro, analyzing your performance with precision, or nurturing leads through a powerful CRM system, this toolbox has got you covered.</p>
+
+
+
+<h3 class="wp-block-heading">What&#8217;s Inside the Ultimate Marketing Toolbox?</h3>
+
+
+
+<p>Without giving too much away (because let&#8217;s be honest, you&#8217;ll want to download the file to get the full scoop), here&#8217;s a sneak peek at what you can expect:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Top SEO Tools:</strong> The foundation of any successful digital marketing strategy is visibility. These tools are designed to help you climb the search engine rankings, drive organic traffic, and ensure your content is seen by the right audience. Imagine having the power to uncover the exact keywords your target audience is searching for, audit your website for SEO errors, and track your rankings with ease.</li>
+
+
+
+<li><strong>Best Email Marketing Platforms:</strong> Email marketing remains one of the most effective ways to engage with your audience and convert leads into customers. The platforms included in this giveaway offer everything you need to create, send, and optimize email campaigns that resonate. From automation to segmentation, these tools make email marketing a breeze.</li>
+
+
+
+<li><strong>Must-Have Social Media Management Tools:</strong> Social media is where brands can build relationships, engage with their audience, and amplify their message. But managing multiple platforms can be overwhelming. The tools in this toolbox simplify social media management, allowing you to schedule posts, monitor conversations, and analyze performance—all from one central hub.</li>
+
+
+
+<li><strong>Advanced Analytics Software:</strong> Data-driven decisions are the backbone of successful marketing. The analytics tools in this giveaway provide deep insights into your campaigns, helping you understand what’s working and what’s not. With access to real-time data, you&#8217;ll be able to refine your strategies and drive better results.</li>
+
+
+
+<li><strong>Powerful CRM Systems:</strong> Customer relationship management is crucial for any business looking to grow and retain its customer base. The CRM tools included in this giveaway help you manage customer interactions, track leads, and streamline your sales process. Whether you&#8217;re a small business or a large enterprise, these systems are scalable to meet your needs.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Why You Need to Download This Toolbox</h3>
+
+
+
+<p>So, why should you download this Ultimate Marketing Toolbox? Here are just a few reasons:</p>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Save Time and Effort:</strong> No more wasting hours searching for the right tools. This toolbox gives you direct access to the most effective marketing software, so you can focus on what really matters—growing your business.</li>
+
+
+
+<li><strong>Stay Ahead of the Competition:</strong> In the ever-evolving digital landscape, staying ahead of the competition requires using the best tools available. This giveaway gives you an edge by providing you with the same tools that top marketers use to dominate their industries.</li>
+
+
+
+<li><strong>Boost Your ROI:</strong> Every tool in this toolbox has been selected for its ability to deliver real, measurable results. By using these tools, you’ll be able to optimize your marketing efforts, improve your ROI, and see the kind of growth you’ve been striving for.</li>
+
+
+
+<li><strong>Expertly Curated Selection:</strong> With so many tools on the market, it’s hard to know which ones are truly worth your time. This toolbox has been curated by an experienced marketer who has tested and vetted each tool for its effectiveness. You can trust that these are the tools that will make a difference.</li>
+
+
+
+<li><strong>Comprehensive Coverage:</strong> This isn’t just a list of tools for one aspect of marketing. It’s a complete toolbox that covers SEO, email marketing, social media management, analytics, CRM, and more. Whatever your marketing needs, you’ll find the right tool in this giveaway.</li>
+</ol>
+
+
+
+<h3 class="wp-block-heading">Take the First Step Towards Transforming Your Marketing Strategy</h3>
+
+
+
+<p>Are you ready to take your marketing strategy to the next level? The Ultimate Marketing Toolbox Giveaway is your chance to access the tools that will help you achieve unprecedented growth. Don’t miss out on this opportunity to elevate your marketing game and unlock your full potential.</p>
+
+
+
+<p>The best part? It’s absolutely free. All you have to do is download the file, and you’ll have instant access to the most essential marketing tools out there. Whether you’re a seasoned marketer or just starting out, this toolbox will equip you with everything you need to succeed.</p>
+
+
+
+<p>So, what are you waiting for? Click the link, download the Ultimate Marketing Toolbox, and start transforming your marketing strategy today. Your path to remarkable growth begins here.</p>
+9:[["$","$Lc",null,{"subHeading":"List of the most essential software/tools for marketers that have helped me achieve remarkable growth!"}],["$","$Ld",null,{"data":{"resource_name":"Ultimate Marketing Toolbox Giveaway","out_description":"List of the most essential software/tools for marketers that have helped me achieve remarkable growth!","stars":"4","Downloads":"300","cta_text":"Get Now","cta_url":"https://windy-syringa-5bc.notion.site/Important-Software-79fff973ad0a45658ba8796c57e0be65?pvs=4","featured_image":"https://growwithsahil.com/blog/wp-content/uploads/2024/08/Screenshot-2024-08-26-103506.png"}}],["$","div",null,{"className":"md:px-[40px] px-[10px] select-none overflow-hidden ","children":["$","div",null,{"className":"max-w-[80rem] mx-auto  ","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$e"},"className":"detailPageCss"}]}]}]]
