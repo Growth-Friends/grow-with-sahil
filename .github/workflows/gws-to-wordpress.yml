@@ -1,9 +1,9 @@
 name: 🚀 Deploy website on push
 
 on:
-  push: # Deploy on push to the main branch
+  push: # Deploy on push to the production branch
     branches:
-      - main
+      - production
   workflow_dispatch: # Enables the manual trigger
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add dalal
         git commit -m "Auto-commit: rename and add dalal folder after build"
-        git push origin main
+        git push origin production # Push to the production branch
 
   ftp-deploy:
     name: 🎉 FTP Deploy
