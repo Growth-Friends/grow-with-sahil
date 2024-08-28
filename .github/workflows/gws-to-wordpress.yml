@@ -26,13 +26,13 @@ jobs:
       run: zip -r out.zip out
 
     - name: Upload to FTP server
-      uses: sebastianpopp/ftp-action@v1.0.3
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        host: 217.21.94.151
+        server: ftp://217.21.94.151
         username: u251186022
         password: ${{ secrets.FTP_PASSWORD }} # Store your FTP password as a secret in GitHub
         local-dir: out.zip
-        remote-dir: /public_html
+        server-dir: /public_html
 
     - name: Extract ZIP on server
       run: |
