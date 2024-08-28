@@ -53,7 +53,7 @@ jobs:
         server: ftp://217.21.94.151
         username: u251186022
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: /dalal/
+        local-dir: ./dalal/ # Use a relative path
         server-dir: /public_html/
         protocol: ftps
         port: 21
