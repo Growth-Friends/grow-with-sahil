@@ -8,7 +8,7 @@ on:
 
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: 🎉 Build and Prepare Deployment
     runs-on: ubuntu-latest
 
     steps:
@@ -29,23 +29,6 @@ jobs:
     - name: Create ZIP of out folder
       run: zip -r out.zip out
 
-    - name: Upload ZIP to FTP server
-      run: |
-        curl -T out.zip ftp://u251186022:${{ secrets.FTP_PASSWORD }}@217.21.94.151/public_html/out.zip --user u251186022:${{ secrets.FTP_PASSWORD }}
-
-    - name: Extract ZIP on server via FTP
-      run: |
-        curl --silent ftp://u251186022:${{ secrets.FTP_PASSWORD }}@217.21.94.151 --quote "CWD /public_html" --quote "RNFR out.zip" --quote "RNTO /out.zip" --quote "SITE UNZIP /public_html/out.zip"
-        curl --silent ftp://u251186022:${{ secrets.FTP_PASSWORD }}@217.21.94.151 --quote "DELE /public_html/out.zip"
-
-    - name: Clean up
-      run: rm -f out.zip
-
-    - name: Final cleanup (optional)
-      if: always()
-      run: |
-        echo "Clean up done, no commit to repo."
-
   ftp-deploy:
     name: 🎉 FTP Deploy
     runs-on: ubuntu-latest
@@ -57,8 +40,16 @@ jobs:
         server: ftp://217.21.94.151
         username: u251186022
         password: ${{ secrets.FTP_PASSWORD }} # Store your FTP password as a secret in GitHub
-        local-dir: ./out/ # Make sure to match the local-dir with your actual output directory and end with a slash
+        local-dir: ./out/ # Upload the contents of the out folder
         server-dir: /public_html/ # Must end with a trailing slash
         protocol: ftps # Use secure FTPS protocol
         port: 21
         log-level: standard
+
+    - name: Clean up
+      run: rm -f out.zip
+
+    - name: Final cleanup (optional)
+      if: always()
+      run: |
+        echo "Clean up done, no commit to repo."
