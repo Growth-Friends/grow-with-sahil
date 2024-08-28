@@ -35,6 +35,12 @@ jobs:
     - name: Build project
       run: npm run build
 
+    - name: Ensure clean state for dalal directory
+      run: |
+        if [ -d "dalal" ]; then
+          rm -rf dalal
+        fi
+
     - name: Rename the out folder to dalal
       run: mv out dalal
 
