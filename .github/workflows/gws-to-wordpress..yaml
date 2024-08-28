@@ -65,8 +65,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ftp://217.21.94.151
-        username: u251186022
+        server: ftp.growwithsahil.com
+        username: u251186022.github
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./dalal/
         server-dir: /public_html/
