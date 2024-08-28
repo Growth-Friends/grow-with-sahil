@@ -1,17 +1,17 @@
 import React from "react";
-import IndividualMarketingToolsPage from "../IndividualMarketingToolsPage/IndividualMarketingToolsPage";
+import IndividualGrowthResourcesPage from "../IndividualGrowthResourcesPage/IndividualGrowthResourcesPage";
 
-async function MarketingToolPageContainer({ params }) {
+async function ResourcesToolsContainer({ params }) {
   const data = await fetchToolData(params);
-  return <IndividualMarketingToolsPage data={data} />;
+  return <IndividualGrowthResourcesPage data={data} />;
 }
 
-export default MarketingToolPageContainer;
+export default ResourcesToolsContainer;
 
 async function fetchToolData(params) {
   try {
     const res = await fetch(
-      `https://growwithsahil.com/blog/wp-json/wp/v2/tools-api/?slug=${params.marketingToolsId}&_fields=acf,content,slug&acf_format=standard`
+      `https://growwithsahil.com/blog/wp-json/wp/v2/resource-api/?slug=${params.growthResourcsId}&_fields=acf,content,slug&acf_format=standard`
     );
 
     if (!res.ok) {

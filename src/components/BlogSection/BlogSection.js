@@ -121,8 +121,8 @@ function BlogSection() {
                     ></div>
                     <div className="xl:mt-10 mt-8 flex justify-between">
                       <p className="flex flex-col font-medium xl:text-xs text-[10px] text-paraSecondary ">
-                        {/* <span>{item.publish}</span>
-                        <span>{item.author}</span> */}
+                        <span>Published by</span>
+                        <span>Sahil Khan</span>
                       </p>
                       <Link
                         prefetch={false}
