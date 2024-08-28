@@ -1,10 +1,10 @@
 name: 🚀 Deploy website on push
 
 on:
-  push: # Deploy on push to the production branch
+  push:
     branches:
       - production
-  workflow_dispatch: # Enables the manual trigger
+  workflow_dispatch:
 
 jobs:
   web-deploy:
@@ -18,7 +18,7 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '18.17.0'  # Ensure Node.js version meets your project's requirements
+        node-version: '18.17.0'
 
     - name: Install dependencies
       run: npm install
@@ -30,12 +30,14 @@ jobs:
       run: mv out dalal
 
     - name: Commit the dalal folder
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACTIONS_PAT }}
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add dalal
         git commit -m "Auto-commit: rename and add dalal folder after build"
-        git push origin production # Push to the production branch
+        git push https://x-access-token:${{ secrets.ACTIONS_PAT }}@github.com/Growth-Friends/grow-with-sahil.git production
 
   ftp-deploy:
     name: 🎉 FTP Deploy
@@ -50,10 +52,10 @@ jobs:
       with:
         server: ftp://217.21.94.151
         username: u251186022
-        password: ${{ secrets.FTP_PASSWORD }} # Store your FTP password as a secret in GitHub
-        local-dir: ./dalal/ # Upload the contents of the dalal folder
-        server-dir: /public_html/ # Must end with a trailing slash
-        protocol: ftps # Use secure FTPS protocol
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./dalal/
+        server-dir: /public_html/
+        protocol: ftps
         port: 21
         log-level: standard
 
