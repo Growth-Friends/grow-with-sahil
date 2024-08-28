@@ -9,14 +9,19 @@ import Link from "next/link";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const ToolsComponent = forwardRef(
-  ({ seoTools, socialTools, performanceTools, toolsList }, ref) => {
+  (
+    { seoTools, socialTools, performanceTools, retentionTools, toolsList },
+    ref
+  ) => {
     const content = getComponentText(
       `util.${
         seoTools
           ? "seoTools"
           : socialTools
           ? "socialTools"
-          : performanceTools && "performanceTools"
+          : performanceTools
+          ? "performanceTools"
+          : retentionTools && "retentionTools"
       }`
     );
 

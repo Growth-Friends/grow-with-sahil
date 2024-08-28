@@ -79,225 +79,32 @@
     "seoTools": {
       "heading": "Search Engine optimization",
       "subHeading": [
-        { "para": "Get a " },
-        { "link": "40-page action plan", "href": "/" },
         {
-          "para": " with all you need to build a crazily good growth marketing funnel."
-        }
-      ],
-      "toolsList": [
-        {
-          "imageUrl": "/checked.svg",
-          "head": "Google Index Checker",
-          "link": "/google-index-checker",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Domain Age Checker",
-          "link": "/domain-age-checker",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/checked.svg",
-          "head": "Domain Authority Checker",
-          "link": "/domain-authority-checker",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Whois Domain Lookup",
-          "link": "/whois-domain-lookup",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/checked.svg",
-          "head": "Robots.txt Generator",
-          "link": "/robots-txt-generator",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Keywords Suggestion Tool",
-          "link": "/keywords-suggestion-tool",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/checked.svg",
-          "head": "Meta Tag Generator",
-          "link": "/meta-tag-generator",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Hosting Checker",
-          "link": "/hosting-checker",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/checked.svg",
-          "head": "Adsense Calculator",
-          "link": "/adsense-calculator",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Hosting Calculator",
-          "link": "/hosting-calculator",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
+          "para": "Boost Your Online Presence with Powerful SEO Tools: Drive Traffic, Rank Higher, and Grow Your Business."
         }
       ]
     },
     "socialTools": {
       "heading": "Social Media",
       "subHeading": [
-        { "para": "Get a " },
-        { "link": "40-page action plan", "href": "/" },
         {
-          "para": " with all you need to build a crazily good growth marketing funnel."
-        }
-      ],
-      "toolsList": [
-        {
-          "imageUrl": "/checked.svg",
-          "head": "Instagram Retention Analyser",
-          "link": "/instagram-retention-analyser",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Influencer Finder",
-          "link": "/influencer-finder",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/checked.svg",
-          "head": "Youtube Tags Finder",
-          "link": "/youtube-tags-finder",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Twitter Trend Analyser",
-          "link": "/twitter-trend-analyser",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/checked.svg",
-          "head": "Twitter Boolen search Helper",
-          "link": "/twitter-boolen-search-helper",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Instagram Trend Finder",
-          "link": "/Instagram-trend-finder",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/checked.svg",
-          "head": "YouTube Thumbnail Download",
-          "link": "/youtube-thumbnail-download",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Instagram Reel Download",
-          "link": "/instagram-reel-download",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
+          "para": "Maximize Your Social Reach with Advanced Tools: Engage, Grow, and Succeed Across All Platforms."
         }
       ]
     },
     "performanceTools": {
       "heading": "Performance Marketing",
       "subHeading": [
-        { "para": "Get a " },
-        { "link": "40-page action plan", "href": "/" },
         {
-          "para": " with all you need to build a crazily good growth marketing funnel."
+          "para": "Leverage Data-Driven Tools for Performance Marketing: Research, Analyze, and Optimize for Superior Results."
         }
-      ],
-      "toolsList": [
+      ]
+    },
+    "retentionTools": {
+      "heading": "Retention Marketing",
+      "subHeading": [
         {
-          "imageUrl": "/checked.svg",
-          "head": "Facebook Ads Library",
-          "link": "/facebook-ads-library",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Google Ads Transparency",
-          "link": "/google-ads-transparency",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
-        },
-        {
-          "imageUrl": "/checked.svg",
-          "head": "Ads Saver Extension",
-          "link": "/ads-saver-extension",
-          "hostedInHouse": true,
-          "likes": "+4000",
-          "aboutTool": "Transform documentation with AI-driven video creation and sharing.",
-          "button": "Check out"
+          "para": "Enhance Customer Loyalty with Targeted Tools: Analyze, Personalize, and Retain Your Most Valuable Customers."
         }
       ]
     },
@@ -3102,19 +2909,15 @@
   },
   "marketing-tools": {
     "subHeading": [
-      { "para": "Get a " },
-      { "link": "40-page action plan", "href": "/" },
       {
-        "para": " with all you need to build a crazily good growth marketing funnel."
+        "para": "Supercharge Your Success with Game-Changing Marketing Tools."
       }
     ]
   },
   "growth-resources": {
     "subHeading": [
-      { "para": "Get a " },
-      { "link": "40-page action plan", "href": "/" },
       {
-        "para": " with all you need to build a crazily good growth marketing funnel."
+        "para": "Fuel Your Expansion with Proven Growth Resources."
       }
     ]
   }

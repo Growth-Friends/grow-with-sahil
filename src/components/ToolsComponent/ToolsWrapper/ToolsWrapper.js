@@ -3,15 +3,17 @@ import React, { use, useEffect, useRef, useState } from "react";
 import ToolsComponent from "../ToolsComponent";
 import getMethodCall from "@/utils/services/services";
 
-export let seoToolsRef, socialToolsRef, performanceToolsRef;
+export let seoToolsRef, socialToolsRef, performanceToolsRef, retentionToolsRef;
 
 function ToolsWrapper() {
   seoToolsRef = useRef();
   socialToolsRef = useRef();
   performanceToolsRef = useRef();
+  retentionToolsRef = useRef();
   const [seoToolsList, setSeoToolsList] = useState([]);
   const [performanceToolsList, setPerformanceToolsList] = useState([]);
   const [socialToolsList, setSocialToolsList] = useState([]);
+  const [retentionToolsList, setRetentionToolsList] = useState([]);
 
   useEffect(() => {
     (async () => {
@@ -32,6 +34,11 @@ function ToolsWrapper() {
       setSocialToolsList(
         data.filter((item) => {
           return item.acf.tool_category === "Social Media";
+        })
+      );
+      setRetentionToolsList(
+        data.filter((item) => {
+          return item.acf.tool_category === "Retention Marketing";
         })
       );
     })();
@@ -58,6 +65,13 @@ function ToolsWrapper() {
           performanceTools={true}
           ref={performanceToolsRef}
           toolsList={performanceToolsList}
+        />
+      )}
+      {retentionToolsList.length !== 0 && (
+        <ToolsComponent
+          retentionTools={true}
+          ref={retentionToolsRef}
+          toolsList={retentionToolsList}
         />
       )}
     </>
