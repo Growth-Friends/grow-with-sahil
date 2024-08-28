@@ -4,8 +4,6 @@ import React from "react";
 import SubHeroSection from "../SubHeroSection/SubHeroSection";
 import ToolsRedirectComponent from "../ToolsRedirectComponent/ToolsRedirectComponent";
 import HtmlContent from "../HtmlContent/HtmlContent";
-import MoreResources from "../ResourcesComponent/MoreResources/MoreResources";
-import AboutMeSection from "../AboutMeSection/AboutMeSection";
 
 function IndividualMarketingToolsPage({ data }) {
   if (!data) {
@@ -17,8 +15,6 @@ function IndividualMarketingToolsPage({ data }) {
       <SubHeroSection subHeading={data.acf?.out_description} />
       <ToolsRedirectComponent data={data.acf} />
       <HtmlContent data={data} />
-      <MoreResources moreTools={true} />
-      <AboutMeSection />
     </>
   );
 }

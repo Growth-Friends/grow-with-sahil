@@ -1,4 +1,6 @@
+import AboutMeSection from "@/components/AboutMeSection/AboutMeSection";
 import MarketingToolPageContainer from "@/components/MarketingToolPageContainer/MarketingToolPageContainer";
+import MoreResources from "@/components/ResourcesComponent/MoreResources/MoreResources";
 import React from "react";
 // Import the notFound function from next/navigation
 
@@ -18,6 +20,8 @@ async function IndividualMarketingToolsPage({ params }) {
   return (
     <>
       <MarketingToolPageContainer params={params} />
+      <MoreResources moreTools={true} />
+      <AboutMeSection />
     </>
   );
 }
