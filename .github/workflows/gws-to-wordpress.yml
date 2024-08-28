@@ -40,14 +40,19 @@ jobs:
         server: ftp://217.21.94.151
         username: u251186022
         password: ${{ secrets.FTP_PASSWORD }} # Store your FTP password as a secret in GitHub
-        local-dir: ./out/ # Upload the contents of the out folder
+        local-dir: ./out/ # Make sure to match the local-dir with your actual output directory and end with a slash
         server-dir: /public_html/ # Must end with a trailing slash
         protocol: ftps # Use secure FTPS protocol
         port: 21
         log-level: standard
 
-    - name: Clean up
-      run: rm -f out.zip
+  cleanup:
+    name: 🧹 Cleanup
+    runs-on: ubuntu-latest
+    needs: ftp-deploy
+    steps:
+    - name: Clean up build artifacts
+      run: rm -rf out out.zip
 
     - name: Final cleanup (optional)
       if: always()
