@@ -2920,5 +2920,14 @@
         "para": "Fuel Your Expansion with Proven Growth Resources."
       }
     ]
+  },
+  "contact": {
+    "subHeading": [
+      { "para": "Get a " },
+      { "link": "40-page action plan", "href": "/" },
+      {
+        "para": " with all you need to build a crazily good growth marketing funnel."
+      }
+    ]
   }
 }
