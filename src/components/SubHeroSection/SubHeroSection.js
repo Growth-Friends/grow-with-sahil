@@ -2,16 +2,15 @@
 import React, { useRef } from "react";
 import MainLayout from "../Layout/MainLayout";
 import BreadCrumbAndShare from "../UtilComponents/BreadCrumbAndShare/BreadCrumbAndShare";
-import { getComponentText } from "@/utils/functions/functions";
 import { usePathname } from "next/navigation";
 
 export let subHeroSectionRef;
 
-function SubHeroSection() {
+function SubHeroSection({ content, subHeading = "" }) {
   subHeroSectionRef = useRef();
   const pathArray = usePathname().split("/");
   const currentPathName = pathArray[pathArray.length - 1].replaceAll("-", " ");
-  const content = getComponentText("util.subHeroSection");
+
   return (
     <MainLayout
       ref={subHeroSectionRef}
@@ -25,21 +24,30 @@ function SubHeroSection() {
         <h1 className="uppercase font-bold xl:text-7xl lg:text-6xl md:text-5xl text-3xl  ">
           {currentPathName}
         </h1>
-        <p className="text-paraSecondary xl:text-2xl lg:text-xl md:text-lg text-sm xl:w-[630px] lg:w-[580px] md:w-[500px] w-full mx-auto xl:mt-8 lg:mt-6 md:mt-4 mt-3 tracking-wide leading-normal ">
-          {content.subHeading.map((item, index) => {
-            return (
-              <React.Fragment key={index}>
-                {item.para ? (
-                  <span>{item.para}</span>
-                ) : (
-                  <a href={item.href} className="underline underline-offset-4">
-                    {item.link}
-                  </a>
-                )}
-              </React.Fragment>
-            );
-          })}
-        </p>
+        {subHeading == "" ? (
+          <p className="text-paraSecondary xl:text-2xl lg:text-xl md:text-lg text-sm xl:w-[630px] lg:w-[580px] md:w-[500px] w-full mx-auto xl:mt-8 lg:mt-6 md:mt-4 mt-3 tracking-wide leading-normal ">
+            {content.subHeading.map((item, index) => {
+              return (
+                <React.Fragment key={index}>
+                  {item.para ? (
+                    <span>{item.para}</span>
+                  ) : (
+                    <a
+                      href={item.href}
+                      className="underline underline-offset-4"
+                    >
+                      {item.link}
+                    </a>
+                  )}
+                </React.Fragment>
+              );
+            })}
+          </p>
+        ) : (
+          <p className="text-paraSecondary xl:text-2xl lg:text-xl md:text-lg text-sm xl:w-[750px] lg:w-[600px] md:w-[540px] w-full mx-auto xl:mt-8 lg:mt-6 md:mt-4 mt-3 tracking-wide leading-normal line-clamp-3 ">
+            {subHeading}
+          </p>
+        )}
       </div>
     </MainLayout>
   );

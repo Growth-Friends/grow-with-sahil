@@ -9,6 +9,7 @@ import { marketingToolRef } from "../MarketingToolSection/MarketingToolSection";
 import { subHeroSectionRef } from "../SubHeroSection/SubHeroSection";
 import {
   performanceToolsRef,
+  retentionToolsRef,
   seoToolsRef,
   socialToolsRef,
 } from "../ToolsComponent/ToolsWrapper/ToolsWrapper";
@@ -56,6 +57,8 @@ function Navbar() {
       moreResourcesRef?.current?.getBoundingClientRect();
     const emailPromotionRect =
       emailPromotionRef?.current?.getBoundingClientRect();
+    const retentionToolsRect =
+      retentionToolsRef?.current?.getBoundingClientRect();
     if (
       (heroSectionRect?.top < 1 && heroSectionRect?.bottom > 0) ||
       (marketingToolRect?.top < 1 && marketingToolRect?.bottom > 0) ||
@@ -65,7 +68,8 @@ function Navbar() {
       (performanceToolsRect?.top < 1 && performanceToolsRect?.bottom > 0) ||
       (footerRect?.top < 1 && footerRect?.bottom > 0) ||
       (moreResourcesRect?.top < 1 && moreResourcesRect?.bottom > 0) ||
-      (emailPromotionRect?.top < 1 && emailPromotionRect?.bottom > 0)
+      (emailPromotionRect?.top < 1 && emailPromotionRect?.bottom > 0) ||
+      (retentionToolsRect?.top < 1 && retentionToolsRect?.bottom > 0)
     ) {
       setBgBlack(true);
     } else {

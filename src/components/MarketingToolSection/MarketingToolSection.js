@@ -48,7 +48,8 @@ function MarketingToolSection() {
             return (
               <Link
                 prefetch={false}
-                href={filePrefix(item.link, "/marketing-tools")}
+                // href={filePrefix(item.link, "/marketing-tools")}
+                href={staticRoutes.marketingTools}
                 key={index}
                 className="xl:px-4 lg:px-3 md:px-3 px-2.5 xl:py-4 lg:py-3 md:py-2 py-2 bg-black hover:bg-primaryColor hover:text-black transition-all duration-300 ease-in-out lg:border-[3px] border-[2px] border-primaryColor rounded-lg xl:text-lg md:text-base text-sm font-medium xl:mx-2.5 lg:mx-2 md:mx-1.5 mx-1 "
               >
@@ -66,7 +67,8 @@ function MarketingToolSection() {
             return (
               <Link
                 prefetch={false}
-                href={filePrefix(item.link, "/marketing-tools")}
+                // href={filePrefix(item.link, "/marketing-tools")}
+                href={staticRoutes.marketingTools}
                 key={index}
                 className="xl:px-4 lg:px-3 md:px-3 px-2.5 xl:py-4 lg:py-3 md:py-2 py-2 bg-black hover:bg-primaryColor hover:text-black transition-all duration-300 ease-in-out border-[3px] border-primaryColor rounded-lg xl:text-lg md:text-base text-sm font-medium xl:mx-2.5 lg:mx-2 md:mx-1.5 mx-1 "
               >
@@ -79,7 +81,7 @@ function MarketingToolSection() {
       </div>
       <Link
         prefetch={false}
-        href={staticRoutes[`${content.link}`]}
+        href={staticRoutes.marketingTools}
         className="bg-primaryColor text-black lg:px-4 px-3 xl:py-3 lg:py-2.5 py-2 rounded-md font-semibold inline-flex items-center xl:text-lg md:text-base text-sm xl:gap-x-2 lg:gap-x-1.5 md:gap-x-1 gap-x-0.5 hover:gap-x-4 transition-all duration-300 ease-in-out "
       >
         <span>{content.button}</span>
