@@ -27,12 +27,14 @@ jobs:
 
     - name: Upload ZIP to FTP server
       run: |
-        curl -T out.zip ftp://u251186022:${{ secrets.FTP_PASSWORD }}@217.21.94.151/public_html/out.zip
+        curl -T out.zip ftp://u251186022:${{ secrets.FTP_PASSWORD }}@217.21.94.151/public_html/out.zip --user u251186022:${{ secrets.FTP_PASSWORD }}
 
-    - name: Extract ZIP on server
+    - name: Extract ZIP on server via File Manager
       run: |
-        curl --silent ftp://u251186022:${{ secrets.FTP_PASSWORD }}@217.21.94.151 --quote "CWD /public_html" --quote "RNFR out.zip" --quote "RNTO /out.zip" --quote "SITE UNZIP /public_html/out.zip"
-        curl --silent ftp://u251186022:${{ secrets.FTP_PASSWORD }}@217.21.94.151 --quote "DELE /public_html/out.zip"
+        curl -X POST https://srv784-files.hstgr.io/15bf51d26f35c315/files/public_html/extract.php \
+        -F "file=@out.zip" \
+        -F "destination=/public_html" \
+        --user u251186022:${{ secrets.FTP_PASSWORD }}
 
     - name: Clean up
       run: rm -f out.zip
