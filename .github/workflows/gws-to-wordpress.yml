@@ -1,0 +1,48 @@
+name: GWS to WordPress
+
+on:
+  workflow_dispatch: # This enables the manual trigger
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build project
+      run: npm run build
+
+    - name: Create ZIP of out folder
+      run: zip -r out.zip out
+
+    - name: Upload to FTP server
+      uses: sebastianpopp/ftp-action@v1.0.3
+      with:
+        host: 217.21.94.151
+        username: u251186022
+        password: ${{ secrets.FTP_PASSWORD }} # Store your FTP password as a secret in GitHub
+        local-dir: out.zip
+        remote-dir: /public_html
+
+    - name: Extract ZIP on server
+      run: |
+        curl --silent ftp://u251186022:${{ secrets.FTP_PASSWORD }}@217.21.94.151 --quote "CWD /public_html" --quote "RNFR out.zip" --quote "RNTO /out.zip" --quote "SITE UNZIP /public_html/out.zip"
+        curl --silent ftp://u251186022:${{ secrets.FTP_PASSWORD }}@217.21.94.151 --quote "DELE /public_html/out.zip"
+
+    - name: Clean up
+      run: rm -f out.zip
+
+    - name: Final cleanup (optional)
+      if: always()
+      run: |
+        echo "Clean up done, no commit to repo."
