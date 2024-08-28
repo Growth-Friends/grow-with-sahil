@@ -1,8 +1,5 @@
 import AboutMeSection from "@/components/AboutMeSection/AboutMeSection";
-import HtmlContent from "@/components/HtmlContent/HtmlContent";
-import GrowthResourceDownload from "@/components/GrowthResourceDownload/GrowthResourceDownload";
 import MoreResources from "@/components/ResourcesComponent/MoreResources/MoreResources";
-import SubHeroSection from "@/components/SubHeroSection/SubHeroSection";
 import React from "react";
 import { notFound } from "next/navigation"; // Import the notFound function from next/navigation
 
