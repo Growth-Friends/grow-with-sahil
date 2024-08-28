@@ -69,7 +69,7 @@ jobs:
         username: u251186022.github
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./dalal/
-        server-dir: /public_html/
+        server-dir: /
         protocol: ftps
         port: 21
         log-level: standard
