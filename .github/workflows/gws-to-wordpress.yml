@@ -8,7 +8,7 @@ on:
 
 jobs:
   web-deploy:
-    name: 🎉 Build, Commit, and Prepare Deployment
+    name: 🎉 Build, Rename, and Commit
     runs-on: ubuntu-latest
 
     steps:
@@ -26,12 +26,15 @@ jobs:
     - name: Build project
       run: npm run build
 
-    - name: Commit the out folder
+    - name: Rename the out folder to dalal
+      run: mv out dalal
+
+    - name: Commit the dalal folder
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add out
-        git commit -m "Auto-commit: add out folder after build"
+        git add dalal
+        git commit -m "Auto-commit: rename and add dalal folder after build"
         git push origin main
 
   ftp-deploy:
@@ -39,7 +42,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: web-deploy
     steps:
-    - name: 🚚 Get latest code with out folder
+    - name: 🚚 Get latest code with dalal folder
       uses: actions/checkout@v4
 
     - name: 📂 Sync files
@@ -48,7 +51,7 @@ jobs:
         server: ftp://217.21.94.151
         username: u251186022
         password: ${{ secrets.FTP_PASSWORD }} # Store your FTP password as a secret in GitHub
-        local-dir: ./out/ # Upload the contents of the out folder
+        local-dir: ./dalal/ # Upload the contents of the dalal folder
         server-dir: /public_html/ # Must end with a trailing slash
         protocol: ftps # Use secure FTPS protocol
         port: 21
@@ -60,7 +63,7 @@ jobs:
     needs: ftp-deploy
     steps:
     - name: Clean up build artifacts
-      run: rm -rf out out.zip
+      run: rm -rf dalal dalal.zip
 
     - name: Final cleanup (optional)
       if: always()
