@@ -14,7 +14,7 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '18.17.0'  # Update to Node.js 18.17.0 or later
+        node-version: '18.17.0'  # Ensure Node.js version meets your project's requirements
 
     - name: Install dependencies
       run: npm install
@@ -25,14 +25,9 @@ jobs:
     - name: Create ZIP of out folder
       run: zip -r out.zip out
 
-    - name: Upload to FTP server
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
-      with:
-        server: ftp://217.21.94.151
-        username: u251186022
-        password: ${{ secrets.FTP_PASSWORD }} # Store your FTP password as a secret in GitHub
-        local-dir: out.zip
-        server-dir: /public_html
+    - name: Upload ZIP to FTP server
+      run: |
+        curl -T out.zip ftp://u251186022:${{ secrets.FTP_PASSWORD }}@217.21.94.151/public_html/out.zip
 
     - name: Extract ZIP on server
       run: |
