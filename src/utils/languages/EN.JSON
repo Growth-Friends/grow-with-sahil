@@ -895,10 +895,8 @@
     "individualServices": {
       "social-media-marketing": {
         "subHeading": [
-          { "para": "Get a " },
-          { "link": "40-page action plan", "href": "/" },
           {
-            "para": " with all you need to build a crazily good growth marketing funnel."
+            "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences."
           }
         ],
         "contentList": [
@@ -1211,10 +1209,8 @@
       },
       "performance-marketing": {
         "subHeading": [
-          { "para": "Get a " },
-          { "link": "40-page action plan", "href": "/" },
           {
-            "para": " with all you need to build a crazily good growth marketing funnel."
+            "para": "Performance marketing focuses on driving measurable results through digital channels like search engines, social media, and display ads."
           }
         ],
         "contentList": [
@@ -1564,10 +1560,8 @@
       },
       "retention-marketing": {
         "subHeading": [
-          { "para": "Get a " },
-          { "link": "40-page action plan", "href": "/" },
           {
-            "para": " with all you need to build a crazily good growth marketing funnel."
+            "para": "Retention Marketing involves nurturing customers through personalized email, SMS and app campaigns to boost loyalty."
           }
         ],
         "contentList": [
@@ -1917,10 +1911,8 @@
       },
       "search-engine-optimization": {
         "subHeading": [
-          { "para": "Get a " },
-          { "link": "40-page action plan", "href": "/" },
           {
-            "para": " with all you need to build a crazily good growth marketing funnel."
+            "para": "SEO involves optimizing your website's content and structure to rank higher on search engines like Google, driving organic traffic."
           }
         ],
         "contentList": [
@@ -2270,10 +2262,8 @@
       },
       "go-to-market-strategy": {
         "subHeading": [
-          { "para": "Get a " },
-          { "link": "40-page action plan", "href": "/" },
           {
-            "para": " with all you need to build a crazily good growth marketing funnel."
+            "para": "This strategy involves crafting a plan to introduce products to the market by identifying target audiences, channels, and tactics for success."
           }
         ],
         "contentList": [
@@ -2611,10 +2601,8 @@
       },
       "influencer-marketing": {
         "subHeading": [
-          { "para": "Get a " },
-          { "link": "40-page action plan", "href": "/" },
           {
-            "para": " with all you need to build a crazily good growth marketing funnel."
+            "para": "This uses social media personalities on platforms like Instagram, YouTube, to reach target audiences."
           }
         ],
         "contentList": [
