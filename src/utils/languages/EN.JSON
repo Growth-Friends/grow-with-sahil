@@ -16,7 +16,7 @@
           "placeholder": "Your Email ID",
           "trueType": "email",
           "name": "email",
-          "type": "text"
+          "type": "email"
         }
       ],
       "button": {
@@ -61,7 +61,7 @@
           "placeholder": "Your Name",
           "trueType": "text",
           "name": "name",
-          "type": "text"
+          "type": "email"
         },
         {
           "placeholder": "Your Email ID",
