@@ -118,7 +118,7 @@ function GrowthResourceDownload({ data }) {
             style={{
               backgroundImage: `url(${data.featured_image})`,
             }}
-            className="w-[55rem] mx-auto mt-0 h-[550px] bg-center bg-cover shadow-lg "
+            className="xl:max-w-[55rem] lg:max-w-[50rem] md:max-w-[35rem] max-w-[25rem] mx-auto mt-0 xl:h-[550px] lg:h-[500px] md:h-[350px] h-[250px] bg-center bg-no-repeat bg-cover shadow-lg"
           />
           <div className="flex items-center justify-between xl:pt-8 lg:pt-6 pt-4 ">
             <div className="inline-flex flex-col xl:gap-y-7 lg:gap-y-6 md:gap-y-5 gap-y-3">

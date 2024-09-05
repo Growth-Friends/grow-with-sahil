@@ -79,7 +79,7 @@ function DetailSection({ content }) {
                   style={{
                     backgroundImage: `url(${imageFilePrefix(item.imageUrl)})`,
                   }}
-                  className="w-[55rem] mx-auto mt-10 h-[550px] bg-center bg-cover "
+                  className="mt-10 xl:max-w-[55rem] lg:max-w-[50rem] md:max-w-[35rem] max-w-[25rem] mx-auto xl:h-[550px] lg:h-[500px] md:h-[350px] h-[250px] bg-center bg-no-repeat bg-cover shadow-lg "
                 />
               </MainLayout>
             )}

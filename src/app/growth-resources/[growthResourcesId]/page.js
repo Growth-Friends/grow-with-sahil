@@ -3,7 +3,7 @@ import MoreResources from "@/components/ResourcesComponent/MoreResources/MoreRes
 import React from "react";
 import ResourcesToolsContainer from "@/components/ResourcesToolsContainer/ResourcesToolsContainer";
 
-async function IndividualGrowthResourcesPage({ params }) {
+function IndividualGrowthResourcesPage({ params }) {
   return (
     <>
       {/* Render components only if data is present */}
