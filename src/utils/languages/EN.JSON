@@ -245,11 +245,6 @@
               "prefix": "/services"
             },
             {
-              "para": "Growth Loops",
-              "link": "/growth-loops",
-              "prefix": "/services"
-            },
-            {
               "para": "Go to Market Strategy",
               "link": "/go-to-market-strategy",
               "prefix": "/services"
@@ -303,17 +298,17 @@
           "linkList": [
             {
               "para": "Important Softwares",
-              "link": "/important-softwares",
+              "link": "/important-softwares-name",
               "prefix": "/growth-resources"
             },
             {
               "para": "On-page & Off page SEO Prompt",
-              "link": "/on-page-&-off-page-seo-prompt",
+              "link": "/on-page-off-page-seo-prompt",
               "prefix": "/growth-resources"
             },
             {
               "para": "Landing Page 101 ChatGPT",
-              "link": "/landing-page-101-chatgpt",
+              "link": "/landing-page-101-chatgpt-prompts",
               "prefix": "/growth-resources"
             },
             {
@@ -420,11 +415,7 @@
     "moreResources": {
       "heading": "Related Resources",
       "subHeading": [
-        { "para": "Get a " },
-        { "link": "40-page action plan", "href": "/" },
-        {
-          "para": " with all you need to build a crazily good growth marketing funnel."
-        }
+        { "para": "Find More Valuable Resources to Boost Your Knowledge" }
       ],
       "resourcesList": [
         {
