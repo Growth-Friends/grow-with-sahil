@@ -1,0 +1,270 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[6126,["589","static/chunks/589-8069c78d2541982a.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-a0fc6c33c930da9f.js","935","static/chunks/935-36c9dab5fbb488ea.js","84","static/chunks/84-a02fde76cb3cbdf2.js","880","static/chunks/880-83d82d92b6be7c0e.js","185","static/chunks/app/layout-ccf6825d2943bd53.js"],"default"]
+7:I[6938,["589","static/chunks/589-8069c78d2541982a.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-a0fc6c33c930da9f.js","935","static/chunks/935-36c9dab5fbb488ea.js","84","static/chunks/84-a02fde76cb3cbdf2.js","880","static/chunks/880-83d82d92b6be7c0e.js","185","static/chunks/app/layout-ccf6825d2943bd53.js"],"default"]
+4:["growthResourcesId","marketing-kanban-template","d"]
+0:["U172K_Xu9lxG3dyeEuf-t",[[["",{"children":["growth-resources",{"children":[["growthResourcesId","marketing-kanban-template","d"],{"children":["__PAGE__?{\"growthResourcesId\":\"marketing-kanban-template\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["growth-resources",{"children":[["growthResourcesId","marketing-kanban-template","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","growth-resources","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/263a965a17fd62aa.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/72bf7e955f21236e.css","precedence":"next","crossOrigin":"$undefined"}]]}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","growth-resources","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_5470e1","children":[["$","$L6",null,{}],["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}],["$","$L7",null,{}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5608cdceca13d012.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/d2692d282998e2fb.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L8"]]]]]
+a:I[2805,["589","static/chunks/589-8069c78d2541982a.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-a0fc6c33c930da9f.js","84","static/chunks/84-a02fde76cb3cbdf2.js","457","static/chunks/app/growth-resources/%5BgrowthResourcesId%5D/page-205f9a8b8aeda467.js"],"default"]
+b:I[231,["589","static/chunks/589-8069c78d2541982a.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-a0fc6c33c930da9f.js","84","static/chunks/84-a02fde76cb3cbdf2.js","457","static/chunks/app/growth-resources/%5BgrowthResourcesId%5D/page-205f9a8b8aeda467.js"],""]
+2:["$L9",["$","$La",null,{"moreResources":true}],["$","div",null,{"className":"md:px-[40px] px-[10px] select-none overflow-hidden ","children":["$","div",null,{"className":"max-w-[80rem] mx-auto  ","children":["$","div",null,{"className":"xl:py-20 lg:py-16 md:py-14 py-12 overflow-hidden ","children":[["$","div",null,{"className":"text-center bg-black text-white xl:py-8 py-6 px-3 rounded-t-2xl","children":["$","h2",null,{"className":"font-bold xl:text-4xl lg:text-3xl text-2xl uppercase ","children":"About Me"}]}],["$","div",null,{"className":"grid md:grid-flow-col grid-flow-row md:grid-rows-1 grid-rows-auto grid-cols-12 xl:p-8 lg:p-6 p-4 xl:gap-8 lg:gap-6 gap-4 border-x-2 border-b-2 border-paraSecondary/40 rounded-b-2xl","children":[["$","div",null,{"className":"md:col-span-4 col-span-full md:self-end self-auto","children":["$","img",null,{"loading":"lazy","alt":"sahil khan image","src":"/images//profilePicture.png","className":"aspect-auto w-full max-w-none xl:rounded-xl rounded-lg "}]}],["$","div",null,{"className":"md:col-span-8 col-span-full md:self-end self-auto ","children":[["$","h3",null,{"className":"uppercase font-bold xl:text-3xl lg:text-2xl text-xl ","children":"Sahil Khan"}],["$","p",null,{"className":"uppercase font-semibold xl:text-xl lg:text-lg text-base lg:mt-0.5 mt-[1px] ","children":"Growth Marketer"}],["$","p",null,{"className":"text-paraSecondary xl:text-base lg:text-sm text-xs xl:mt-4 lg:mt-3 mt-2","children":"I’m Sahil Khan, a professional marketer with over 5 years of experience in Fin-tech, Crypto, and AI. My expertise spans Brand Building, Growth Marketing, Crypto & Web3 Marketing, Performance Marketing, Influencer Marketing, Social Media Growth Hacking, and Brand Identity Creation. I also bring strong design skills to the table, enhancing my marketing strategies."}],["$","div",null,{"className":"flex items-center gap-x-4 xl:mt-10 lg:mt-8 mt-6","children":[["$","$Lb","0",{"href":"https://www.linkedin.com/in/growwithsahil","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//linkedinIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}],["$","$Lb","1",{"href":"https://www.youtube.com/@growwithsahilofficial","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//youtubeIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}],["$","$Lb","2",{"href":"https://x.com/growwithsahil","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//twitterIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}],["$","$Lb","3",{"href":"https://www.instagram.com/growwithsahil/","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//instagramIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}]]}]]}]]}]]}]}]}]]
+8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Create Next App"}],["$","meta","3",{"name":"description","content":"Generated by create next app"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"400x400"}],["$","meta","5",{"name":"next-size-adjust"}]]
+1:null
+c:I[2086,["589","static/chunks/589-8069c78d2541982a.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-a0fc6c33c930da9f.js","84","static/chunks/84-a02fde76cb3cbdf2.js","457","static/chunks/app/growth-resources/%5BgrowthResourcesId%5D/page-205f9a8b8aeda467.js"],"default"]
+d:I[6466,["589","static/chunks/589-8069c78d2541982a.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-a0fc6c33c930da9f.js","84","static/chunks/84-a02fde76cb3cbdf2.js","457","static/chunks/app/growth-resources/%5BgrowthResourcesId%5D/page-205f9a8b8aeda467.js"],"default"]
+e:T2574,
+<p>In today’s fast-paced digital marketing world, where deadlines are tight, goals are ambitious, and teams are increasingly remote, managing projects effectively is no easy task. Marketing teams, in particular, face the challenge of juggling multiple campaigns, content creation, social media updates, SEO optimization, and much more—all at the same time. Without a clear system in place, it’s easy to feel overwhelmed, miss deadlines, or lose sight of key tasks.</p>
+
+
+
+<p>Imagine having a visual, organized system that allows you to manage all of your marketing activities with ease. A system where you can quickly see what needs to be done, who is working on what, and the status of each task—all at a glance. That’s the beauty of a <strong>Marketing Kanban Template</strong>, a tool designed to simplify your marketing workflow and keep your team on track.</p>
+
+
+
+<p>In this article, we’ll introduce you to the world of <strong>Marketing Kanban</strong>, explain how it can revolutionize your project management, and show you step-by-step how to implement it. Ready to unlock the full potential of your marketing team? Let’s dive in.</p>
+
+
+
+<h3 class="wp-block-heading">What is a Marketing Kanban Template?</h3>
+
+
+
+<p>A <strong>Kanban template</strong> is a visual project management tool that allows teams to visualize their work, manage tasks efficiently, and optimize their workflows. Originally developed in manufacturing, Kanban has since been adopted across various industries—including marketing—for its simplicity and effectiveness.</p>
+
+
+
+<p>At its core, a Kanban board is a visual representation of tasks that are moved across different stages, from &#8220;To Do&#8221; to &#8220;In Progress&#8221; and finally to &#8220;Done.&#8221; The template is designed to help teams organize their work, prioritize tasks, and ensure projects are completed on time.</p>
+
+
+
+<h3 class="wp-block-heading">Why You Need a Marketing Kanban Template</h3>
+
+
+
+<p>In the world of marketing, teams are often working on a variety of campaigns simultaneously—content marketing, SEO strategies, social media posts, email campaigns, and more. Keeping track of all these moving parts can be overwhelming, especially when there are tight deadlines to meet.</p>
+
+
+
+<p>A <strong>Marketing Kanban Template</strong> helps to:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Visualize your workflow</strong>: See every task and project laid out clearly on the board.</li>
+
+
+
+<li><strong>Prioritize tasks</strong>: Easily identify what needs immediate attention and what can be handled later.</li>
+
+
+
+<li><strong>Improve team collaboration</strong>: Keep everyone aligned and in the loop with real-time updates.</li>
+
+
+
+<li><strong>Track progress</strong>: Monitor the status of each task as it moves through the workflow.</li>
+
+
+
+<li><strong>Boost efficiency</strong>: Streamline processes by eliminating bottlenecks and improving focus.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">How to Set Up Your Marketing Kanban Template</h3>
+
+
+
+<p>Setting up your <strong>Marketing Kanban Template</strong> is easy. Here’s how to get started:</p>
+
+
+
+<h4 class="wp-block-heading">1. <strong>Create Columns for Each Stage of Your Workflow</strong></h4>
+
+
+
+<p>The first step is to define the stages of your marketing workflow. Typically, these will include columns like:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Backlog</strong>: This is where all new tasks are initially added. These are ideas or requests that haven’t been started yet.</li>
+
+
+
+<li><strong>To Do</strong>: Tasks that have been approved and are ready to be worked on.</li>
+
+
+
+<li><strong>In Progress</strong>: Tasks that are currently being worked on by team members.</li>
+
+
+
+<li><strong>Review/Approval</strong>: Completed tasks that need to be reviewed or approved by a manager or stakeholder.</li>
+
+
+
+<li><strong>Done</strong>: Tasks that have been completed and signed off.</li>
+</ul>
+
+
+
+<p>Each column represents a different stage in the process, and tasks move from left to right as they progress.</p>
+
+
+
+<h4 class="wp-block-heading">2. <strong>Add Cards for Individual Tasks</strong></h4>
+
+
+
+<p>Next, you’ll create individual task cards for each project or campaign you’re working on. Each card should include:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Task description</strong>: Clearly state what needs to be done.</li>
+
+
+
+<li><strong>Assigned team members</strong>: Who is responsible for the task.</li>
+
+
+
+<li><strong>Due dates</strong>: When the task needs to be completed.</li>
+
+
+
+<li><strong>Priority level</strong>: Indicate whether it’s high, medium, or low priority.</li>
+</ul>
+
+
+
+<p>For example, if you’re working on an SEO campaign, you might create cards for tasks such as “Keyword Research,” “Optimize Meta Descriptions,” and “Backlink Outreach.” Each card will be assigned to the appropriate team member and move through the columns as it progresses.</p>
+
+
+
+<h4 class="wp-block-heading">3. <strong>Customize to Fit Your Team’s Needs</strong></h4>
+
+
+
+<p>One of the best things about a Kanban template is its flexibility. You can easily customize the board to fit your specific workflow. For example:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Add columns like <strong>“Waiting for Client Feedback”</strong> if you often deal with external approvals.</li>
+
+
+
+<li>Use color-coded labels to indicate different types of tasks (e.g., blog posts, social media, email marketing).</li>
+
+
+
+<li>Attach files, links, or documents to cards to keep all relevant information in one place.</li>
+</ul>
+
+
+
+<h4 class="wp-block-heading">4. <strong>Limit Work in Progress (WIP)</strong></h4>
+
+
+
+<p>Kanban emphasizes the importance of limiting Work In Progress (WIP) to prevent overloading team members and ensure focus on current tasks. By limiting the number of tasks in the &#8220;In Progress&#8221; column, you can maintain a steady and efficient flow of work.</p>
+
+
+
+<p>For example, if your team is working on a marketing campaign, limit the number of tasks allowed in the &#8220;In Progress&#8221; column to three at a time. This ensures that work is completed efficiently before moving on to the next set of tasks.</p>
+
+
+
+<h3 class="wp-block-heading">Benefits of Using a Marketing Kanban Template</h3>
+
+
+
+<p>Now that your Marketing Kanban Template is set up, let’s explore some of the key benefits you’ll experience:</p>
+
+
+
+<h4 class="wp-block-heading">1. <strong>Improved Transparency</strong></h4>
+
+
+
+<p>Kanban makes it easy to see who is working on what, the status of each task, and what still needs to be done. This level of transparency fosters better communication and accountability within the team, preventing tasks from falling through the cracks.</p>
+
+
+
+<h4 class="wp-block-heading">2. <strong>More Efficient Workflows</strong></h4>
+
+
+
+<p>By visualizing your entire marketing process, you can quickly identify bottlenecks and areas where tasks are getting stuck. This enables you to address issues in real-time and streamline the workflow for greater efficiency.</p>
+
+
+
+<h4 class="wp-block-heading">3. <strong>Enhanced Collaboration</strong></h4>
+
+
+
+<p>Because the Kanban board is shared among all team members, it promotes a sense of collaboration and teamwork. Everyone has visibility into the project’s progress and can contribute to moving tasks forward, whether it’s providing feedback or completing their assigned duties.</p>
+
+
+
+<h4 class="wp-block-heading">4. <strong>Better Time Management</strong></h4>
+
+
+
+<p>Kanban encourages teams to prioritize tasks and focus on the most important activities first. This prevents unnecessary distractions and ensures that the most critical tasks are completed on time.</p>
+
+
+
+<h4 class="wp-block-heading">5. <strong>Visual Progress Tracking</strong></h4>
+
+
+
+<p>With tasks moving across the board, you can visually track progress toward project completion. This makes it easy to see how much work is left and whether deadlines are being met.</p>
+
+
+
+<h3 class="wp-block-heading">Common Use Cases for a Marketing Kanban Template</h3>
+
+
+
+<p>A <strong>Marketing Kanban Template</strong> can be used for a wide range of marketing activities, including:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Content Marketing</strong>: Organize blog posts, social media updates, email campaigns, and more in one place.</li>
+
+
+
+<li><strong>SEO Campaigns</strong>: Track keyword research, on-page optimization, link-building efforts, and technical fixes.</li>
+
+
+
+<li><strong>Product Launches</strong>: Manage the entire launch process, from product development to marketing promotions.</li>
+
+
+
+<li><strong>Social Media Management</strong>: Plan, schedule, and execute social media posts, ensuring consistency and engagement.</li>
+
+
+
+<li><strong>Event Marketing</strong>: Manage the logistics and promotional tasks for webinars, conferences, or live events.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Take Control of Your Marketing Workflow with Kanban</h3>
+
+
+
+<p>In the fast-paced world of marketing, efficiency and organization are key to success. A <strong>Marketing Kanban Template</strong> provides you with the structure and visibility needed to streamline your workflow, improve collaboration, and hit your marketing goals faster.</p>
+
+
+
+<p>By implementing this system, you’ll transform the way your team works—eliminating confusion, reducing stress, and boosting productivity. Ready to take your marketing workflow to the next level? <br><br>Start using a Marketing Kanban Template today and experience the difference.</p>
+
+
+
+<p></p>
+9:[["$","$Lc",null,{"subHeading":" Streamline your marketing workflow and boost productivity with the ultimate Marketing Kanban Template, designed for seamless task management and team collaboration."}],["$","$Ld",null,{"data":{"resource_name":"Marketing Kanban Template","out_description":" Streamline your marketing workflow and boost productivity with the ultimate Marketing Kanban Template, designed for seamless task management and team collaboration.","stars":"5","Downloads":"349","cta_text":"Download Now","cta_url":"https://windy-syringa-5bc.notion.site/Growth-Marketing-Kanban-1e144dea29604137b575bf37cf144da0?pvs=4","featured_image":"https://growwithsahil.com/blog/wp-content/uploads/2024/09/Screenshot-2024-09-05-192209.png"}}],["$","div",null,{"className":"md:px-[40px] px-[10px] select-none overflow-hidden ","children":["$","div",null,{"className":"max-w-[80rem] mx-auto  ","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$e"},"className":"detailPageCss"}]}]}]]
