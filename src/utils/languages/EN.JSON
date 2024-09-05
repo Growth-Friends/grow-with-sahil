@@ -26,6 +26,7 @@
     },
     "popupForm": {
       "heading": ["Unlock Your Free", "Growth Plan!"],
+      "formId": "email-popup",
       "inputList": [
         {
           "placeholder": "Your Name",
@@ -54,6 +55,7 @@
     },
     "popupDownload": {
       "heading": ["Get your Product Now!"],
+      "formId": "download-popup",
       "inputList": [
         {
           "placeholder": "Your Name",
