@@ -419,54 +419,34 @@
       ],
       "resourcesList": [
         {
-          "imageUrl": "/checked.svg",
-          "head": "Google Index Checker",
-          "link": "/google-index-checker"
+          "head": "Important Softwares",
+          "link": "/important-softwares-name",
+          "prefix": "/growth-resources"
         },
         {
-          "imageUrl": "/bandage.svg",
-          "head": "Domain Age Checker",
-          "link": "/domain-age-checker"
+          "head": "On-page & Off page SEO Prompt",
+          "link": "/on-page-off-page-seo-prompt",
+          "prefix": "/growth-resources"
         },
         {
-          "imageUrl": "/checked.svg",
-          "head": "Domain Authority Checker",
-          "link": "/domain-authority-checker"
+          "head": "Landing Page 101 ChatGPT",
+          "link": "/landing-page-101-chatgpt-prompts",
+          "prefix": "/growth-resources"
         },
         {
-          "imageUrl": "/bandage.svg",
-          "head": "Whois Domain Lookup",
-          "link": "/whois-domain-lookup"
+          "head": "Social Media Calender Template",
+          "link": "/social-media-calender-template",
+          "prefix": "/growth-resources"
         },
         {
-          "imageUrl": "/checked.svg",
-          "head": "Robots.txt Generator",
-          "link": "/robots-txt-generator"
+          "head": "Checklist for Twitter growth",
+          "link": "/checklist-for-twitter-growth",
+          "prefix": "/growth-resources"
         },
         {
-          "imageUrl": "/bandage.svg",
-          "head": "Keywords Suggestion Tool",
-          "link": "/keywords-suggestion-tool"
-        },
-        {
-          "imageUrl": "/checked.svg",
-          "head": "Meta Tag Generator",
-          "link": "/meta-tag-generator"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Hosting Checker",
-          "link": "/hosting-checker"
-        },
-        {
-          "imageUrl": "/checked.svg",
-          "head": "Adsense Calculator",
-          "link": "/adsense-calculator"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Hosting Calculator",
-          "link": "/hosting-calculator"
+          "head": "The Art of Chatgpt writing",
+          "link": "/the-art-of-chatgpt-writing",
+          "prefix": "/growth-resources"
         }
       ]
     },
