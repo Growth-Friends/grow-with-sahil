@@ -44,6 +44,13 @@ jobs:
     - name: Rename the out folder to dalal
       run: mv out dalal
 
+    - name: Initialize Git
+      run: |
+        git init
+        git remote add origin https://github.com/your-repo-name.git
+        git fetch
+        git checkout production
+
     - name: Commit the dalal folder
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -60,9 +67,9 @@ jobs:
     needs: web-deploy
 
     steps:
-    - name: Find all index.html files and create .htaccess
+    - name: Find all files and create .htaccess
       run: |
-        find dalal -type f -name "index.html" | while read file; do
+        find dalal -type f | while read file; do
           dir=$(dirname "$file")
           echo "Creating .htaccess for $dir"
           echo "Options -Indexes" > "$dir/.htaccess"
