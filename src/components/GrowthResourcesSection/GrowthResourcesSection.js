@@ -102,10 +102,10 @@ function GrowthResourcesSection() {
                   <p className="font-bold xl:text-[22px] lg:text-[20px] md:text-[18px] text-[15px] leading-snug mt-2.5 line-clamp-2">
                     {item.acf.resource_name}
                   </p>
-                  <p className="text-paraSecondary xl:text-sm md:text-xs text-[10px] tracking-wide leading-normal mt-1 inline-block line-clamp-3 ">
+                  <p className="text-paraSecondary xl:text-sm md:text-xs text-[10px] tracking-wide leading-normal mt-2 inline-block !line-clamp-3 ">
                     {item.acf.out_description}
                   </p>
-                  <div className="mt-5 text-center">
+                  <div className="mt-6 text-center">
                     <Link
                       prefetch={false}
                       href={filePrefix(`/${item.slug}`, "/growth-resources")}
