@@ -16,7 +16,7 @@
           "placeholder": "Your Email ID",
           "trueType": "email",
           "name": "email",
-          "type": "text"
+          "type": "email"
         }
       ],
       "button": {
@@ -26,6 +26,7 @@
     },
     "popupForm": {
       "heading": ["Unlock Your Free", "Growth Plan!"],
+      "formId": "email-popup",
       "inputList": [
         {
           "placeholder": "Your Name",
@@ -54,12 +55,13 @@
     },
     "popupDownload": {
       "heading": ["Get your Product Now!"],
+      "formId": "download-popup",
       "inputList": [
         {
           "placeholder": "Your Name",
           "trueType": "text",
           "name": "name",
-          "type": "text"
+          "type": "email"
         },
         {
           "placeholder": "Your Email ID",
@@ -245,11 +247,6 @@
               "prefix": "/services"
             },
             {
-              "para": "Growth Loops",
-              "link": "/growth-loops",
-              "prefix": "/services"
-            },
-            {
               "para": "Go to Market Strategy",
               "link": "/go-to-market-strategy",
               "prefix": "/services"
@@ -303,17 +300,17 @@
           "linkList": [
             {
               "para": "Important Softwares",
-              "link": "/important-softwares",
+              "link": "/important-softwares-name",
               "prefix": "/growth-resources"
             },
             {
               "para": "On-page & Off page SEO Prompt",
-              "link": "/on-page-&-off-page-seo-prompt",
+              "link": "/on-page-off-page-seo-prompt",
               "prefix": "/growth-resources"
             },
             {
               "para": "Landing Page 101 ChatGPT",
-              "link": "/landing-page-101-chatgpt",
+              "link": "/landing-page-101-chatgpt-prompts",
               "prefix": "/growth-resources"
             },
             {
@@ -420,73 +417,45 @@
     "moreResources": {
       "heading": "Related Resources",
       "subHeading": [
-        { "para": "Get a " },
-        { "link": "40-page action plan", "href": "/" },
-        {
-          "para": " with all you need to build a crazily good growth marketing funnel."
-        }
+        { "para": "Find More Valuable Resources to Boost Your Knowledge" }
       ],
       "resourcesList": [
         {
-          "imageUrl": "/checked.svg",
-          "head": "Google Index Checker",
-          "link": "/google-index-checker"
+          "head": "Important Softwares",
+          "link": "/important-softwares-name",
+          "prefix": "/growth-resources"
         },
         {
-          "imageUrl": "/bandage.svg",
-          "head": "Domain Age Checker",
-          "link": "/domain-age-checker"
+          "head": "On-page & Off page SEO Prompt",
+          "link": "/on-page-off-page-seo-prompt",
+          "prefix": "/growth-resources"
         },
         {
-          "imageUrl": "/checked.svg",
-          "head": "Domain Authority Checker",
-          "link": "/domain-authority-checker"
+          "head": "Landing Page 101 ChatGPT",
+          "link": "/landing-page-101-chatgpt-prompts",
+          "prefix": "/growth-resources"
         },
         {
-          "imageUrl": "/bandage.svg",
-          "head": "Whois Domain Lookup",
-          "link": "/whois-domain-lookup"
+          "head": "Social Media Calender Template",
+          "link": "/social-media-calender-template",
+          "prefix": "/growth-resources"
         },
         {
-          "imageUrl": "/checked.svg",
-          "head": "Robots.txt Generator",
-          "link": "/robots-txt-generator"
+          "head": "Checklist for Twitter growth",
+          "link": "/checklist-for-twitter-growth",
+          "prefix": "/growth-resources"
         },
         {
-          "imageUrl": "/bandage.svg",
-          "head": "Keywords Suggestion Tool",
-          "link": "/keywords-suggestion-tool"
-        },
-        {
-          "imageUrl": "/checked.svg",
-          "head": "Meta Tag Generator",
-          "link": "/meta-tag-generator"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Hosting Checker",
-          "link": "/hosting-checker"
-        },
-        {
-          "imageUrl": "/checked.svg",
-          "head": "Adsense Calculator",
-          "link": "/adsense-calculator"
-        },
-        {
-          "imageUrl": "/bandage.svg",
-          "head": "Hosting Calculator",
-          "link": "/hosting-calculator"
+          "head": "The Art of Chatgpt writing",
+          "link": "/the-art-of-chatgpt-writing",
+          "prefix": "/growth-resources"
         }
       ]
     },
     "moreTools": {
       "heading": "Related Tools",
       "subHeading": [
-        { "para": "Get a " },
-        { "link": "40-page action plan", "href": "/" },
-        {
-          "para": " with all you need to build a crazily good growth marketing funnel."
-        }
+        { "para": "Discover More Powerful Tools for Your Workflow" }
       ],
       "resourcesList": [
         {
@@ -699,7 +668,7 @@
       "heading": "Growth Resources",
       "subHeading": [
         {
-          "para": "Supercharge Your Success with Game-Changing Marketing Tools."
+          "para": "Find More Valuable Resources to Boost Your Knowledge."
         }
       ],
       "growthResourcesList": [
@@ -919,19 +888,13 @@
   },
   "services": {
     "subHeading": [
-      { "para": "Get a " },
-      { "link": "40-page action plan", "href": "/" },
-      {
-        "para": " with all you need to build a crazily good growth marketing funnel."
-      }
+      { "para": "Unlock a Range of Expert Services Tailored for You" }
     ],
     "individualServices": {
       "social-media-marketing": {
         "subHeading": [
-          { "para": "Get a " },
-          { "link": "40-page action plan", "href": "/" },
           {
-            "para": " with all you need to build a crazily good growth marketing funnel."
+            "para": "Social media marketing involves leveraging platforms like Facebook, Instagram, and Twitter to engage with audiences."
           }
         ],
         "contentList": [
@@ -1244,10 +1207,8 @@
       },
       "performance-marketing": {
         "subHeading": [
-          { "para": "Get a " },
-          { "link": "40-page action plan", "href": "/" },
           {
-            "para": " with all you need to build a crazily good growth marketing funnel."
+            "para": "Performance marketing focuses on driving measurable results through digital channels like search engines, social media, and display ads."
           }
         ],
         "contentList": [
@@ -1597,10 +1558,8 @@
       },
       "retention-marketing": {
         "subHeading": [
-          { "para": "Get a " },
-          { "link": "40-page action plan", "href": "/" },
           {
-            "para": " with all you need to build a crazily good growth marketing funnel."
+            "para": "Retention Marketing involves nurturing customers through personalized email, SMS and app campaigns to boost loyalty."
           }
         ],
         "contentList": [
@@ -1950,10 +1909,8 @@
       },
       "search-engine-optimization": {
         "subHeading": [
-          { "para": "Get a " },
-          { "link": "40-page action plan", "href": "/" },
           {
-            "para": " with all you need to build a crazily good growth marketing funnel."
+            "para": "SEO involves optimizing your website's content and structure to rank higher on search engines like Google, driving organic traffic."
           }
         ],
         "contentList": [
@@ -2303,10 +2260,8 @@
       },
       "go-to-market-strategy": {
         "subHeading": [
-          { "para": "Get a " },
-          { "link": "40-page action plan", "href": "/" },
           {
-            "para": " with all you need to build a crazily good growth marketing funnel."
+            "para": "This strategy involves crafting a plan to introduce products to the market by identifying target audiences, channels, and tactics for success."
           }
         ],
         "contentList": [
@@ -2644,10 +2599,8 @@
       },
       "influencer-marketing": {
         "subHeading": [
-          { "para": "Get a " },
-          { "link": "40-page action plan", "href": "/" },
           {
-            "para": " with all you need to build a crazily good growth marketing funnel."
+            "para": "This uses social media personalities on platforms like Instagram, YouTube, to reach target audiences."
           }
         ],
         "contentList": [

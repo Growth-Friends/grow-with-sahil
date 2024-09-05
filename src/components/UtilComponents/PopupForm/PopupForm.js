@@ -42,8 +42,11 @@ function PopupForm({
               {content.heading.map((item, index) => {
                 return <span key={index}>{item}</span>;
               })}
-            </h2>{" "}
-            <form className="flex flex-col gap-y-3 md:mt-6 mt-4 relative ">
+            </h2>
+            <form
+              id={content.formId}
+              className="flex flex-col gap-y-3 md:mt-6 mt-4 relative "
+            >
               {content.inputList.map((item, index) => {
                 return (
                   <div className="grid relative" key={index}>

@@ -3,7 +3,7 @@ import MarketingToolPageContainer from "@/components/MarketingToolPageContainer/
 import MoreResources from "@/components/ResourcesComponent/MoreResources/MoreResources";
 import React from "react";
 
-async function IndividualMarketingToolsPage({ params }) {
+function IndividualMarketingToolsPage({ params }) {
   return (
     <>
       <MarketingToolPageContainer params={params} />

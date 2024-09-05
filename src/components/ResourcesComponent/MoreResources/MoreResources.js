@@ -63,13 +63,20 @@ function MoreResources({ moreResources, moreTools }) {
                 }
                 className="bg-black text-white xl:p-3.5 p-3 flex items-center gap-x-5 rounded-xl hover:scale-105 transition-all duration-300 ease-in-out "
               >
-                <img
-                  loading="lazy"
-                  src={svgFilePrefix(item.imageUrl)}
-                  alt={item.head}
-                  className="aspect-auto md:w-12 w-10"
-                />
-                <p className="font-semibold xl:text-lg text-base ">
+                {moreTools && (
+                  <img
+                    loading="lazy"
+                    src={svgFilePrefix(item.imageUrl)}
+                    alt={item.head}
+                    className="aspect-auto md:w-12 w-10"
+                  />
+                )}
+
+                <p
+                  className={`font-semibold xl:text-lg text-base ${
+                    moreResources && "my-2"
+                  } `}
+                >
                   {item.head}
                 </p>
               </Link>

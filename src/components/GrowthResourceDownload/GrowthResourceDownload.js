@@ -20,6 +20,7 @@ function GrowthResourceDownload({ data }) {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [inValid, setInValid] = useState(false);
+  const [thankyou, setThankyou] = useState(false);
 
   //onchange email
   function onChangeValue(value, key) {
@@ -59,17 +60,23 @@ function GrowthResourceDownload({ data }) {
     if (email !== "" && checkEmailValidation(email)) {
       if (email !== "" && phone !== "" && name !== "") {
         try {
+          setThankyou(true);
           const response = await getMethodCall(
             `https://script.google.com/macros/s/AKfycbwWGLFIebBTTuhecu_5DldCE7iiTZcAPE_LXxZan-PCqO_PyrzFZHIdvJ6ag0J5w4dY/exec?name=${name}&phone=${phone}&email=${email}&location=${location}`
           );
           if (response.status === 200) {
-            if (data.cta_url.includes("https://")) {
-              window.open(data.cta_url, "_blank");
-            } else {
-              triggerFileDownload();
-            }
+            setTimeout(() => {
+              if (data.cta_url.includes("https://")) {
+                window.open(data.cta_url, "_blank");
+              } else {
+                triggerFileDownload();
+              }
+              setThankyou(false);
+            }, 2000);
+
             closeDialog();
           } else {
+            setThankyou(false);
             throw new Error("Failed to Post Data");
           }
         } catch (error) {
@@ -107,6 +114,7 @@ function GrowthResourceDownload({ data }) {
         name={name}
         phone={phone}
         inValid={inValid}
+        thankyou={thankyou}
       />
       <MainLayout
         innerClass={
@@ -118,7 +126,7 @@ function GrowthResourceDownload({ data }) {
             style={{
               backgroundImage: `url(${data.featured_image})`,
             }}
-            className="w-[55rem] mx-auto mt-0 h-[550px] bg-center bg-cover shadow-lg "
+            className="xl:max-w-[55rem] lg:max-w-[50rem] md:max-w-[35rem] max-w-[25rem] mx-auto mt-0 xl:h-[550px] lg:h-[500px] md:h-[350px] h-[250px] bg-center bg-no-repeat bg-cover shadow-lg"
           />
           <div className="flex items-center justify-between xl:pt-8 lg:pt-6 pt-4 ">
             <div className="inline-flex flex-col xl:gap-y-7 lg:gap-y-6 md:gap-y-5 gap-y-3">
