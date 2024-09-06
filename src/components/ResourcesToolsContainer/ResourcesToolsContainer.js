@@ -11,7 +11,8 @@ export default ResourcesToolsContainer;
 async function fetchToolData(params) {
   try {
     const res = await fetch(
-      `https://growwithsahil.com/blog/wp-json/wp/v2/resource-api/?slug=${params.growthResourcesId}&_fields=acf,content,slug&acf_format=standard`
+      `https://growwithsahil.com/blog/wp-json/wp/v2/resource-api/?slug=${params.growthResourcesId}&_fields=acf,content,slug&acf_format=standard`,
+      { method: "GET" }
     );
 
     if (!res.ok) {
