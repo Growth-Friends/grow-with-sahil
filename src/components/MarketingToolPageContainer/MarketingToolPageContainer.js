@@ -11,7 +11,8 @@ export default MarketingToolPageContainer;
 async function fetchToolData(params) {
   try {
     const res = await fetch(
-      `https://growwithsahil.com/blog/wp-json/wp/v2/tools-api/?slug=${params.marketingToolsId}&_fields=acf,content,slug&acf_format=standard`
+      `https://growwithsahil.com/blog/wp-json/wp/v2/tools-api/?slug=${params.marketingToolsId}&_fields=acf,content,slug&acf_format=standard`,
+      { method: "GET" }
     );
 
     if (!res.ok) {

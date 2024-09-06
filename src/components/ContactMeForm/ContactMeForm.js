@@ -47,7 +47,8 @@ const ContactMeForm = () => {
       setIsLoading(true); // Set loading state when the form is being submitted
       try {
         const response = await fetch(
-          `${API_URL}?name=${name}&phone=${phone}&email=${email}&location=${location}`
+          `${API_URL}?name=${name}&phone=${phone}&email=${email}&location=${location}`,
+          { method: "GET" }
         );
         if (response.ok) {
           setThankyou(true);
