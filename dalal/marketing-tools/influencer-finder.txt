@@ -1,0 +1,107 @@
+3:I[2805,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","84","static/chunks/84-dd976dfd2b6bf418.js","381","static/chunks/app/marketing-tools/%5BmarketingToolsId%5D/page-c1903d90eecc9ef1.js"],"default"]
+4:I[231,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","84","static/chunks/84-dd976dfd2b6bf418.js","381","static/chunks/app/marketing-tools/%5BmarketingToolsId%5D/page-c1903d90eecc9ef1.js"],""]
+5:I[9275,[],""]
+7:I[1343,[],""]
+8:I[6126,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-8d63f0f806c7d1ea.js","935","static/chunks/935-36c9dab5fbb488ea.js","84","static/chunks/84-dd976dfd2b6bf418.js","880","static/chunks/880-c22dd74cfebaef09.js","185","static/chunks/app/layout-33990629936b0436.js"],"default"]
+9:I[6938,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-8d63f0f806c7d1ea.js","935","static/chunks/935-36c9dab5fbb488ea.js","84","static/chunks/84-dd976dfd2b6bf418.js","880","static/chunks/880-c22dd74cfebaef09.js","185","static/chunks/app/layout-33990629936b0436.js"],"default"]
+6:["marketingToolsId","influencer-finder","d"]
+0:["T4maZCW9ZjnOgnd7e6EgB",[[["",{"children":["marketing-tools",{"children":[["marketingToolsId","influencer-finder","d"],{"children":["__PAGE__?{\"marketingToolsId\":\"influencer-finder\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["marketing-tools",{"children":[["marketingToolsId","influencer-finder","d"],{"children":["__PAGE__",{},[["$L1",["$L2",["$","$L3",null,{"moreTools":true}],["$","div",null,{"className":"md:px-[40px] px-[10px] select-none overflow-hidden ","children":["$","div",null,{"className":"max-w-[80rem] mx-auto  ","children":["$","div",null,{"className":"xl:py-20 lg:py-16 md:py-14 py-12 overflow-hidden ","children":[["$","div",null,{"className":"text-center bg-black text-white xl:py-8 py-6 px-3 rounded-t-2xl","children":["$","h2",null,{"className":"font-bold xl:text-4xl lg:text-3xl text-2xl uppercase ","children":"About Me"}]}],["$","div",null,{"className":"grid md:grid-flow-col grid-flow-row md:grid-rows-1 grid-rows-auto grid-cols-12 xl:p-8 lg:p-6 p-4 xl:gap-8 lg:gap-6 gap-4 border-x-2 border-b-2 border-paraSecondary/40 rounded-b-2xl","children":[["$","div",null,{"className":"md:col-span-4 col-span-full md:self-end self-auto","children":["$","img",null,{"loading":"lazy","alt":"sahil khan image","src":"/images//profilePicture.png","className":"aspect-auto w-full max-w-none xl:rounded-xl rounded-lg "}]}],["$","div",null,{"className":"md:col-span-8 col-span-full md:self-end self-auto ","children":[["$","h3",null,{"className":"uppercase font-bold xl:text-3xl lg:text-2xl text-xl ","children":"Sahil Khan"}],["$","p",null,{"className":"uppercase font-semibold xl:text-xl lg:text-lg text-base lg:mt-0.5 mt-[1px] ","children":"Growth Marketer"}],["$","p",null,{"className":"text-paraSecondary xl:text-base lg:text-sm text-xs xl:mt-4 lg:mt-3 mt-2","children":"I’m Sahil Khan, a professional marketer with over 5 years of experience in Fin-tech, Crypto, and AI. My expertise spans Brand Building, Growth Marketing, Crypto & Web3 Marketing, Performance Marketing, Influencer Marketing, Social Media Growth Hacking, and Brand Identity Creation. I also bring strong design skills to the table, enhancing my marketing strategies."}],["$","div",null,{"className":"flex items-center gap-x-4 xl:mt-10 lg:mt-8 mt-6","children":[["$","$L4","0",{"href":"https://www.linkedin.com/in/growwithsahil","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//linkedinIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}],["$","$L4","1",{"href":"https://www.youtube.com/@growwithsahilofficial","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//youtubeIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}],["$","$L4","2",{"href":"https://x.com/growwithsahil","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//twitterIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}],["$","$L4","3",{"href":"https://www.instagram.com/growwithsahil/","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//instagramIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}]]}]]}]]}]]}]}]}]]],null],null]},["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","marketing-tools","children","$6","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/72bf7e955f21236e.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/263a965a17fd62aa.css","precedence":"next","crossOrigin":"$undefined"}]]}],null]},["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","marketing-tools","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_5470e1","children":[["$","$L8",null,{}],["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}],["$","$L9",null,{}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/cf89c38b9a7b6b27.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/d2692d282998e2fb.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$La"]]]]]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Create Next App"}],["$","meta","3",{"name":"description","content":"Generated by create next app"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"400x400"}],["$","meta","5",{"name":"next-size-adjust"}]]
+1:null
+b:I[2086,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","84","static/chunks/84-dd976dfd2b6bf418.js","381","static/chunks/app/marketing-tools/%5BmarketingToolsId%5D/page-c1903d90eecc9ef1.js"],"default"]
+c:I[5881,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","84","static/chunks/84-dd976dfd2b6bf418.js","381","static/chunks/app/marketing-tools/%5BmarketingToolsId%5D/page-c1903d90eecc9ef1.js"],"default"]
+d:T139b,
+<p>With social media platforms like Instagram, YouTube, and TikTok becoming key marketing channels, brands now rely on influencers to promote their products and connect with a wider audience. However, finding the right influencer—one that aligns with your brand’s values, audience, and goals—is no small feat. This is where <strong>Influencer Finder</strong> steps in, offering a revolutionary tool for brands and creators alike.</p>
+
+
+
+<h2 class="wp-block-heading">What is Influencer Finder?</h2>
+
+
+
+<p>Influencer Finder is an AI-powered platform designed to simplify the process of identifying and connecting with influencers. Whether you&#8217;re a startup looking to boost visibility or a well-established brand aiming to target a niche audience, this tool offers a streamlined approach to influencer marketing.</p>
+
+
+
+<p>With millions of influencers across various platforms, it’s crucial to pick the right one. Influencer Finder leverages advanced algorithms and data analytics to help brands filter through the noise and select influencers based on key metrics like engagement rate, audience demographics, niche, and authenticity. This ensures that brands can make informed decisions, maximizing the ROI on influencer partnerships.</p>
+
+
+
+<h2 class="wp-block-heading">Key Features of Influencer Finder</h2>
+
+
+
+<h3 class="wp-block-heading">1. <strong>Advanced Search and Filtering</strong></h3>
+
+
+
+<p>The platform provides an intuitive interface where users can search for influencers based on a wide range of criteria. Whether it’s by platform, audience size, engagement rate, or content category, the search engine allows for precision targeting. This helps brands connect with influencers who have the highest potential for successful collaborations.</p>
+
+
+
+<h3 class="wp-block-heading">2. <strong>Audience Insights</strong></h3>
+
+
+
+<p>Influencer Finder provides in-depth analytics on an influencer’s audience, including demographics like age, gender, and location. This ensures that the influencers you partner with have an audience that aligns with your target market. By leveraging these insights, brands can ensure their campaigns reach the right people at the right time.</p>
+
+
+
+<h3 class="wp-block-heading">3. <strong>Engagement Metrics</strong></h3>
+
+
+
+<p>Engagement is a key factor in evaluating an influencer’s effectiveness. Influencer Finder goes beyond simple follower counts, focusing on metrics like likes, comments, shares, and the authenticity of those interactions. This helps weed out influencers with fake followers or artificially inflated engagement.</p>
+
+
+
+<h3 class="wp-block-heading">4. <strong>Authenticity Score</strong></h3>
+
+
+
+<p>One of the most impressive features of Influencer Finder is its <strong>Authenticity Score</strong>. With the rise of bots and fake accounts, it’s become increasingly difficult for brands to gauge the real influence of content creators. The platform’s AI evaluates factors like comment quality, follower growth patterns, and post consistency to give each influencer an authenticity score, helping brands avoid potentially fraudulent partnerships.</p>
+
+
+
+<h3 class="wp-block-heading">5. <strong>Campaign Management Tools</strong></h3>
+
+
+
+<p>Influencer Finder doesn&#8217;t just help you find influencers—it also simplifies the entire campaign management process. You can track collaborations, monitor performance, and measure ROI, all within the platform. The tool also allows brands to communicate directly with influencers, making the entire process more efficient.</p>
+
+
+
+<h2 class="wp-block-heading">Why Influencer Finder is a Must-Have for Brands</h2>
+
+
+
+<h3 class="wp-block-heading">1. <strong>Efficiency</strong></h3>
+
+
+
+<p>Influencer Finder saves brands hours of manual research by automating the discovery process. What could take days of sifting through profiles and analyzing engagement can now be done in minutes.</p>
+
+
+
+<h3 class="wp-block-heading">2. <strong>Cost-Effectiveness</strong></h3>
+
+
+
+<p>By ensuring that you’re partnering with influencers who have a genuine, engaged audience, Influencer Finder helps you avoid wasting resources on ineffective campaigns.</p>
+
+
+
+<h3 class="wp-block-heading">3. <strong>Data-Driven Decisions</strong></h3>
+
+
+
+<p>Brands today need more than intuition to succeed—they need data. Influencer Finder provides actionable insights, ensuring your marketing strategy is backed by solid data.</p>
+
+
+
+<h2 class="wp-block-heading">Conclusion</h2>
+
+
+
+<p>In an age where influencer marketing reigns supreme, finding the right influencer can make or break your campaign. Influencer Finder offers brands an all-in-one solution to not only discover influencers but also to manage and optimize their campaigns. For creators, it provides a platform to showcase their true value to potential collaborators. Whether you&#8217;re a brand seeking to grow or an influencer aiming for the next big partnership, Influencer Finder is the tool you need to thrive in today’s digital landscape.</p>
+2:[["$","$Lb",null,{"subHeading":"Find the perfect influencer to elevate your brand with Influencer Finder—where data meets authenticity!"}],["$","$Lc",null,{"data":{"tools_name":"Influencer Finder","tools_icon":"https://growwithsahil.com/blog/wp-content/uploads/2024/09/Influencer-Finder-01.png","tool_category":"Social Media","out_description":"Find the perfect influencer to elevate your brand with Influencer Finder—where data meets authenticity!","stars":"5","downloads":"435","cta_text":"Check Now","cta_url":"https://channelcrawler.com/","tools_type":"In-House"}}],["$","div",null,{"className":"md:px-[40px] px-[10px] select-none overflow-hidden ","children":["$","div",null,{"className":"max-w-[80rem] mx-auto  ","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$d"},"className":"detailPageCss"}]}]}]]
