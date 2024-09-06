@@ -5,12 +5,10 @@ import ResourcesToolsContainer from "@/components/ResourcesToolsContainer/Resour
 
 async function IndividualGrowthResourcesPage({ params }) {
   const response = await fetch(
-    "https://growwithsahil.com/blog/wp-json/wp/v2/resource-api/?_fields=acf,content,slug,yoast_head_json&acf_format=standard",
+    `https://growwithsahil.com/blog/wp-json/wp/v2/resource-api/?slug=${params.growthResourcesId}&_fields=slug,yoast_head_json&acf_format=standard`,
     { method: "GET" }
   ).then((res) => res.json());
-  const seoDetail = response.filter(
-    (item) => item.slug === params.growthResourcesId
-  )[0]["yoast_head_json"];
+  const seoDetail = response[0]["yoast_head_json"];
   return (
     <>
       <script
@@ -44,12 +42,10 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const response = await fetch(
-    "https://growwithsahil.com/blog/wp-json/wp/v2/resource-api/?_fields=acf,content,slug,yoast_head_json&acf_format=standard",
+    `https://growwithsahil.com/blog/wp-json/wp/v2/resource-api/?slug=${params.growthResourcesId}&_fields=acf,content,slug,yoast_head_json&acf_format=standard`,
     { method: "GET" }
   ).then((res) => res.json());
-  const seoDetail = response.filter(
-    (item) => item.slug === params.growthResourcesId
-  )[0]["yoast_head_json"];
+  const seoDetail = response[0]["yoast_head_json"];
   return {
     title: seoDetail.title,
     description:

@@ -5,12 +5,11 @@ import React from "react";
 
 async function IndividualMarketingToolsPage({ params }) {
   const response = await fetch(
-    "https://growwithsahil.com/blog/wp-json/wp/v2/tools-api/?_fields=acf,content,slug,yoast_head_json&acf_format=standard",
+    `https://growwithsahil.com/blog/wp-json/wp/v2/tools-api/?slug=${params.marketingToolsId}&_fields=slug,yoast_head_json&acf_format=standard`,
     { method: "GET" }
   ).then((res) => res.json());
-  const seoDetail = response.filter(
-    (item) => item.slug === params.marketingToolsId
-  )[0]["yoast_head_json"];
+
+  const seoDetail = response[0]["yoast_head_json"];
   return (
     <>
       <script
@@ -42,12 +41,10 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const response = await fetch(
-    "https://growwithsahil.com/blog/wp-json/wp/v2/tools-api/?_fields=acf,content,slug,yoast_head_json&acf_format=standard",
+    `https://growwithsahil.com/blog/wp-json/wp/v2/tools-api/?slug=${params.marketingToolsId}&_fields=slug,yoast_head_json&acf_format=standard`,
     { method: "GET" }
   ).then((res) => res.json());
-  const seoDetail = response.filter(
-    (item) => item.slug === params.marketingToolsId
-  )[0]["yoast_head_json"];
+  const seoDetail = response[0]["yoast_head_json"];
   return {
     title: seoDetail.title,
     description:
