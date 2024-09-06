@@ -3,8 +3,6 @@ import ExpertSection from "@/components/ExpertSection/ExpertSection";
 import GrowthResourcesSection from "@/components/GrowthResourcesSection/GrowthResourcesSection";
 import HeroSection from "@/components/HeroSection/HeroSection";
 import MarketingToolSection from "@/components/MarketingToolSection/MarketingToolSection";
-import { Description } from "@mui/icons-material";
-import { headers } from "next/headers";
 
 export default function Home() {
   return (
