@@ -14,3 +14,16 @@ function About() {
 }
 
 export default About;
+
+export async function generateMetadata() {
+  const response = await fetch(
+    "https://growwithsahil.com/blog/wp-json/wp/v2/seo-api/?_fields=acf&acf_format=standard"
+  ).then((res) => res.json());
+  const seoDetail = response.filter(
+    (item) => item.acf["page_slug"] === "/about"
+  )[0]?.acf;
+  return {
+    title: seoDetail?.title,
+    description: seoDetail?.description,
+  };
+}
