@@ -1,0 +1,121 @@
+3:I[2805,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","84","static/chunks/84-dd976dfd2b6bf418.js","381","static/chunks/app/marketing-tools/%5BmarketingToolsId%5D/page-c1903d90eecc9ef1.js"],"default"]
+4:I[231,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","84","static/chunks/84-dd976dfd2b6bf418.js","381","static/chunks/app/marketing-tools/%5BmarketingToolsId%5D/page-c1903d90eecc9ef1.js"],""]
+5:I[9275,[],""]
+7:I[1343,[],""]
+8:I[6126,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-8d63f0f806c7d1ea.js","935","static/chunks/935-36c9dab5fbb488ea.js","84","static/chunks/84-dd976dfd2b6bf418.js","880","static/chunks/880-c22dd74cfebaef09.js","185","static/chunks/app/layout-33990629936b0436.js"],"default"]
+9:I[6938,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","318","static/chunks/318-8d63f0f806c7d1ea.js","935","static/chunks/935-36c9dab5fbb488ea.js","84","static/chunks/84-dd976dfd2b6bf418.js","880","static/chunks/880-c22dd74cfebaef09.js","185","static/chunks/app/layout-33990629936b0436.js"],"default"]
+6:["marketingToolsId","hosting-checker","d"]
+0:["8PIQcNf98ZU3VnvrKy0z7",[[["",{"children":["marketing-tools",{"children":[["marketingToolsId","hosting-checker","d"],{"children":["__PAGE__?{\"marketingToolsId\":\"hosting-checker\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["marketing-tools",{"children":[["marketingToolsId","hosting-checker","d"],{"children":["__PAGE__",{},[["$L1",["$L2",["$","$L3",null,{"moreTools":true}],["$","div",null,{"className":"md:px-[40px] px-[10px] select-none overflow-hidden ","children":["$","div",null,{"className":"max-w-[80rem] mx-auto  ","children":["$","div",null,{"className":"xl:py-20 lg:py-16 md:py-14 py-12 overflow-hidden ","children":[["$","div",null,{"className":"text-center bg-black text-white xl:py-8 py-6 px-3 rounded-t-2xl","children":["$","h2",null,{"className":"font-bold xl:text-4xl lg:text-3xl text-2xl uppercase ","children":"About Me"}]}],["$","div",null,{"className":"grid md:grid-flow-col grid-flow-row md:grid-rows-1 grid-rows-auto grid-cols-12 xl:p-8 lg:p-6 p-4 xl:gap-8 lg:gap-6 gap-4 border-x-2 border-b-2 border-paraSecondary/40 rounded-b-2xl","children":[["$","div",null,{"className":"md:col-span-4 col-span-full md:self-end self-auto","children":["$","img",null,{"loading":"lazy","alt":"sahil khan image","src":"/images//profilePicture.png","className":"aspect-auto w-full max-w-none xl:rounded-xl rounded-lg "}]}],["$","div",null,{"className":"md:col-span-8 col-span-full md:self-end self-auto ","children":[["$","h3",null,{"className":"uppercase font-bold xl:text-3xl lg:text-2xl text-xl ","children":"Sahil Khan"}],["$","p",null,{"className":"uppercase font-semibold xl:text-xl lg:text-lg text-base lg:mt-0.5 mt-[1px] ","children":"Growth Marketer"}],["$","p",null,{"className":"text-paraSecondary xl:text-base lg:text-sm text-xs xl:mt-4 lg:mt-3 mt-2","children":"I’m Sahil Khan, a professional marketer with over 5 years of experience in Fin-tech, Crypto, and AI. My expertise spans Brand Building, Growth Marketing, Crypto & Web3 Marketing, Performance Marketing, Influencer Marketing, Social Media Growth Hacking, and Brand Identity Creation. I also bring strong design skills to the table, enhancing my marketing strategies."}],["$","div",null,{"className":"flex items-center gap-x-4 xl:mt-10 lg:mt-8 mt-6","children":[["$","$L4","0",{"href":"https://www.linkedin.com/in/growwithsahil","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//linkedinIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}],["$","$L4","1",{"href":"https://www.youtube.com/@growwithsahilofficial","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//youtubeIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}],["$","$L4","2",{"href":"https://x.com/growwithsahil","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//twitterIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}],["$","$L4","3",{"href":"https://www.instagram.com/growwithsahil/","target":"_blank","prefetch":false,"className":"bg-black rounded-full p-1.5","children":["$","img",null,{"loading":"lazy","src":"/svg//instagramIcon.svg","alt":"linkedin icon","className":"aspect-auto xl:w-4 md:w-3 w-4 "}]}]]}]]}]]}]]}]}]}]]],null],null]},["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","marketing-tools","children","$6","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/72bf7e955f21236e.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/263a965a17fd62aa.css","precedence":"next","crossOrigin":"$undefined"}]]}],null]},["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","marketing-tools","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_5470e1","children":[["$","$L8",null,{}],["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}],["$","$L9",null,{}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/cf89c38b9a7b6b27.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/d2692d282998e2fb.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$La"]]]]]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Create Next App"}],["$","meta","3",{"name":"description","content":"Generated by create next app"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"400x400"}],["$","meta","5",{"name":"next-size-adjust"}]]
+1:null
+b:I[2086,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","84","static/chunks/84-dd976dfd2b6bf418.js","381","static/chunks/app/marketing-tools/%5BmarketingToolsId%5D/page-c1903d90eecc9ef1.js"],"default"]
+c:I[5881,["589","static/chunks/589-0da6691a9525b4bd.js","216","static/chunks/216-394d622e3c3ca5e5.js","552","static/chunks/552-17a5359ef1bc6204.js","84","static/chunks/84-dd976dfd2b6bf418.js","381","static/chunks/app/marketing-tools/%5BmarketingToolsId%5D/page-c1903d90eecc9ef1.js"],"default"]
+d:T131e,
+<p>In the world of websites and online businesses, choosing the right hosting provider is crucial. Hosting determines your site’s speed, reliability, and user experience. But once you’ve settled on a host, how do you ensure you made the right choice? Or, if you&#8217;re curious about what host powers another website, how do you find out? This is where a hosting checker comes into play.</p>
+
+
+
+<p>A <strong>hosting checker</strong> is a tool that helps identify the hosting provider of a website. Whether you want to ensure your site is hosted with the right provider, or you’re analyzing competitors’ sites, a hosting checker is a valuable resource.</p>
+
+
+
+<h3 class="wp-block-heading">Why Use a Hosting Checker?</h3>
+
+
+
+<p>Here are several reasons why website owners and digital marketers use hosting checkers:</p>
+
+
+
+<h4 class="wp-block-heading">1. <strong>Evaluate Your Own Website</strong></h4>
+
+
+
+<p>After signing up with a hosting provider, it’s essential to confirm that your site is actually hosted on their servers. Errors during setup or transfers could lead to hosting inconsistencies, which can affect performance or lead to outages.</p>
+
+
+
+<h4 class="wp-block-heading">2. <strong>Analyze Competitor Websites</strong></h4>
+
+
+
+<p>Competitor analysis is a significant part of any digital strategy. Understanding who hosts a competitor’s website can give insights into their site performance, reliability, and even cost. If their site is particularly fast or slow, you can look at their hosting to gauge if it’s a contributing factor.</p>
+
+
+
+<h4 class="wp-block-heading">3. <strong>Troubleshoot Performance Issues</strong></h4>
+
+
+
+<p>If your website is underperforming—loading slowly, experiencing downtime, or facing security vulnerabilities—a hosting checker can help confirm that the issue is indeed with your hosting provider. By identifying the host, you can address performance problems directly with them or consider switching to a better provider.</p>
+
+
+
+<h4 class="wp-block-heading">4. <strong>Transparency for Client Projects</strong></h4>
+
+
+
+<p>If you manage websites for clients, a hosting checker can help ensure that clients&#8217; sites are hosted according to their preferences or requirements. You can use it to track hosting transfers or to verify that the hosting services align with the project needs.</p>
+
+
+
+<h3 class="wp-block-heading">How Hosting Checkers Work</h3>
+
+
+
+<p>Most hosting checkers work in a simple and efficient way. Users enter the URL of the website they want to check, and the tool provides information about the hosting provider. The process involves querying the DNS records of the website to uncover details about the server and host.</p>
+
+
+
+<p>Some advanced hosting checkers may offer additional information, such as the geographical location of the server, IP address, and server response times.</p>
+
+
+
+<h3 class="wp-block-heading">Features of a Good Hosting Checker</h3>
+
+
+
+<p>Not all hosting checkers are created equal. A reliable tool should offer the following features:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Accurate Results:</strong> The primary goal is to provide accurate information about the hosting provider.</li>
+
+
+
+<li><strong>User-Friendly Interface:</strong> The tool should be easy to navigate, requiring minimal effort to input URLs and interpret results.</li>
+
+
+
+<li><strong>Additional Insights:</strong> Besides identifying the hosting provider, a good hosting checker might offer other technical details such as server location, uptime statistics, and SSL certificate information.</li>
+
+
+
+<li><strong>Fast Results:</strong> The tool should provide information quickly, especially if you need to check multiple sites.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Free vs. Paid Hosting Checkers</h3>
+
+
+
+<p>Many hosting checkers are free, but some premium versions offer more advanced features. A free tool will usually provide basic information like the hosting provider&#8217;s name and IP address. Premium options often provide more detailed analytics, including server response times, speed comparisons, and uptime data.</p>
+
+
+
+<p>For most website owners and small businesses, a free hosting checker will likely suffice. However, for web developers or marketers working with multiple websites, investing in a premium tool can offer deeper insights and save valuable time.</p>
+
+
+
+<h3 class="wp-block-heading">Conclusion</h3>
+
+
+
+<p>A hosting checker is an indispensable tool for anyone who manages websites or conducts digital marketing. Whether you want to ensure that your site is hosted correctly, analyze competitors, or troubleshoot performance issues, a hosting checker provides critical information at the click of a button.</p>
+
+
+
+<p>By using a reliable hosting checker, you can stay informed, make smarter decisions about hosting, and optimize your website for better performance.</p>
+2:[["$","$Lb",null,{"subHeading":"Uncover the hosting behind any website in seconds with a reliable hosting checker!"}],["$","$Lc",null,{"data":{"tools_name":"Hosting Checker","tools_icon":"https://growwithsahil.com/blog/wp-content/uploads/2024/09/Hosting-checker-01.png","tool_category":"Search Engine optimization","out_description":"Uncover the hosting behind any website in seconds with a reliable hosting checker!","stars":"5","downloads":"124","cta_text":"Check Now","cta_url":"https://hostingchecker.ankitdalal.com/","tools_type":"In-House"}}],["$","div",null,{"className":"md:px-[40px] px-[10px] select-none overflow-hidden ","children":["$","div",null,{"className":"max-w-[80rem] mx-auto  ","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$d"},"className":"detailPageCss"}]}]}]]
