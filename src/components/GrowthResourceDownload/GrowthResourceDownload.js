@@ -1,11 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import MainLayout from "../Layout/MainLayout";
-import {
-  filePrefix,
-  imageFilePrefix,
-  svgFilePrefix,
-} from "@/utils/functions/functions";
+import { svgFilePrefix } from "@/utils/functions/functions";
 import { Inter } from "next/font/google";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import PopupForm from "../UtilComponents/PopupForm/PopupForm";

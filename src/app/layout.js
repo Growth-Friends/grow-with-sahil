@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
-        <div style={{ display: "none" }}>Version:v1.0.0</div>
+        <div style={{ display: "none" }}>Version:v1.0.1</div>
       </body>
     </html>
   );

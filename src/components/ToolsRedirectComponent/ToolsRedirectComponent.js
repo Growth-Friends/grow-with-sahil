@@ -24,7 +24,7 @@ function ToolsRedirectComponent({ data }) {
         <div>
           <div
             style={{
-              backgroundImage: `url(${imageFilePrefix("resourcesImage.png")})`,
+              backgroundImage: `url(${data?.featured_image})`,
             }}
             className="xl:max-w-[55rem] lg:max-w-[50rem] md:max-w-[35rem] max-w-[25rem] mx-auto mt-0 xl:h-[550px] lg:h-[500px] md:h-[350px] h-[250px] bg-center bg-no-repeat bg-cover shadow-lg "
           />

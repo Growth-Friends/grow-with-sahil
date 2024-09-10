@@ -56,7 +56,7 @@ function BlogSection() {
   useEffect(() => {
     (async () => {
       const response = await getMethodCall(
-        "https://growwithsahil.com/blog/wp-json/wp/v2/posts?_fields=slug,title,excerpt&acf_format=standard"
+        "https://growwithsahil.com/blog/wp-json/wp/v2/posts?_fields=slug,title,excerpt,image_url_featured&acf_format=standard"
       );
       const data = await response.json();
       setBlogList(data);
@@ -102,7 +102,7 @@ function BlogSection() {
                 <div className="rounded-xl overflow-hidden text-start ">
                   <img
                     loading="lazy"
-                    src={imageFilePrefix("blogImage.png")}
+                    src={item?.image_url_featured}
                     alt={item.heading}
                     className="w-full aspect-auto"
                   />
