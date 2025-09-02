@@ -18,15 +18,15 @@ function ResourcesComponent() {
   const content = getComponentText("util.growthResources");
   const [resourceList, setResourceList] = useState([]);
 
-  useEffect(() => {
-    (async () => {
-      const response = await getMethodCall(
-        "https://growwithsahil.com/blog/wp-json/wp/v2/resource-api/?_fields=acf,content,slug&acf_format=standard"
-      );
-      const data = await response.json();
-      setResourceList(data);
-    })();
-  }, []);
+  // useEffect(() => {
+  //   (async () => {
+  //     const response = await getMethodCall(
+  //       "https://growwithsahil.com/blog/wp-json/wp/v2/resource-api/?_fields=acf,content,slug&acf_format=standard"
+  //     );
+  //     const data = await response.json();
+  //     setResourceList(data);
+  //   })();
+  // }, []);
 
   return (
     <MainLayout>
