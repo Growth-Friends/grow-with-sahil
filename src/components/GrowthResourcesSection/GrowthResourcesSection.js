@@ -46,15 +46,15 @@ function GrowthResourcesSection() {
     }
   }, [currentIndex]);
 
-  useEffect(() => {
-    (async () => {
-      const response = await getMethodCall(
-        "https://growwithsahil.com/blog/wp-json/wp/v2/resource-api/?_fields=acf,content,slug&acf_format=standard"
-      );
-      const data = await response.json();
-      setGrowthResourcesList(data);
-    })();
-  }, []);
+  // useEffect(() => {
+  //   (async () => {
+  //     const response = await getMethodCall(
+  //       "https://growwithsahil.com/blog/wp-json/wp/v2/resource-api/?_fields=acf,content,slug&acf_format=standard"
+  //     );
+  //     const data = await response.json();
+  //     setGrowthResourcesList(data);
+  //   })();
+  // }, []);
 
   return (
     <MainLayout innerClass={"xl:pt-20 lg:pt-16 md:pt-14 pt-10 text-center"}>

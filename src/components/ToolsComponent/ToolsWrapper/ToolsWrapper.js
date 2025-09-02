@@ -15,34 +15,34 @@ function ToolsWrapper() {
   const [socialToolsList, setSocialToolsList] = useState([]);
   const [retentionToolsList, setRetentionToolsList] = useState([]);
 
-  useEffect(() => {
-    (async () => {
-      const response = await getMethodCall(
-        "https://growwithsahil.com/blog/wp-json/wp/v2/tools-api/?_fields=acf,content,slug&acf_format=standard"
-      );
-      const data = await response.json();
-      setPerformanceToolsList(
-        data.filter((item) => {
-          return item.acf.tool_category === "Performance Marketing";
-        })
-      );
-      setSeoToolsList(
-        data.filter((item) => {
-          return item.acf.tool_category === "Search Engine optimization";
-        })
-      );
-      setSocialToolsList(
-        data.filter((item) => {
-          return item.acf.tool_category === "Social Media";
-        })
-      );
-      setRetentionToolsList(
-        data.filter((item) => {
-          return item.acf.tool_category === "Retention Marketing";
-        })
-      );
-    })();
-  }, []);
+  // useEffect(() => {
+  //   (async () => {
+  //     const response = await getMethodCall(
+  //       "https://growwithsahil.com/blog/wp-json/wp/v2/tools-api/?_fields=acf,content,slug&acf_format=standard"
+  //     );
+  //     const data = await response.json();
+  //     setPerformanceToolsList(
+  //       data.filter((item) => {
+  //         return item.acf.tool_category === "Performance Marketing";
+  //       })
+  //     );
+  //     setSeoToolsList(
+  //       data.filter((item) => {
+  //         return item.acf.tool_category === "Search Engine optimization";
+  //       })
+  //     );
+  //     setSocialToolsList(
+  //       data.filter((item) => {
+  //         return item.acf.tool_category === "Social Media";
+  //       })
+  //     );
+  //     setRetentionToolsList(
+  //       data.filter((item) => {
+  //         return item.acf.tool_category === "Retention Marketing";
+  //       })
+  //     );
+  //   })();
+  // }, []);
 
   return (
     <>

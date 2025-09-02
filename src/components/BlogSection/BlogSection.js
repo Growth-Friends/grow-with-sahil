@@ -53,15 +53,15 @@ function BlogSection() {
     }
   }, [currentIndex]);
 
-  useEffect(() => {
-    (async () => {
-      const response = await getMethodCall(
-        "https://growwithsahil.com/blog/wp-json/wp/v2/posts?_fields=slug,title,excerpt,image_url_featured&acf_format=standard"
-      );
-      const data = await response.json();
-      setBlogList(data);
-    })();
-  }, []);
+  // useEffect(() => {
+  //   (async () => {
+  //     const response = await getMethodCall(
+  //       "https://growwithsahil.com/blog/wp-json/wp/v2/posts?_fields=slug,title,excerpt,image_url_featured&acf_format=standard"
+  //     );
+  //     const data = await response.json();
+  //     setBlogList(data);
+  //   })();
+  // }, []);
 
   return (
     <MainLayout
