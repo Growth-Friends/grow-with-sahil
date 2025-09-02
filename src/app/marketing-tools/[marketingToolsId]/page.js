@@ -4,18 +4,18 @@ import MoreResources from "@/components/ResourcesComponent/MoreResources/MoreRes
 import React from "react";
 
 async function IndividualMarketingToolsPage({ params }) {
-  const response = await fetch(
-    `https://growwithsahil.com/blog/wp-json/wp/v2/tools-api/?slug=${params.marketingToolsId}&_fields=slug,yoast_head_json&acf_format=standard`,
-    { method: "GET" }
-  ).then((res) => res.json());
+  // const response = await fetch(
+  //   `https://growwithsahil.com/blog/wp-json/wp/v2/tools-api/?slug=${params.marketingToolsId}&_fields=slug,yoast_head_json&acf_format=standard`,
+  //   { method: "GET" }
+  // ).then((res) => res.json());
 
-  const seoDetail = response[0]["yoast_head_json"];
+  // const seoDetail = response[0]["yoast_head_json"];
   return (
     <>
-      <script
+      {/* <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(seoDetail.schema) }}
-      />
+      /> */}
       <MarketingToolPageContainer params={params} />
       <MoreResources moreTools={true} />
       <AboutMeSection />
